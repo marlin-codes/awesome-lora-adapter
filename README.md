@@ -1,6 +1,6 @@
-## Low-Rank Adapter in LLM
+## Paper List of Low-Rank Adapters
 
-### LORA Method
+### LORA Adapters
 
 1. Bayesian Low-rank Adaptation for Large Language Models [arXiv 2308](https://arxiv.org/abs/2308.13111)
 2. DoRA: Weight-Decomposed Low-Rank Adaptation [arXiv 2402](https://arxiv.org/pdf/2402.09353.pdf)
@@ -34,10 +34,9 @@
 30. Lorahub: Efficient cross-task generalization via dynamic lora composition [arXiv 2307](https://arxiv.org/pdf/2307.13269.pdf), [code](https://github.com/sail-sg/lorahub)
 31. One-for-All: Generalized LoRA for Parameter-Efficient Fine-tuning [arXiv 2306](https://arxiv.org/pdf/2306.07967.pdf), [code](https://github.com/Arnav0400/ViT-Slim/tree/master/GLoRA)
 32. Krona: Parameter efficient tuning with kronecker adapter [arXiv 2212](https://arxiv.org/pdf/2212.10650.pdf)
-33. Moelora: Contrastive learning guided mixture of experts on parameter-efficient fine-tuning for large language models [arXiv 2402](https://arxiv.org/pdf/2402.12851.pdf)
-34. AMAL: Meta Knowledge-Driven Few-Shot Adapter Learning [ACL](https://aclanthology.org/2022.emnlp-main.709.pdf)
-35. LQER: Low-Rank Quantization Error Reconstruction for LLMs [arXiv 2402](https://arxiv.org/pdf/2402.02446.pdf)
-36. Local LoRA: Memory-Efficient Fine-Tuning of Large Language Models [OpenReview](https://openreview.net/pdf?id=LHKmzWP7RN#:~:text=Our%20approach%20aims%20to%20decouple,LoRA%20on%20math%20reasoning%20tasks.)
+33. AMAL: Meta Knowledge-Driven Few-Shot Adapter Learning [ACL](https://aclanthology.org/2022.emnlp-main.709.pdf)
+34. LQER: Low-Rank Quantization Error Reconstruction for LLMs [arXiv 2402](https://arxiv.org/pdf/2402.02446.pdf)
+35. Local LoRA: Memory-Efficient Fine-Tuning of Large Language Models [OpenReview](https://openreview.net/pdf?id=LHKmzWP7RN#:~:text=Our%20approach%20aims%20to%20decouple,LoRA%20on%20math%20reasoning%20tasks.)
 
 
 ### LORA for Stable Diffusion
@@ -110,13 +109,14 @@
 4. Higher Layers Need More LoRA Experts
 5. LLaVA-MoLE: Sparse Mixture of LoRA Experts for Mitigating Data Conflicts in Instruction Finetuning MLLMs
 6. Moelora: An moe-based parameter efficient fine-tuning method for multi-task medical applications
-7. Lora ensembles for large language model fine-tuning
+7. Moelora: Contrastive learning guided mixture of experts on parameter-efficient fine-tuning for large language models [arXiv 2402](https://arxiv.org/pdf/2402.12851.pdf)
+8. Lora ensembles for large language model fine-tuning
 
 ### Resource 
 1. LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models
-1. Tied-Lora: Enhacing parameter efficiency of LoRA with weight tying
-2. Run LoRA Run: Faster and Lighter LoRA Implementations
+2. Tied-Lora: Enhacing parameter efficiency of LoRA with weight tying
+3. Run LoRA Run: Faster and Lighter LoRA Implementations
 
 ### Multi-Task Learning
-3. MultiLoRA: Democratizing LoRA for Better Multi-Task Learning
+1. MultiLoRA: Democratizing LoRA for Better Multi-Task Learning
 
