@@ -51,6 +51,7 @@
 4. NOLA: Networks as linear combination of low rank random basis [arXiv 2310](https://arxiv.org/pdf/2310.02556.pdf), [code](https://github.com/UCDvision/NOLA)
 5. ROSA: Random Orthogonal Subspace Adaptation [ICML](https://openreview.net/pdf?id=4P9vOFpb63), [code](https://github.com/marawangamal/rosa)
 6. A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA [arXiv 2312](https://arxiv.org/pdf/2312.03732.pdf)
+7. Asymmetry in Low-Rank Adapters of Foundation Models [arXiv 2402](https://arxiv.org/abs/2402.16842)
 
 ### Applications
 
