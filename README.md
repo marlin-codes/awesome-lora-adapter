@@ -43,36 +43,36 @@
 1. Lcm-lora: A universal stable-diffusion acceleration module [arXiv 2311](https://arxiv.org/pdf/2311.05556.pdf), [code](https://github.com/luosiallen/latent-consistency-model)
 
 ### LongLORA
-1. Longlora: Efficient fine-tuning of long-context large language models
-2. Longqlora: Efficient and effective method to extend context length of large language models
-3. Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning
-4. PIHLoRA: Physics-informed hypernetworks for low-ranked adaptation
+1. Longlora: Efficient fine-tuning of long-context large language models [arXiv 2309](https://arxiv.org/pdf/2309.12307.pdf), [code](https://github.com/dvlab-research/LongLoRA)
+2. Longqlora: Efficient and effective method to extend context length of large language models [arXiv 2311](https://arxiv.org/pdf/2311.04879.pdf), [code](https://github.com/yangjianxin1/LongQLoRA)
+3. Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning [arXiv 2401](https://arxiv.org/pdf/2401.04151.pdf)
+4. PIHLoRA: Physics-informed hypernetworks for low-ranked adaptation [NeurIPS 2023](https://openreview.net/pdf?id=kupYlLLGdf)
 
 ### Theoretical study
-1. The Expressive Power of Low-Rank Adaptation
-2. LoRA Training in the NTK Regime has No Spurious Local Minima
-3. Autolora: A parameter-free automated robust fine-tuning framework
-4. NOLA: Networks as linear combination of low rank random basis
-5. ROSA: Random Orthogonal Subspace Adaptation
-6. A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA
+1. The Expressive Power of Low-Rank Adaptation [arXiv 2310](https://arxiv.org/pdf/2310.17513.pdf), [code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA)
+2. LoRA Training in the NTK Regime has No Spurious Local Minima [arXiv 2402](https://arxiv.org/pdf/2402.11867.pdf), [code](https://github.com/UijeongJang/LoRA-NTK)
+3. Autolora: A parameter-free automated robust fine-tuning framework [arXiv 2310](https://arxiv.org/pdf/2310.01818.pdf)
+4. NOLA: Networks as linear combination of low rank random basis [arXiv 2310](https://arxiv.org/pdf/2310.02556.pdf), [code](https://github.com/UCDvision/NOLA)
+5. ROSA: Random Orthogonal Subspace Adaptation [ICML](https://openreview.net/pdf?id=4P9vOFpb63), [code](https://github.com/marawangamal/rosa)
+6. A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA [arXiv 2312](https://arxiv.org/pdf/2312.03732.pdf)
 
 ### Applications
 
 #### LORA in NLP
-1. Dq-lore: Dual queries with low rank approximation re-ranking for in-context learning
-2. Machine Translation with Large Language Models: Prompting, Few-shot Learning, and Fine-tuning with QLoRA
-3. Task-Agnostic Low-Rank Adapters for Unseen English Dialects
-4. LAMPAT: Low-Rank Adaption for Multilingual Paraphrasing Using Adversarial Training
+1. Dq-lore: Dual queries with low rank approximation re-ranking for in-context learning [arXiv 2310](https://arxiv.org/pdf/2310.02954.pdf)
+2. Machine Translation with Large Language Models: Prompting, Few-shot Learning, and Fine-tuning with QLoRA [ACL](https://aclanthology.org/2023.wmt-1.43.pdf)
+3. Task-Agnostic Low-Rank Adapters for Unseen English Dialects [ACL](https://aclanthology.org/2023.emnlp-main.487.pdf), [code](https://github.com/zedian/hyperlora)
+4. LAMPAT: Low-Rank Adaption for Multilingual Paraphrasing Using Adversarial Training [arXiv 2401](https://arxiv.org/pdf/2401.04348.pdf), [code](https://github.com/VinAIResearch/LAMPAT)
 
 #### LORA in CV
-1. Efficient low-rank backpropagation for vision transformer adaptation
-2. Melo: Low-rank adaptation is better than fine-tuning for medical image diagnosis
-3. FullLoRA-AT: Efficiently Boosting the Robustness of Pretrained Vision Transformers
-4. Parameter-efficient Model Adaptation for Vision Transformers
-5. ConvLoRA and AdaBN based Domain Adaptation via Self-Training
-6. Vl-adapter: Parameter-efficient transfer learning for vision-and-language tasks
-7. Motion style transfer: Modular low-rank adaptation for deep motion forecasting
-8. Enhancing General Face Forgery Detection via Vision Transformer with Low-Rank Adaptation
+1. Efficient low-rank backpropagation for vision transformer adaptation [arXiv 2309](https://arxiv.org/pdf/2309.15275.pdf)
+2. Melo: Low-rank adaptation is better than fine-tuning for medical image diagnosis [arXiv 2311](https://arxiv.org/pdf/2311.08236.pdf), [code](https://github.com/JamesQFreeman/LoRA-ViT)
+3. FullLoRA-AT: Efficiently Boosting the Robustness of Pretrained Vision Transformers [arXiv 2401](https://arxiv.org/pdf/2401.01752.pdf)
+4. Parameter-efficient Model Adaptation for Vision Transformers [arXiv 2203](https://arxiv.org/pdf/2203.16329.pdf), [code](https://github.com/eric-ai-lab/PEViT)
+5. ConvLoRA and AdaBN based Domain Adaptation via Self-Training [arXiv 2402](https://arxiv.org/pdf/2402.04964.pdf), [code](https://github.com/aleemsidra/ConvLoRA)
+6. Vl-adapter: Parameter-efficient transfer learning for vision-and-language tasks [arXiv 2112](https://arxiv.org/pdf/2112.06825.pdf), [code](https://github.com/ylsung/VL_adapter)
+7. Motion style transfer: Modular low-rank adaptation for deep motion forecasting [arXiv 2211](https://arxiv.org/pdf/2211.03165.pdf), [code](https://github.com/vita-epfl/motion-style-transfer)
+8. Enhancing General Face Forgery Detection via Vision Transformer with Low-Rank Adaptation [arXiv 2303](https://arxiv.org/pdf/2303.00917.pdf)
 
 #### LORA for Code
 
