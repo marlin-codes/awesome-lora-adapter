@@ -76,47 +76,47 @@
 
 #### LORA for Code
 
-1. LLaMA-Reviewer: Advancing Code Review Automation with Large Language Models through Parameter-Efficient Fine-Tuning
-2. Task Arithmetic with LoRA for Continual Learning
+1. LLaMA-Reviewer: Advancing Code Review Automation with Large Language Models through Parameter-Efficient Fine-Tuning [arXiv 2308](https://arxiv.org/pdf/2308.11148.pdf)
+2. Task Arithmetic with LoRA for Continual Learning [arXiv 2311](https://arxiv.org/pdf/2311.02428.pdf)
 
 ### LORA for SCI
 
-1X-LoRA: Mixture of Low-Rank Adapter Experts, a Flexible Framework for Large Language Models with Applications in Protein Mechanics and Design
+1. X-LoRA: Mixture of Low-Rank Adapter Experts, a Flexible Framework for Large Language Models with Applications in Protein Mechanics and Design
 
 ### LORA for Speech
-1. Low-rank adaptation of large language model rescoring for parameter-efficient speech recognition
-2. Low-rank Adaptation Method for Wav2vec2-based Fake Audio Detection
-3. Sparsely Shared LoRA on Whisper for Child Speech Recognition
+1. Low-rank adaptation of large language model rescoring for parameter-efficient speech recognition [arXiv 2309](https://arxiv.org/pdf/2309.15223.pdf)
+2. Low-rank Adaptation Method for Wav2vec2-based Fake Audio Detection [arXiv 2306](https://arxiv.org/pdf/2306.05617.pdf)
+3. Sparsely Shared LoRA on Whisper for Child Speech Recognition [arXiv 2309](https://arxiv.org/pdf/2309.11756.pdf)
 
 ### Federated Learning
-1. Fedlora: Model-heterogeneous personalized federated learning with lora tuning
-2. Improving LoRA in Privacy-preserving Federated Learning
-3. Heterogeneous Low-Rank Approximation for Federated Fine-tuning of On-Device Foundation Models
-4. SLoRA: Federated parameter efficient fine-tuning of language models
+1. pFedlora: Model-heterogeneous personalized federated learning with lora tuning [arXiv 2310](https://arxiv.org/pdf/2310.13283.pdf)
+2. Improving LoRA in Privacy-preserving Federated Learning [OpenReview](https://openreview.net/pdf?id=NLPzL6HWNl)
+3. Heterogeneous Low-Rank Approximation for Federated Fine-tuning of On-Device Foundation Models [arXiv 2401](https://arxiv.org/pdf/2401.06432.pdf)
+4. SLoRA: Federated parameter efficient fine-tuning of language models [arXiv 2308](https://arxiv.org/pdf/2308.06522.pdf)
 
 
 ### Anomaly Detection
-1. Parameter-Efficient Log Anomaly Detection based on Pre-training model and LORA
+1. Parameter-Efficient Log Anomaly Detection based on Pre-training model and LORA [Zenodo](https://zenodo.org/records/8270065)
    
 ### RL
-1. Neeko: Leveraging Dynamic LoRA for Efficient Multi-Character Role-Playing Agent
+1. Neeko: Leveraging Dynamic LoRA for Efficient Multi-Character Role-Playing Agent [arXiv 2402](https://arxiv.org/pdf/2402.13717.pdf), [code](https://github.com/weiyifan1023/Neeko)
 
 ### LORA + MOE
 
 1. Pushing mixture of experts to the limit: Extremely parameter efficient moe for instruction tuning."arXiv preprint arXiv:2309.05444(2023).  
 2. LoraMOE: Revolutionizing mixture of experts for maintaining world knowledge in language model alignment."arXiv preprint arXiv:2312.09979(2023).  
 3. Higher Layers Need More LoRA Experts."arXiv preprint arXiv:2402.08562(2024).
-4. Higher Layers Need More LoRA Experts
-5. LLaVA-MoLE: Sparse Mixture of LoRA Experts for Mitigating Data Conflicts in Instruction Finetuning MLLMs
-6. Moelora: An moe-based parameter efficient fine-tuning method for multi-task medical applications
+4. Higher Layers Need More LoRA Experts [arXiv 2402](https://arxiv.org/pdf/2402.08562.pdf), [code](https://github.com/GCYZSL/MoLA)
+5. LLaVA-MoLE: Sparse Mixture of LoRA Experts for Mitigating Data Conflicts in Instruction Finetuning MLLMs [arXiv 2401](https://arxiv.org/pdf/2401.16160.pdf)
+6. Moelora: An moe-based parameter efficient fine-tuning method for multi-task medical applications [arXiv 2310](https://arxiv.org/pdf/2310.18339.pdf) ,[code](https://github.com/liuqidong07/MOELoRA-peft)
 7. Moelora: Contrastive learning guided mixture of experts on parameter-efficient fine-tuning for large language models [arXiv 2402](https://arxiv.org/pdf/2402.12851.pdf)
-8. Lora ensembles for large language model fine-tuning
+8. Lora ensembles for large language model fine-tuning [arXiv 2310](https://arxiv.org/pdf/2310.00035.pdf)
 
 ### Resource 
-1. LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models
-2. Tied-Lora: Enhacing parameter efficiency of LoRA with weight tying
-3. Run LoRA Run: Faster and Lighter LoRA Implementations
+1. LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models [arXiv 2304](https://arxiv.org/pdf/2304.01933.pdf)
+2. Tied-Lora: Enhacing parameter efficiency of LoRA with weight tying [arXiv 2311](https://arxiv.org/pdf/2311.09578.pdf), [code](https://github.com/NVIDIA/NeMo/tree/adithyare/vera)
+3. Run LoRA Run: Faster and Lighter LoRA Implementations [arXiv 2312](https://arxiv.org/pdf/2312.03415.pdf)
 
 ### Multi-Task Learning
-1. MultiLoRA: Democratizing LoRA for Better Multi-Task Learning
+1. MultiLoRA: Democratizing LoRA for Better Multi-Task Learning [arXiv 2311](https://arxiv.org/pdf/2311.11501.pdf)
 
