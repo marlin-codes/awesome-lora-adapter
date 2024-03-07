@@ -92,7 +92,7 @@
 2. pFedlora: Model-heterogeneous personalized federated learning with lora tuning | [arXiv 2310](https://arxiv.org/pdf/2310.13283.pdf)
 3. Improving LoRA in Privacy-preserving Federated Learning [OpenReview](https://openreview.net/pdf?id=NLPzL6HWNl)
 4. Heterogeneous Low-Rank Approximation for Federated Fine-tuning of On-Device Foundation Models | [arXiv 2401](https://arxiv.org/pdf/2401.06432.pdf)
-5. OpenFedLLM: Training Large Language Models on Decentralized Private Data via Federated Learning ｜ [arXiv 2402](https://arxiv.org/pdf/2402.06954.pdf)
+5. OpenFedLLM: Training Large Language Models on Decentralized Private Data via Federated Learning ｜ [arXiv 2402](https://arxiv.org/pdf/2402.06954.pdf) | [Code](https://github.com/rui-ye/OpenFedLLM)
 
 
 ### LORA for Stable Diffusion
