@@ -7,7 +7,7 @@
 3. DoRA: Weight-Decomposed Low-Rank Adaptation | [arXiv 2402](https://arxiv.org/pdf/2402.09353.pdf)
 4. LoRA+: Efficient Low-Rank Adaptation of Large Models | [arXiv 2402](https://arxiv.org/pdf/2402.12354.pdf) |  [Code](https://github.com/nikhil-ghosh-berkeley/loraplus)
 5. Qlora: Efficient finetuning of quantized llms | [arXiv 2305](https://arxiv.org/pdf/2305.14314.pdf) | [Code](https://github.com/artidoro/qlora)
-6. Qa-Lora: Quantization-aware low-rank adaptation of large language models | [arXiv 2309](https://arxiv.org/pdf/2309.14717.pdf) |  [Code](https://github.com/yuhuixu1993/qa-lora)
+6. Qa-Lora: Quantization-aware low-rank adaptation of large language models | [NeurIPS 2023 (oral)](https://arxiv.org/pdf/2309.14717.pdf) |  [Code](https://github.com/yuhuixu1993/qa-lora)
 7. Loftq: Lora-fine-tuning-aware quantization for large language models | [arXiv 2310](https://arxiv.org/pdf/2310.08659.pdf) |  [Code](https://github.com/yxli2123/LoftQ)
 8. LoRA-FA: Memory-efficient low-rank adaptation for large language models fine-tuning | [arXiv 2308](https://arxiv.org/pdf/2308.03303.pdf)
 9. Dylora: Parameter efficient tuning of pre-trained models using dynamic search-free low-rank adaptation | [arXiv 2210](https://arxiv.org/pdf/2210.07558.pdf) |  [Code](https://github.com/huawei-noah/Efficient-NLP/tree/main/DyLoRA)
