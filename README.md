@@ -39,10 +39,13 @@
 35. LQER: Low-Rank Quantization Error Reconstruction for LLMs | [arXiv 2402](https://arxiv.org/pdf/2402.02446.pdf)
 36. Local LoRA: Memory-Efficient Fine-Tuning of Large Language Models | [OpenReview](https://openreview.net/pdf?id=LHKmzWP7RN#:~:text=Our%20approach%20aims%20to%20decouple,LoRA%20on%20math%20reasoning%20tasks.)
 37. Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning | [arXiv 2401](https://arxiv.org/pdf/2401.04151.pdf)
+38. PRoLoRA: Partial Rotation Empowers More Parameter-Efficient LoRA | [arxiv 2402](https://arxiv.org/abs/2402.16902)
+39. LoRA Meets Dropout under a Unified Framework | [arxiv 2403](https://arxiv.org/abs/2403.00812)
 
 ### LongLORA
 1. Longlora: Efficient fine-tuning of long-context large language models | [arXiv 2309](https://arxiv.org/pdf/2309.12307.pdf) |  [Code](https://github.com/dvlab-research/LongLoRA)
 2. Longqlora: Efficient and effective method to extend context length of large language models | [arXiv 2311](https://arxiv.org/pdf/2311.04879.pdf) |  [Code](https://github.com/yangjianxin1/LongQLoRA)
+3. Analyzing and Reducing Catastrophic Forgetting in Parameter Efficient Tuning | [arxiv 2402](https://arxiv.org/abs/2402.18865)
 
 ### Theoretical study
 1. The Expressive Power of Low-Rank Adaptation | [arXiv 2310](https://arxiv.org/pdf/2310.17513.pdf) |  [Code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA)
@@ -124,3 +127,5 @@
 ### Multi-Task Learning
 1. MultiLoRA: Democratizing LoRA for Better Multi-Task Learning | [arXiv 2311](https://arxiv.org/pdf/2311.11501.pdf)
 
+### Full-rank Projection
+GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection | [arXiv 2403](https://arxiv.org/abs/2403.03507)
