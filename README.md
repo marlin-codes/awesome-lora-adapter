@@ -73,6 +73,7 @@
 6. Vl-adapter: Parameter-efficient transfer learning for vision-and-language tasks | [arXiv 2112](https://arxiv.org/pdf/2112.06825.pdf) |  [Code](https://github.com/ylsung/VL_adapter)
 7. Motion style transfer: Modular low-rank adaptation for deep motion forecasting | [arXiv 2211](https://arxiv.org/pdf/2211.03165.pdf) |  [Code](https://github.com/vita-epfl/motion-style-transfer)
 8. Enhancing General Face Forgery Detection via Vision Transformer with Low-Rank Adaptation | [arXiv 2303](https://arxiv.org/pdf/2303.00917.pdf)
+9. Customized Segment Anything Model for Medical Image Segmentation | [arXiv 2]
 
 #### LORA for Code
 
@@ -124,6 +125,8 @@
 1. LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models | [arXiv 2304](https://arxiv.org/pdf/2304.01933.pdf)
 2. Tied-Lora: Enhancing parameter efficiency of LoRA with weight tying | [arXiv 2311](https://arxiv.org/pdf/2311.09578.pdf) |  [Code](https://github.com/NVIDIA/NeMo/tree/adithyare/vera)
 3. Run LoRA Run: Faster and Lighter LoRA Implementations | [arXiv 2312](https://arxiv.org/pdf/2312.03415.pdf)
+4. Large language model LoRa specifically fine-tuned for medical domain tasks | [Code](https://huggingface.co/nmitchko/medfalcon-40b-lora)
+
 
 ### Multi-Task Learning
 1. MultiLoRA: Democratizing LoRA for Better Multi-Task Learning | [arXiv 2311](https://arxiv.org/pdf/2311.11501.pdf)
