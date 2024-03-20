@@ -45,7 +45,10 @@
 ### LongLORA
 1. Longlora: Efficient fine-tuning of long-context large language models | [arXiv 2309](https://arxiv.org/pdf/2309.12307.pdf) |  [Code](https://github.com/dvlab-research/LongLoRA)
 2. Longqlora: Efficient and effective method to extend context length of large language models | [arXiv 2311](https://arxiv.org/pdf/2311.04879.pdf) |  [Code](https://github.com/yangjianxin1/LongQLoRA)
-3. Analyzing and Reducing Catastrophic Forgetting in Parameter Efficient Tuning | [arxiv 2402](https://arxiv.org/abs/2402.18865)
+3. With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation |[arxiv 2401](https://arxiv.org/abs/2401.11504)
+4. Analyzing and Reducing Catastrophic Forgetting in Parameter Efficient Tuning | [arxiv 2402](https://arxiv.org/abs/2402.18865)
+
+
 
 ### Theoretical study
 1. The Expressive Power of Low-Rank Adaptation | [arXiv 2310](https://arxiv.org/pdf/2310.17513.pdf) |  [Code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA)
