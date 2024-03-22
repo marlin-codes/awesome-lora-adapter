@@ -25,23 +25,23 @@
 
 #### c. Learning Rates for LoRA Adapters
 17. LoRA+: Efficient Low-Rank Adaptation of Large Models | [arXiv 2402](https://arxiv.org/pdf/2402.12354.pdf) |  [Code](https://github.com/nikhil-ghosh-berkeley/LoRAplus)
-   
-#### d. Learning Strategies for LoRA Adapters
-18.  Batched Low-Rank Adaptation of Foundation Models | [arXiv 2312](https://arxiv.org/pdf/2312.05677.pdf)
-19.  LoRA ensembles for large language model fine-tuning | [arXiv 2310](https://arxiv.org/pdf/2310.00035.pdf)
+
+#### d. Dropout for LoRA Adapters
+25. LoRA Meets Dropout under a Unified Framework
+
+#### e. Learning Strategies for LoRA Adapters
+18. Batched Low-Rank Adaptation of Foundation Models | [arXiv 2312](https://arxiv.org/pdf/2312.05677.pdf)
+19. LoRA ensembles for large language model fine-tuning | [arXiv 2310](https://arxiv.org/pdf/2310.00035.pdf)
 20. Ensemble of low-rank adapters for large language model fine-tuning | [arXiv 2310](https://arxiv.org/pdf/2310.00035.pdf)
 21. Delta-LoRA: Fine-tuning high-rank parameters with the delta of low-rank matrices | [arXiv 2309](https://arxiv.org/pdf/2309.02411.pdf)
 22. Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning | [arXiv 2401](https://arxiv.org/pdf/2401.04151.pdf)
 23. AMAL: Meta Knowledge-Driven Few-Shot Adapter Learning | [ACL 2022](https://aclanthology.org/2022.emnlp-main.709.pdf)
 24. PRoLoRA: Partial Rotation Empowers More Parameter-Efficient LoRA | [arxiv 2402](https://arxiv.org/abs/2402.16902)
 
-#### e. Dropout for LoRA Adapters
-25. LoRA Meets Dropout under a Unified Framework
-
-#### e. Post-hoc Processing for LoRA Adapters
+#### f. Post-hoc Processing for LoRA Adapters
 26. Bayesian Low-rank Adaptation for Large Language Models | [arXiv 2308](https://arxiv.org/abs/2308.13111)
 
-#### f. Deployment of LoRA Adapters
+#### g. Deployment of LoRA Adapters
 27. S-LoRA: Serving thousands of concurrent LoRA adapters | [arXiv 2311](https://arxiv.org/pdf/2311.03285.pdf) |  [Code](https://github.com/S-LoRA/S-LoRA)
 28. CaraServe: CPU-Assisted and Rank-Aware LoRA Serving for Generative LLM Inference | [arXiv 2401](https://arxiv.org/pdf/2401.11240.pdf)
 29. Local LoRA: Memory-Efficient Fine-Tuning of Large Language Models | [OpenReview](https://openreview.net/pdf?id=LHKmzWP7RN#:~:text=Our%20approach%20aims%20to%20decouple,LoRA%20on%20math%20reasoning%20tasks.)
@@ -73,7 +73,7 @@
 47. MoeLoRA: Contrastive learning guided mixture of experts on parameter-efficient fine-tuning for large language models | [arXiv 2402](https://arxiv.org/pdf/2402.12851.pdf)
 48. Higher Layers Need More LoRA Experts | [arXiv 2402](https://arxiv.org/pdf/2402.08562.pdf) |  [Code](https://github.com/GCYZSL/MoLA)
 
-#### LongLoRA
+#### d. LongLoRA
 49. LongLoRA: Efficient fine-tuning of long-context large language models | [arXiv 2309](https://arxiv.org/pdf/2309.12307.pdf) |  [Code](https://github.com/dvlab-research/LongLoRA)
 50. LongqLoRA: Efficient and effective method to extend context length of large language models | [arXiv 2311](https://arxiv.org/pdf/2311.04879.pdf) |  [Code](https://github.com/yangjianxin1/LongQLoRA)
 51. With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation | [arxiv 2401](https://arxiv.org/abs/2401.11504)
@@ -107,7 +107,9 @@
 7. Motion style transfer: Modular low-rank adaptation for deep motion forecasting | [arXiv 2211](https://arxiv.org/pdf/2211.03165.pdf) |  [Code](https://github.com/vita-epfl/motion-style-transfer)
 8. Enhancing General Face Forgery Detection via Vision Transformer with Low-Rank Adaptation | [arXiv 2303](https://arxiv.org/pdf/2303.00917.pdf)
 9. Customized Segment Anything Model for Medical Image Segmentation | [arXiv 2]
-
+10. Block-wise LoRA: Revisiting Fine-grained LoRA for Effective Personalization and Stylization in Text-to-Image Generation
+11. CONVLORA AND ADABN BASED DOMAIN ADAPTATION VIA SELF-TRAINING
+    
 #### LoRA for Code
 
 1. LLaMA-Reviewer: Advancing Code Review Automation with Large Language Models through Parameter-Efficient Fine-Tuning | [arXiv 2308](https://arxiv.org/pdf/2308.11148.pdf)
