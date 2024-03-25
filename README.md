@@ -108,7 +108,6 @@
 - Enhancing General Face Forgery Detection via Vision Transformer with Low-Rank Adaptation | [arXiv 2303](https://arxiv.org/pdf/2303.00917.pdf)
 - Customized Segment Anything Model for Medical Image Segmentation | [arXiv 2]
 - Block-wise LoRA: Revisiting Fine-grained LoRA for Effective Personalization and Stylization in Text-to-Image Generation
-- CONVLORA AND ADABN BASED DOMAIN ADAPTATION VIA SELF-TRAINING
     
 #### LoRA for Code
 
