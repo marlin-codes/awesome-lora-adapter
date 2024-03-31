@@ -131,6 +131,7 @@
 - Improving LoRA in Privacy-preserving Federated Learning [OpenReview](https://openreview.net/pdf?id=NLPzL6HWNl)
 - Heterogeneous Low-Rank Approximation for Federated Fine-tuning of On-Device Foundation Models | [arXiv 2401](https://arxiv.org/pdf/2401.06432.pdf)
 - OpenFedLLM: Training Large Language Models on Decentralized Private Data via Federated Learning ｜ [arXiv 2402](https://arxiv.org/pdf/2402.06954.pdf) | [Code](https://github.com/rui-ye/OpenFedLLM)
+- Federatedscope-llm: A comprehensive package for fine-tuning large language models in federated learning | [arXiv 2309](https://arxiv.org/abs/2309.00363)
 
 
 ### LoRA for Stable Diffusion
