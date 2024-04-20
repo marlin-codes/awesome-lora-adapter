@@ -23,6 +23,7 @@
 - PRoLoRA: Partial Rotation Empowers More Parameter-Efficient LoRA | [arxiv 2402](https://arxiv.org/abs/2402.16902)
 - DoRA: Weight-Decomposed Low-Rank Adaptation | [arXiv 2402](https://arxiv.org/pdf/2402.09353.pdf)
 - Delta-LoRA: Fine-tuning high-rank parameters with the delta of low-rank matrices | [arXiv 2309](https://arxiv.org/pdf/2309.02411.pdf)
+- NOLA: Networks as linear combination of low rank random basis | [arXiv 2310](https://arxiv.org/pdf/2310.02556.pdf) |  [Code](https://github.com/UCDvision/NOLA)
 
 #### c. Learning Rates for LoRA Adapters
 - LoRA+: Efficient Low-Rank Adaptation of Large Models | [arXiv 2402](https://arxiv.org/pdf/2402.12354.pdf) |  [Code](https://github.com/nikhil-ghosh-berkeley/LoRAplus)
@@ -86,7 +87,6 @@
 ### 3. Theoretical Studies
 - The Expressive Power of Low-Rank Adaptation | [arXiv 2310](https://arxiv.org/pdf/2310.17513.pdf) |  [Code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA)
 - LoRA Training in the NTK Regime has No Spurious Local Minima | [arXiv 2402](https://arxiv.org/pdf/2402.11867.pdf) |  [Code](https://github.com/UijeongJang/LoRA-NTK)
-- NOLA: Networks as linear combination of low rank random basis | [arXiv 2310](https://arxiv.org/pdf/2310.02556.pdf) |  [Code](https://github.com/UCDvision/NOLA)
 - ROSA: Random Orthogonal Subspace Adaptation | [ICML](https://openreview.net/pdf?id=4P9vOFpb63) |  [Code](https://github.com/marawangamal/rosa)
 - A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA | [arXiv 2312](https://arxiv.org/pdf/2312.03732.pdf)
 - Asymmetry in Low-Rank Adapters of Foundation Models | [arXiv 2402](https://arxiv.org/abs/2402.16842)
