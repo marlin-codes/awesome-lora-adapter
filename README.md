@@ -22,6 +22,7 @@
 - Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning | [arXiv 2401](https://arxiv.org/pdf/2401.04151.pdf)
 - PRoLoRA: Partial Rotation Empowers More Parameter-Efficient LoRA | [arxiv 2402](https://arxiv.org/abs/2402.16902)
 - DoRA: Weight-Decomposed Low-Rank Adaptation | [arXiv 2402](https://arxiv.org/pdf/2402.09353.pdf)
+- Delta-LoRA: Fine-tuning high-rank parameters with the delta of low-rank matrices | [arXiv 2309](https://arxiv.org/pdf/2309.02411.pdf)
 
 #### c. Learning Rates for LoRA Adapters
 - LoRA+: Efficient Low-Rank Adaptation of Large Models | [arXiv 2402](https://arxiv.org/pdf/2402.12354.pdf) |  [Code](https://github.com/nikhil-ghosh-berkeley/LoRAplus)
@@ -31,9 +32,6 @@
 
 #### e. Learning Strategies for LoRA Adapters
 - Batched Low-Rank Adaptation of Foundation Models | [arXiv 2312](https://arxiv.org/pdf/2312.05677.pdf)
-- LoRA ensembles for large language model fine-tuning | [arXiv 2310](https://arxiv.org/pdf/2310.00035.pdf)
-- Ensemble of low-rank adapters for large language model fine-tuning | [arXiv 2310](https://arxiv.org/pdf/2310.00035.pdf)
-- Delta-LoRA: Fine-tuning high-rank parameters with the delta of low-rank matrices | [arXiv 2309](https://arxiv.org/pdf/2309.02411.pdf)
 - Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning | [arXiv 2401](https://arxiv.org/pdf/2401.04151.pdf)
 - AMAL: Meta Knowledge-Driven Few-Shot Adapter Learning | [ACL 2022](https://aclanthology.org/2022.emnlp-main.709.pdf)
 - PRoLoRA: Partial Rotation Empowers More Parameter-Efficient LoRA | [arxiv 2402](https://arxiv.org/abs/2402.16902)
@@ -57,23 +55,29 @@
 - One-for-All: Generalized LoRA for Parameter-Efficient Fine-tuning | [arXiv 2306](https://arxiv.org/pdf/2306.07967.pdf) |  [Code](https://github.com/Arnav0400/ViT-Slim/tree/master/GLoRA)
 - LoTR: Low Tensor Rank Weight Adaptation | [arXiv 2402](https://arxiv.org/pdf/2402.01376.pdf) |  [Code](github.com/skolai/lotr)
 
-#### b. Advanced LoRA Adapters with Quantization
-- QLoRA: Efficient finetuning of quantized llms | [arXiv 2305](https://arxiv.org/pdf/2305.14314.pdf) | [Code](https://github.com/artidoro/qLoRA)
-- Qa-LoRA: Quantization-aware low-rank adaptation of large language models | [NeurIPS 2023 (oral)](https://arxiv.org/pdf/2309.14717.pdf) |  [Code](https://github.com/yuhuixu1993/qa-LoRA)
-- Loftq: LoRA-fine-tuning-aware quantization for large language models | [arXiv 2310](https://arxiv.org/pdf/2310.08659.pdf) |  [Code](https://github.com/yxli2123/LoftQ)
-- Lq-LoRA: Low-rank plus quantized matrix decomposition for efficient language model finetuning | [arXiv 2311](https://arxiv.org/pdf/2311.12023.pdf) |  [Code](https://github.com/HanGuo97/lq-LoRA)
-- LQER: Low-Rank Quantization Error Reconstruction for LLMs | [arXiv 2402](https://arxiv.org/pdf/2402.02446.pdf)
+#### b. Advanced LoRA Adapters with Ensembles
+
+- LoRA ensembles for large language model fine-tuning | [arXiv 2310](https://arxiv.org/pdf/2310.00035.pdf)
+- Ensemble of low-rank adapters for large language model fine-tuning | [arXiv 2310](https://arxiv.org/pdf/2310.00035.pdf)
+- Mini-Ensemble Low-Rank Adapters for Parameter-Efficient Fine-Tuning | [arXiv 2402](https://arxiv.org/abs/2402.17263)
+
 
 #### c. Advanced LoRA Adapters with Mixture of Experts
 - Pushing mixture of experts to the limit: Extremely parameter efficient moe for instruction tuning.| [arXiv 2309](arXiv:2309.05444(2023))
 - MoeLoRA: An moe-based parameter efficient fine-tuning method for multi-task medical applications | [arXiv 2310](https://arxiv.org/pdf/2310.18339.pdf) | [Code](https://github.com/liuqidong07/MOELoRA-peft)
 - LoRAMOE: Revolutionizing mixture of experts for maintaining world knowledge in language model alignment | [arXiv 2312](https://arxiv.org/abs/2312.09979)
 - LLaVA-MoLE: Sparse Mixture of LoRA Experts for Mitigating Data Conflicts in Instruction Finetuning MLLMs | [arXiv 2401](https://arxiv.org/pdf/2401.16160.pdf)
-- Mini-Ensemble Low-Rank Adapters for Parameter-Efficient Fine-Tuning | [arXiv 2402](https://arxiv.org/abs/2402.17263)
 - MoeLoRA: Contrastive learning guided mixture of experts on parameter-efficient fine-tuning for large language models | [arXiv 2402](https://arxiv.org/pdf/2402.12851.pdf)
 - Higher Layers Need More LoRA Experts | [arXiv 2402](https://arxiv.org/pdf/2402.08562.pdf) |  [Code](https://github.com/GCYZSL/MoLA)
 
-#### d. LongLoRA
+#### d. Advanced LoRA Adapters with Quantization
+- QLoRA: Efficient finetuning of quantized llms | [arXiv 2305](https://arxiv.org/pdf/2305.14314.pdf) | [Code](https://github.com/artidoro/qLoRA)
+- Qa-LoRA: Quantization-aware low-rank adaptation of large language models | [NeurIPS 2023 (oral)](https://arxiv.org/pdf/2309.14717.pdf) |  [Code](https://github.com/yuhuixu1993/qa-LoRA)
+- Loftq: LoRA-fine-tuning-aware quantization for large language models | [arXiv 2310](https://arxiv.org/pdf/2310.08659.pdf) |  [Code](https://github.com/yxli2123/LoftQ)
+- Lq-LoRA: Low-rank plus quantized matrix decomposition for efficient language model finetuning | [arXiv 2311](https://arxiv.org/pdf/2311.12023.pdf) |  [Code](https://github.com/HanGuo97/lq-LoRA)
+- LQER: Low-Rank Quantization Error Reconstruction for LLMs | [arXiv 2402](https://arxiv.org/pdf/2402.02446.pdf)
+- 
+#### e. LongLoRA
 - LongLoRA: Efficient fine-tuning of long-context large language models | [arXiv 2309](https://arxiv.org/pdf/2309.12307.pdf) |  [Code](https://github.com/dvlab-research/LongLoRA)
 - LongqLoRA: Efficient and effective method to extend context length of large language models | [arXiv 2311](https://arxiv.org/pdf/2311.04879.pdf) |  [Code](https://github.com/yangjianxin1/LongQLoRA)
 - With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation | [arxiv 2401](https://arxiv.org/abs/2401.11504)
