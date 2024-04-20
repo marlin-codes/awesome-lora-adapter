@@ -84,7 +84,6 @@
 - Analyzing and Reducing Catastrophic Forgetting in Parameter Efficient Tuning | [arxiv 2402](https://arxiv.org/abs/2402.18865)
  
 ### 3. Theoretical Studies
-- Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning | [arXiv 2401](https://arxiv.org/pdf/2401.04151.pdf)
 - The Expressive Power of Low-Rank Adaptation | [arXiv 2310](https://arxiv.org/pdf/2310.17513.pdf) |  [Code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA)
 - LoRA Training in the NTK Regime has No Spurious Local Minima | [arXiv 2402](https://arxiv.org/pdf/2402.11867.pdf) |  [Code](https://github.com/UijeongJang/LoRA-NTK)
 - NOLA: Networks as linear combination of low rank random basis | [arXiv 2310](https://arxiv.org/pdf/2310.02556.pdf) |  [Code](https://github.com/UCDvision/NOLA)
