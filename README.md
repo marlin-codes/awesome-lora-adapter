@@ -1,8 +1,8 @@
 ## Paper List of Low-Rank Adapters (Updating)
 
-### 1. Basic LoRA Adapters
+### 1. Basic LoRA
 
-#### a. Adapting Weights of LoRA Adapters
+#### a. Adapting Weights of LoRA
 - Asymmetry in Low-Rank Adapters of Foundation Models | [arXiv 2402](https://arxiv.org/abs/2402.16842)
 - LoRA-FA: Memory-efficient low-rank adaptation for large language models fine-tuning | [arXiv 2308](https://arxiv.org/pdf/2308.03303.pdf)
 - FLoRA: Low-Rank Adapters Are Secretly Gradient Compressors | [arXiv 2402](https://arxiv.org/pdf/2402.03293.pdf) |  [Code](https://github.com/MANGA-UOFA/FLoRA)
@@ -12,7 +12,7 @@
 - AutoLoRA: A parameter-free automated robust fine-tuning framework | [arXiv 2310](https://arxiv.org/pdf/2310.01818.pdf)
 - LoRA-drop: Efficient LoRA Parameter Pruning based on Output Evaluation | [arXiv 2402](https://arxiv.org/pdf/2402.07721.pdf)
 
-#### b. Low-Ranking Strategies in LoRA Adapters
+#### b. Low-Ranking Strategies in LoRA
 - Sparse Low-rank Adaptation of Pre-trained Language Models | [arXiv 2311](https://arxiv.org/pdf/2311.11696.pdf) |  [Code](https://github.com/TsinghuaC3I/SoRA)
 - ADAPTIVE BUDGET ALLOCATION FOR PARAMETER EFFICIENT FINE-TUNING | [ICLR 2023](https://openreview.net/pdf?id=lq62uWRJjiY)
 - ReLoRA: High-Rank Training Through Low-Rank Updates | [arXiv 2307](https://arxiv.org/pdf/2307.05695.pdf) |  [Code](https://github.com/guitaricet/reLoRA)
@@ -25,11 +25,15 @@
 - Delta-LoRA: Fine-tuning high-rank parameters with the delta of low-rank matrices | [arXiv 2309](https://arxiv.org/pdf/2309.02411.pdf)
 - NOLA: Networks as linear combination of low rank random basis | [arXiv 2310](https://arxiv.org/pdf/2310.02556.pdf) |  [Code](https://github.com/UCDvision/NOLA)
 
-#### c. Learning Rates for LoRA Adapters
+#### c. Learning Rates for LoRA
 - LoRA+: Efficient Low-Rank Adaptation of Large Models | [arXiv 2402](https://arxiv.org/pdf/2402.12354.pdf) |  [Code](https://github.com/nikhil-ghosh-berkeley/LoRAplus)
 
-#### d. Dropout for LoRA Adapters
+#### d. Dropout for LoRA
 - LoRA Meets Dropout under a Unified Framework
+
+
+#### e. Scaling Factor for LoRA
+- A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA | [arXiv 2312](https://arxiv.org/pdf/2312.03732.pdf)
 
 #### e. Learning Strategies for LoRA Adapters
 - Batched Low-Rank Adaptation of Foundation Models | [arXiv 2312](https://arxiv.org/pdf/2312.05677.pdf)
@@ -88,7 +92,6 @@
 - The Expressive Power of Low-Rank Adaptation | [arXiv 2310](https://arxiv.org/pdf/2310.17513.pdf) |  [Code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA)
 - LoRA Training in the NTK Regime has No Spurious Local Minima | [arXiv 2402](https://arxiv.org/pdf/2402.11867.pdf) |  [Code](https://github.com/UijeongJang/LoRA-NTK)
 - ROSA: Random Orthogonal Subspace Adaptation | [ICML](https://openreview.net/pdf?id=4P9vOFpb63) |  [Code](https://github.com/marawangamal/rosa)
-- A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA | [arXiv 2312](https://arxiv.org/pdf/2312.03732.pdf)
 - Asymmetry in Low-Rank Adapters of Foundation Models | [arXiv 2402](https://arxiv.org/abs/2402.16842)
 
 
