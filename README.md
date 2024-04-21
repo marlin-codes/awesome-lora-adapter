@@ -98,7 +98,6 @@
 ### Applications
 
 #### LoRA in NLP
-- Dq-lore: Dual queries with low rank approximation re-ranking for in-context learning | [arXiv 2310](https://arxiv.org/pdf/2310.02954.pdf)
 - Machine Translation with Large Language Models: Prompting, Few-shot Learning, and Fine-tuning with QLoRA [ACL](https://aclanthology.org/2023.wmt-1.43.pdf)
 - Task-Agnostic Low-Rank Adapters for Unseen English Dialects | [ACL](https://aclanthology.org/2023.emnlp-main.487.pdf) |  [Code](https://github.com/zedian/hyperLoRA)
 - LAMPAT: Low-Rank Adaption for Multilingual Paraphrasing Using Adversarial Training | [arXiv 2401](https://arxiv.org/pdf/2401.04348.pdf) |  [Code](https://github.com/VinAIResearch/LAMPAT)
