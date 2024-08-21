@@ -5,7 +5,6 @@
 #### a. Adapting Weights of LoRA
 - Asymmetry in Low-Rank Adapters of Foundation Models | [arXiv 2402](https://arxiv.org/abs/2402.16842)
 - LoRA-FA: Memory-efficient low-rank adaptation for large language models fine-tuning | [arXiv 2308](https://arxiv.org/pdf/2308.03303.pdf)
-- FLoRA: Low-Rank Adapters Are Secretly Gradient Compressors | [arXiv 2402](https://arxiv.org/pdf/2402.03293.pdf) |  [Code](https://github.com/MANGA-UOFA/FLoRA)
 - LoRETTA: Low-Rank Economic Tensor-Train Adaptation for Ultra-Low-Parameter Fine-Tuning of Large Language Models | [arXiv 2402](https://arxiv.org/pdf/2402.11417.pdf) |  [Code](https://github.com/yifanycc/loretta)
 - BiLoRA: A Bi-level Optimization Framework for Low-rank Adapters | [ICLR](https://openreview.net/pdf?id=Svy1XoOLXj)
 - Krona: Parameter efficient tuning with kronecker adapter | [arXiv 2212](https://arxiv.org/pdf/2212.10650.pdf)
@@ -14,6 +13,7 @@
 
 #### b. Low-Ranking Strategies in LoRA
 - Sparse Low-rank Adaptation of Pre-trained Language Models | [arXiv 2311](https://arxiv.org/pdf/2311.11696.pdf) |  [Code](https://github.com/TsinghuaC3I/SoRA)
+- FLoRA: Low-Rank Adapters Are Secretly Gradient Compressors | [arXiv 2402](https://arxiv.org/pdf/2402.03293.pdf) |  [Code](https://github.com/MANGA-UOFA/FLoRA)
 - ADAPTIVE BUDGET ALLOCATION FOR PARAMETER EFFICIENT FINE-TUNING | [ICLR 2023](https://openreview.net/pdf?id=lq62uWRJjiY)
 - ReLoRA: High-Rank Training Through Low-Rank Updates | [arXiv 2307](https://arxiv.org/pdf/2307.05695.pdf) |  [Code](https://github.com/guitaricet/reLoRA)
 - QDyLoRA: Quantized Dynamic Low-Rank Adaptation for Efficient Large Language Model Tuning | [arXiv 2402](https://arxiv.org/pdf/2402.10462.pdf)
