@@ -8,7 +8,6 @@
 - BiLoRA: A Bi-level Optimization Framework for Low-rank Adapters | [arxiv 2403](https://arxiv.org/abs/2403.13037)
 - LoRETTA: Low-Rank Economic Tensor-Train Adaptation for Ultra-Low-Parameter Fine-Tuning of Large Language Models | [arXiv 2402](https://arxiv.org/pdf/2402.11417.pdf) |  [Code](https://github.com/yifanycc/loretta)
 - Tensor Train Low-rank Approximation (TT-LoRA): Democratizing AI with Accelerated LLMs | [arxiv 2408](https://arxiv.org/pdf/2408.01008)
-- DoRA: Weight-Decomposed Low-Rank Adaptation | [arXiv 2402](https://arxiv.org/pdf/2402.09353.pdf)
 - SparseAdapter: An Easy Approach for Improving the Parameter-Efficiency of Adapters
 - Sparse Low-rank Adaptation of Pre-trained Language Models | [arXiv 2311](https://arxiv.org/pdf/2311.11696.pdf) |  [Code](https://github.com/TsinghuaC3I/SoRA)
 - LoRA-drop: Efficient LoRA Parameter Pruning based on Output Evaluation | [arXiv 2402](https://arxiv.org/pdf/2402.07721.pdf)
@@ -16,23 +15,23 @@
 - LoRA-FA: Memory-efficient low-rank adaptation for large language models fine-tuning | [arXiv 2308](https://arxiv.org/pdf/2308.03303.pdf)
 - VeRA: Vector-based Random Matrix Adaptation | [ICLR 2024](https://openreview.net/forum?id=NjNfLdxr3A)
 - Asymmetry in Low-Rank Adapters of Foundation Models | [arXiv 2402](https://arxiv.org/abs/2402.16842)
-
+- DoRA: Weight-Decomposed Low-Rank Adaptation | [arXiv 2402](https://arxiv.org/pdf/2402.09353.pdf)
+- Delta-LoRA: Fine-tuning high-rank parameters with the delta of low-rank matrices | [arXiv 2309](https://arxiv.org/pdf/2309.02411.pdf)
 
 #### b. Low-Ranking Strategies
 - Adaptive Budget Allocation for Parameter Efficient Fine-Tuning | [ICLR 2023](https://openreview.net/pdf?id=lq62uWRJjiY)
-- BiLoRA: A Bi-level Optimization Framework for Low-rank Adapters | [ICLR](https://openreview.net/pdf?id=Svy1XoOLXj)
-- FLoRA: Low-Rank Adapters Are Secretly Gradient Compressors | [arXiv 2402](https://arxiv.org/pdf/2402.03293.pdf) |  [Code](https://github.com/MANGA-UOFA/FLoRA)
-
-- ReLoRA: High-Rank Training Through Low-Rank Updates | [arXiv 2307](https://arxiv.org/pdf/2307.05695.pdf) |  [Code](https://github.com/guitaricet/reLoRA)
-- QDyLoRA: Quantized Dynamic Low-Rank Adaptation for Efficient Large Language Model Tuning | [arXiv 2402](https://arxiv.org/pdf/2402.10462.pdf)
+- BiLoRA: A Bi-level Optimization Framework for Low-rank Adapters | [arxiv](https://arxiv.org/pdf/2403.13037v1)
+- DyLoRA: Parameter Efficient Tuning of Pre-trained Models using Dynamic Search-Free Low-Rank Adaptation | [EACL](https://arxiv.org/abs/2210.07558)
 - PRILoRA: Pruned and Rank-Increasing Low-Rank Adaptation | [arXiv 2401](https://arxiv.org/pdf/2401.11316.pdf)
-- Structure-Aware Low-Rank Adaptation for Parameter-Efficient Fine-Tuning | [Mathematics 2023](https://go.gale.com/ps/i.do?id=GALE%7CA772098727&sid=sitemap&v=2.1&it=r&p=AONE&sw=w&userGroupName=a04fu&aty=ip)
+- FLoRA: Low-Rank Adapters Are Secretly Gradient Compressors | [arXiv 2402](https://arxiv.org/pdf/2402.03293.pdf) |  [Code](https://github.com/MANGA-UOFA/FLoRA)
 - Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning | [arXiv 2401](https://arxiv.org/pdf/2401.04151.pdf)
+- ReLoRA: High-Rank Training Through Low-Rank Updates | [arXiv 2307](https://arxiv.org/pdf/2307.05695.pdf) |  [Code](https://github.com/guitaricet/reLoRA)
+- Tied-LoRA: Enhancing parameter efficiency of LoRA with Weight Tying ｜[arxiv 2311](https://arxiv.org/pdf/2311.09578)
+- Structure-Aware Low-Rank Adaptation for Parameter-Efficient Fine-Tuning | [Mathematics 2023](https://go.gale.com/ps/i.do?id=GALE%7CA772098727&sid=sitemap&v=2.1&it=r&p=AONE&sw=w&userGroupName=a04fu&aty=ip)
 - PRoLoRA: Partial Rotation Empowers More Parameter-Efficient LoRA | [arxiv 2402](https://arxiv.org/abs/2402.16902)
-
-- Delta-LoRA: Fine-tuning high-rank parameters with the delta of low-rank matrices | [arXiv 2309](https://arxiv.org/pdf/2309.02411.pdf)
 - NOLA: Networks as linear combination of low rank random basis | [arXiv 2310](https://arxiv.org/pdf/2310.02556.pdf) |  [Code](https://github.com/UCDvision/NOLA)
 
+  
 #### c. Learning Rates for LoRA
 - LoRA+: Efficient Low-Rank Adaptation of Large Models | [arXiv 2402](https://arxiv.org/pdf/2402.12354.pdf) |  [Code](https://github.com/nikhil-ghosh-berkeley/LoRAplus)
 
@@ -86,10 +85,11 @@
 #### d. Advanced LoRA Adapters with Quantization
 - QLoRA: Efficient finetuning of quantized llms | [arXiv 2305](https://arxiv.org/pdf/2305.14314.pdf) | [Code](https://github.com/artidoro/qLoRA)
 - Qa-LoRA: Quantization-aware low-rank adaptation of large language models | [NeurIPS 2023 (oral)](https://arxiv.org/pdf/2309.14717.pdf) |  [Code](https://github.com/yuhuixu1993/qa-LoRA)
+- QDyLoRA: Quantized Dynamic Low-Rank Adaptation for Efficient Large Language Model Tuning | [arXiv 2402](https://arxiv.org/pdf/2402.10462.pdf)
 - Loftq: LoRA-fine-tuning-aware quantization for large language models | [arXiv 2310](https://arxiv.org/pdf/2310.08659.pdf) |  [Code](https://github.com/yxli2123/LoftQ)
 - Lq-LoRA: Low-rank plus quantized matrix decomposition for efficient language model finetuning | [arXiv 2311](https://arxiv.org/pdf/2311.12023.pdf) |  [Code](https://github.com/HanGuo97/lq-LoRA)
 - LQER: Low-Rank Quantization Error Reconstruction for LLMs | [arXiv 2402](https://arxiv.org/pdf/2402.02446.pdf)
-- 
+  
 #### e. LongLoRA
 - LongLoRA: Efficient fine-tuning of long-context large language models | [arXiv 2309](https://arxiv.org/pdf/2309.12307.pdf) |  [Code](https://github.com/dvlab-research/LongLoRA)
 - LongqLoRA: Efficient and effective method to extend context length of large language models | [arXiv 2311](https://arxiv.org/pdf/2311.04879.pdf) |  [Code](https://github.com/yangjianxin1/LongQLoRA)
