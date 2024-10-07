@@ -120,6 +120,7 @@
 - Machine Translation with Large Language Models: Prompting, Few-shot Learning, and Fine-tuning with QLoRA [ACL](https://aclanthology.org/2023.wmt-1.43.pdf)
 - Task-Agnostic Low-Rank Adapters for Unseen English Dialects | [ACL](https://aclanthology.org/2023.emnlp-main.487.pdf)| [Code](https://github.com/zedian/hyperLoRA)
 - LAMPAT: Low-Rank Adaption for Multilingual Paraphrasing Using Adversarial Training | [arxiv 2401](https://arxiv.org/pdf/2401.04348.pdf)| [Code](https://github.com/VinAIResearch/LAMPAT)
+- Task Arithmetic with LoRA for Continual Learning | [arxiv 2311](https://arxiv.org/pdf/2311.02428.pdf)
 
 ### LoRA in CV
 
@@ -137,18 +138,19 @@
 - AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning
 - Lcm-LoRA: A universal stable-diffusion acceleration module | [arxiv 2311](https://arxiv.org/pdf/2311.05556.pdf)| [Code](https://github.com/luosiallen/latent-consistency-model)
 
-### LoRA for Speech
+### LoRA for Speech Processing
 
 - Low-rank adaptation of large language model rescoring for parameter-efficient speech recognition | [arxiv 2309](https://arxiv.org/pdf/2309.15223.pdf)
 - Low-rank Adaptation Method for Wav2vec2-based Fake Audio Detection | [arxiv 2306](https://arxiv.org/pdf/2306.05617.pdf)
 - Sparsely Shared LoRA on Whisper for Child Speech Recognition | [arxiv 2309](https://arxiv.org/pdf/2309.11756.pdf)
 
-### LoRA in Code
+### LoRA in Code Engineering
 
 - LLaMA-Reviewer: Advancing Code Review Automation with Large Language Models through Parameter-Efficient Fine-Tuning | [arxiv 2308](https://arxiv.org/pdf/2308.11148.pdf)
-- Task Arithmetic with LoRA for Continual Learning | [arxiv 2311](https://arxiv.org/pdf/2311.02428.pdf)
+- RepairLLaMA: Efficient Representations and Fine-Tuned Adapters for Program Repair | [arxiv 2312](https://arxiv.org/abs/2312.15698)
 
-### LoRA in SCI
+
+### LoRA in Scientific Discovery
 
 - X-LoRA: Mixture of Low-Rank Adapter Experts, a Flexible Framework for Large Language Models with Applications in Protein Mechanics and Design | [APL Machine Learning](https://pubs.aip.org/aip/aml/article/2/2/026119/3294581)
 - ESMBind and QBind: LoRA, QLoRA, and ESM-2 for Predicting Binding Sites and Post Translational Modification | [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.11.13.566930v1.abstract)
@@ -159,6 +161,10 @@
 - Low-rank Adaptation for Spatio-Temporal Forecasting | [arxiv](https://arxiv.org/abs/2404.07919)
 - Channel-Aware Low-Rank Adaptation in Time Series Forecasting | [arxiv](https://arxiv.org/pdf/2407.17246)
 - Low-Rank Adaptation of Time Series Foundational Models for Out-of-Domain Modality Forecasting | [arxiv](https://arxiv.org/abs/2405.10216)
+
+### LoRA in Graph Learning
+- GraphLoRA: Structure-Aware Contrastive Low-Rank Adaptation for Cross-Graph Transfer Learning
+- Fast and Continual Knowledge Graph Embedding via Incremental LoRA
   
 ### LoRA in Recommender System
 
@@ -166,6 +172,7 @@
 - Lifelong Personalized Low-Rank Adaptation of Large Language Models for Recommendation
 - MLoRA: Multi-Domain Low-Rank Adaptive Network for CTR Prediction
 - LoRA-NCL: Neighborhood-Enriched Contrastive Learning with Low-Rank Dimensionality Reduction for Graph Collaborative Filtering
+- Harnessing large language models for text-rich sequential recommendation
 
 ### LoRA in Anomaly Detection
 
