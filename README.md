@@ -156,6 +156,7 @@
 - ESMBind and QBind: LoRA, QLoRA, and ESM-2 for Predicting Binding Sites and Post Translational Modification | [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.11.13.566930v1.abstract)
 - Fine-tuning protein language models boosts predictions across diverse tasks | [Nature Communication](https://www.nature.com/articles/s41467-024-51844-2)
 - Parameter-efficient fine-tuning on large protein language models improves signal peptide prediction | 
+- Prollama: A protein large language model for multi-task protein language processing
 
 ### LoRA in Time series
 - Low-rank Adaptation for Spatio-Temporal Forecasting | [arxiv](https://arxiv.org/abs/2404.07919)
@@ -171,7 +172,9 @@
 - Customizing Language Models with Instance-wise LoRA for Sequential Recommendation
 - Lifelong Personalized Low-Rank Adaptation of Large Language Models for Recommendation
 - MLoRA: Multi-Domain Low-Rank Adaptive Network for CTR Prediction
+- ATFLRec: A Multimodal Recommender System with Audio-Text Fusion and Low-Rank Adaptation via Instruction-Tuned Large Language Model 
 - LoRA-NCL: Neighborhood-Enriched Contrastive Learning with Low-Rank Dimensionality Reduction for Graph Collaborative Filtering
+- LoRA for Sequential Recommendation Harnessing large language models for text-rich sequential recommendation
 - Harnessing large language models for text-rich sequential recommendation
 
 ### LoRA in Anomaly Detection
