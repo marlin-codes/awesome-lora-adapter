@@ -9,16 +9,16 @@
 
 - Adaptive Budget Allocation for Parameter Efficient Fine-Tuning | [ICLR 2023](https://openreview.net/pdf?id=lq62uWRJjiY)
 - BiLoRA: A Bi-level Optimization Framework for Low-rank Adapters | [arxiv 2403](https://arxiv.org/abs/2403.13037)
-- LoRETTA: Low-Rank Economic Tensor-Train Adaptation for Ultra-Low-Parameter Fine-Tuning of Large Language Models | [arxiv 2402](https://arxiv.org/pdf/2402.11417.pdf)| [Code](https://github.com/yifanycc/loretta)
-- LoTR: Low Tensor Rank Weight Adaptation | [arxiv 2402](https://arxiv.org/pdf/2402.01376.pdf)| [Code](github.com/skolai/lotr)
+- LoRETTA: Low-Rank Economic Tensor-Train Adaptation for Ultra-Low-Parameter Fine-Tuning of Large Language Models | [arxiv 2402](https://arxiv.org/pdf/2402.11417.pdf)| [Code](https://github.com/yifanycc/loretta) | NAACL 2024 Oral
+- LoTR: Low Tensor Rank Weight Adaptation | [arxiv 2402](https://arxiv.org/pdf/2402.01376.pdf)| [Code](https://github.com/daskol/lotr)
 - Tensor Train Low-rank Approximation (TT-LoRA): Democratizing AI with Accelerated LLMs | [arxiv 2408](https://arxiv.org/pdf/2408.01008)
-- DoRA: Weight-Decomposed Low-Rank Adaptation | [arxiv 2402](https://arxiv.org/pdf/2402.09353.pdf)
+- DoRA: Weight-Decomposed Low-Rank Adaptation | [arxiv 2402](https://arxiv.org/pdf/2402.09353.pdf) | [Code](https://github.com/NVlabs/DoRA) | ICML 2024
 
 **(ii) Parameter Selection**
 
-- SparseAdapter: An Easy Approach for Improving the Parameter-Efficiency of Adapters | [arxiv 2210](https://arxiv.org/abs/2210.04284)
-- Sparse Low-rank Adaptation of Pre-trained Language Models | [arxiv 2311](https://arxiv.org/pdf/2311.11696.pdf)| [Code](https://github.com/TsinghuaC3I/SoRA)
-- Asymmetry in Low-Rank Adapters of Foundation Models | [arxiv 2402](https://arxiv.org/abs/2402.16842)
+- SparseAdapter: An Easy Approach for Improving the Parameter-Efficiency of Adapters | [arxiv 2210](https://arxiv.org/abs/2210.04284) | [Code](https://github.com/Shwai-He/SparseAdapter) | Findings of EMNLP 2022
+- Sparse Low-rank Adaptation of Pre-trained Language Models | [arxiv 2311](https://arxiv.org/pdf/2311.11696.pdf)| [Code](https://github.com/TsinghuaC3I/SoRA) | EMNLP 2023
+- Asymmetry in Low-Rank Adapters of Foundation Models | [arxiv 2402](https://arxiv.org/abs/2402.16842) | [Code](https://github.com/Jiacheng-Zhu-AIML/AsymmetryLoRA?utm_source=catalyzex.com) [Code](https://github.com/NVIDIA/NeMo/tree/adithyare/vera) | 
 - LoRA-FA: Memory-efficient low-rank adaptation for large language models fine-tuning | [arxiv 2308](https://arxiv.org/pdf/2308.03303.pdf)
 - LoRA-drop: Efficient LoRA Parameter Pruning based on Output Evaluation | [arxiv 2402](https://arxiv.org/pdf/2402.07721.pdf)
 
@@ -26,17 +26,17 @@
 
 - VeRA: Vector-based Random Matrix Adaptation | [ICLR 2024](https://openreview.net/forum?id=NjNfLdxr3A)
 - Tied-LoRA: Enhancing parameter efficiency of LoRA with Weight Tying ｜[arxiv 2311](https://arxiv.org/pdf/2311.09578)
-- NOLA: Networks as linear combination of low rank random basis | [arxiv 2310](https://arxiv.org/pdf/2310.02556.pdf)| [Code](https://github.com/UCDvision/NOLA)
+- NOLA: Networks as linear combination of low rank random basis | [arxiv 2310](https://arxiv.org/pdf/2310.02556.pdf)| [Code](https://github.com/UCDvision/NOLA) | [Code](https://github.com/UCDvision/NOLA) | ICLR 2024
 - Delta-LoRA: Fine-tuning high-rank parameters with the delta of low-rank matrices | [arxiv 2309](https://arxiv.org/pdf/2309.02411.pdf)
 
 **(iv) Parameter Quantization**
 
-- QLoRA: Efficient finetuning of quantized llms | [arxiv 2305](https://arxiv.org/pdf/2305.14314.pdf)| [Code](https://github.com/artidoro/qLoRA)
+- QLoRA: Efficient finetuning of quantized llms | [arxiv 2305](https://arxiv.org/pdf/2305.14314.pdf)| [Code](https://github.com/artidoro/qLoRA) | NeurIPS 2023
 - Qa-LoRA: Quantization-aware low-rank adaptation of large language models | [NeurIPS 2023 (oral)](https://arxiv.org/pdf/2309.14717.pdf)| [Code](https://github.com/yuhuixu1993/qa-LoRA)
 - QDyLoRA: Quantized Dynamic Low-Rank Adaptation for Efficient Large Language Model Tuning | [arxiv 2402](https://arxiv.org/pdf/2402.10462.pdf)
 - Loftq: LoRA-fine-tuning-aware quantization for large language models | [arxiv 2310](https://arxiv.org/pdf/2310.08659.pdf)| [Code](https://github.com/yxli2123/LoftQ)
 - Lq-LoRA: Low-rank plus quantized matrix decomposition for efficient language model finetuning | [arxiv 2311](https://arxiv.org/pdf/2311.12023.pdf)| [Code](https://github.com/HanGuo97/lq-LoRA)
-- LQER: Low-Rank Quantization Error Reconstruction for LLMs | [arxiv 2402](https://arxiv.org/pdf/2402.02446.pdf)
+- LQER: Low-Rank Quantization Error Reconstruction for LLMs | [arxiv 2402](https://arxiv.org/pdf/2402.02446.pdf) | [Code](https://github.com/OpenGVLab/OmniQuant?utm_source=catalyzex.com) | ICLR 2024
 
 ### b. Ranking Adaptation
 
@@ -44,32 +44,32 @@
 
 - Adaptive Budget Allocation for Parameter Efficient Fine-Tuning | [ICLR 2023](https://openreview.net/pdf?id=lq62uWRJjiY)
 - BiLoRA: A Bi-level Optimization Framework for Low-rank Adapters | [arxiv](https://arxiv.org/pdf/2403.13037v1)
-- DyLoRA: Parameter Efficient Tuning of Pre-trained Models using Dynamic Search-Free Low-Rank Adaptation | [EACL](https://arxiv.org/abs/2210.07558)
+- DyLoRA: Parameter Efficient Tuning of Pre-trained Models using Dynamic Search-Free Low-Rank Adaptation | [EACL](https://arxiv.org/abs/2210.07558) | [Code](https://github.com/huawei-noah/Efficient-NLP/tree/main/DyLoRA?utm_source=catalyzex.com)
 - PRILoRA: Pruned and Rank-Increasing Low-Rank Adaptation | [arxiv 2401](https://arxiv.org/pdf/2401.11316.pdf)
-- Sparse Low-rank Adaptation of Pre-trained Language Models | [arxiv 2311](https://arxiv.org/pdf/2311.11696.pdf)| [Code](https://github.com/TsinghuaC3I/SoRA)
+- Sparse Low-rank Adaptation of Pre-trained Language Models | [arxiv 2311](https://arxiv.org/pdf/2311.11696.pdf) | [Code](https://github.com/TsinghuaC3I/SoRA) | EMNLP 2023
   
 **(ii) Ranking Augmentation**
 
-- FLoRA: Low-Rank Adapters Are Secretly Gradient Compressors | [arxiv 2402](https://arxiv.org/pdf/2402.03293.pdf)| [Code](https://github.com/MANGA-UOFA/FLoRA)
-- Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning | [arxiv 2401](https://arxiv.org/pdf/2401.04151.pdf)
+- FLoRA: Low-Rank Adapters Are Secretly Gradient Compressors | [arxiv 2402](https://arxiv.org/pdf/2402.03293.pdf)| [Code](https://github.com/MANGA-UOFA/FLoRA) | ICML 2024
+- Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning | [arxiv 2401](https://arxiv.org/pdf/2401.04151.pdf) | ICML 2024
 - ReLoRA: High-Rank Training Through Low-Rank Updates | [arxiv 2307](https://arxiv.org/pdf/2307.05695.pdf)| [Code](https://github.com/guitaricet/reLoRA)
-- PRoLoRA: Partial Rotation Empowers More Parameter-Efficient LoRA | [arxiv 2402](https://arxiv.org/abs/2402.16902)
-- Mini-Ensemble Low-Rank Adapters for Parameter-Efficient Fine-Tuning | [arxiv 2402](https://arxiv.org/abs/2402.17263)
-- GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection | [arxiv 2403](https://arxiv.org/abs/2403.03507)
+- PRoLoRA: Partial Rotation Empowers More Parameter-Efficient LoRA | [arxiv 2402](https://arxiv.org/abs/2402.16902) | [Code](https://github.com/sahil280114/codealpaca?utm_source=catalyzex.com) 
+- Mini-Ensemble Low-Rank Adapters for Parameter-Efficient Fine-Tuning | [arxiv 2402](https://arxiv.org/abs/2402.17263) | ACL 2024
+- GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection | [arxiv 2403](https://arxiv.org/abs/2403.03507) | [Code](https://github.com/jiaweizzhao/GaLore) | Oral ICML 2024
   
 ### c. Learning Process
 
 #### **(i) Learning Rate**
 
-- LoRA+: Efficient Low-Rank Adaptation of Large Models | [arxiv 2402](https://arxiv.org/pdf/2402.12354.pdf)| [Code](https://github.com/nikhil-ghosh-berkeley/LoRAplus)
+- LoRA+: Efficient Low-Rank Adaptation of Large Models | [arxiv 2402](https://arxiv.org/pdf/2402.12354.pdf)| [Code](https://github.com/nikhil-ghosh-berkeley/LoRAplus) | ICML 2024
 
 #### **(ii) Dropout**
 
-- LoRA Meets Dropout under a Unified Framework
+- LoRA Meets Dropout under a Unified Framework [arxiv 2403](https://arxiv.org/pdf/2403.00812)
 
 #### **(iii) Scaling Factor**
 
-- A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA | [arxiv 2312](https://arxiv.org/pdf/2312.03732.pdf)
+- A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA | [arxiv 2312](https://arxiv.org/pdf/2312.03732.pdf) | [Code](https://github.com/kingoflolz/mesh-transformer-jax)
 
 #### **(iv) Learning Methods**
 
@@ -77,25 +77,25 @@
 
 #### **(v) Post-hoc Processing**
 
-- Bayesian Low-rank Adaptation for Large Language Models | [arxiv 2308](https://arxiv.org/abs/2308.13111)
+- Bayesian Low-rank Adaptation for Large Language Models | [arxiv 2308](https://arxiv.org/abs/2308.13111) | [Code](https://github.com/adamxyang/laplace-lora) | ICLR 2024
 
 ### d. Theoretical Foundations
 
-- The Expressive Power of Low-Rank Adaptation | [arxiv 2310](https://arxiv.org/pdf/2310.17513.pdf)| [Code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA)
-- LoRA Training in the NTK Regime has No Spurious Local Minima | [arxiv 2402](https://arxiv.org/pdf/2402.11867.pdf)| [Code](https://github.com/UijeongJang/LoRA-NTK)
+- The Expressive Power of Low-Rank Adaptation | [arxiv 2310](https://arxiv.org/pdf/2310.17513.pdf)| [Code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA) | ICLR 2024
+- LoRA Training in the NTK Regime has No Spurious Local Minima | [arxiv 2402](https://arxiv.org/pdf/2402.11867.pdf)| [Code](https://github.com/UijeongJang/LoRA-NTK) | ICML 2024
 - ROSA: Random Orthogonal Subspace Adaptation | [ICML](https://openreview.net/pdf?id=4P9vOFpb63)| [Code](https://github.com/marawangamal/rosa)
-- Asymmetry in Low-Rank Adapters of Foundation Models | [arxiv 2402](https://arxiv.org/abs/2402.16842)
+- Asymmetry in Low-Rank Adapters of Foundation Models | [arxiv 2402](https://arxiv.org/abs/2402.16842) | [Code](https://github.com/Jiacheng-Zhu-AIML/AsymmetryLoRA?utm_source=catalyzex.com)
 
 ## 2. Frontiers of LoRA
 
 ### a. Advanced Structures
-- Adaptersoup: Weight averaging to improve generalization of pretrained language models | [arxiv2302](https://arxiv.org/pdf/2302.07027)
-- LoRAhub: Efficient cross-task generalization via dynamic LoRA composition | [arxiv 2307](https://arxiv.org/pdf/2307.13269.pdf) | [Code](https://github.com/sail-sg/LoRAhub)
-- LoRARetriever: Input-Aware LoRA Retrieval and Composition for Mixed Tasks in the Wild | [arxiv 2402](https://arxiv.org/pdf/2402.09997.pdf)
-- Batched Low-Rank Adaptation of Foundation Models | [arxiv 2312](https://arxiv.org/pdf/2312.05677.pdf)
+- Adaptersoup: Weight averaging to improve generalization of pretrained language models | [arxiv2302](https://arxiv.org/pdf/2302.07027) | [Code](https://github.com/UKPLab/sentence-transformers)
+- LoRAhub: Efficient cross-task generalization via dynamic LoRA composition | [arxiv 2307](https://arxiv.org/pdf/2307.13269.pdf) | [Code](https://github.com/sail-sg/LoRAhub) | COLM 2024
+- LoRARetriever: Input-Aware LoRA Retrieval and Composition for Mixed Tasks in the Wild | [arxiv 2402](https://arxiv.org/pdf/2402.09997.pdf) | [Code](https://github.com/tatsu-lab/stanford_alpaca) 
+- Batched Low-Rank Adaptation of Foundation Models | [arxiv 2312](https://arxiv.org/pdf/2312.05677.pdf) | [Code](https://github.com/huggingface/peft/tree/main)
 - Hydra: Multi-head low-rank adaptation for parameter efficient fine-tuning | [arxiv 2309](https://arxiv.org/pdf/2309.06922.pdf)| [Code](https://github.com/extremebird/Hydra)
 - One-for-All: Generalized LoRA for Parameter-Efficient Fine-tuning | [arxiv 2306](https://arxiv.org/pdf/2306.07967.pdf)| [Code](https://github.com/Arnav0400/ViT-Slim/tree/master/GLoRA)
-- LoRA ensembles for large language model fine-tuning | [arxiv 2310](https://arxiv.org/pdf/2310.00035.pdf)
+- LoRA ensembles for large language model fine-tuning | [arxiv 2310](https://arxiv.org/pdf/2310.00035.pdf) | [Code](https://github.com/huggingface/peft?utm_source) 
 
 ### b. LoRA MoE
 
