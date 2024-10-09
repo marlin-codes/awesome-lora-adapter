@@ -81,9 +81,9 @@
 
 ### d. Theoretical Foundations
 
-- The Expressive Power of Low-Rank Adaptation | [arxiv 2310](https://arxiv.org/pdf/2310.17513.pdf)| [Code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA) | ICLR 2024
+- The Expressive Power of Low-Rank Adaptation | [arxiv 2310](https://arxiv.org/pdf/2310.17513.pdf) | [Code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA) | ICLR 2024
 - LoRA Training in the NTK Regime has No Spurious Local Minima | [arxiv 2402](https://arxiv.org/pdf/2402.11867.pdf)| [Code](https://github.com/UijeongJang/LoRA-NTK) | ICML 2024
-- ROSA: Random Orthogonal Subspace Adaptation | [ICML](https://openreview.net/pdf?id=4P9vOFpb63)| [Code](https://github.com/marawangamal/rosa)
+- ROSA: Random Orthogonal Subspace Adaptation | [ICML 2023](https://openreview.net/pdf?id=4P9vOFpb63) | [Code](https://github.com/marawangamal/rosa)
 - Asymmetry in Low-Rank Adapters of Foundation Models | [arxiv 2402](https://arxiv.org/abs/2402.16842) | [Code](https://github.com/Jiacheng-Zhu-AIML/AsymmetryLoRA?utm_source=catalyzex.com)
 
 ## 2. Frontiers of LoRA
@@ -154,21 +154,71 @@
 
 ### LoRA in Computer Vision
 
-- Efficient low-rank backpropagation for vision transformer adaptation | [arxiv 2309](https://arxiv.org/pdf/2309.15275.pdf) | Neurips 2023
-- LORTSAR: Low-Rank Transformer for Skeleton-based Action Recognition | [arxiv 2407](https://arxiv.org/pdf/2407.14655) 
+**a. Visual Understanding**
+
+(1) Domain Adaptation and Transfer Learning
+- Motion style transfer: Modular low-rank adaptation for deep motion forecasting | [arxiv 2211](https://arxiv.org/pdf/2211.03165.pdf)| [Code](https://github.com/vita-epfl/motion-style-transfer)
+- Efficient low-rank backpropagation for vision transformer adaptation | [arxiv 2309](https://arxiv.org/pdf/2309.15275.pdf) | NeurIPS 20223
+- ConvLoRA and AdaBN based Domain Adaptation via Self-Training | [arxiv 2402](https://arxiv.org/pdf/2402.04964.pdf) | [Code](https://github.com/aleemsidra/ConvLoRA)
+- ExPLoRA: Parameter-Efficient Extended Pre-Training to Adapt Vision Transformers under Domain Shifts | [arxiv 2406](https://arxiv.org/abs/2406.10973)
 - Melo: Low-rank adaptation is better than fine-tuning for medical image diagnosis | [arxiv 2311](https://arxiv.org/pdf/2311.08236.pdf)| [Code](https://github.com/JamesQFreeman/LoRA-ViT)
-- FullLoRA-AT: Efficiently Boosting the Robustness of Pretrained Vision Transformers | [arxiv 2401](https://arxiv.org/pdf/2401.01752.pdf)
-- Parameter-efficient Model Adaptation for Vision Transformers | [arxiv 2203](https://arxiv.org/pdf/2203.16329.pdf)| [Code](https://github.com/eric-ai-lab/PEViT) | AAAI 2023
-- ConvLoRA and AdaBN based Domain Adaptation via Self-Training | [arxiv 2402](https://arxiv.org/pdf/2402.04964.pdf)| [Code](https://github.com/aleemsidra/ConvLoRA) | IEEE ISBI 2024
-- Vl-adapter: Parameter-efficient transfer learning for vision-and-language tasks | [arxiv 2112](https://arxiv.org/pdf/2112.06825.pdf)| [Code](https://github.com/ylsung/VL_adapter) | CVPR 2022
-- Motion style transfer: Modular low-rank adaptation for deep motion forecasting | [arxiv 2211](https://arxiv.org/pdf/2211.03165.pdf)| [Code](https://github.com/vita-epfl/motion-style-transfer) | CoRL 2022
 - Enhancing General Face Forgery Detection via Vision Transformer with Low-Rank Adaptation | [arxiv 2303](https://arxiv.org/pdf/2303.00917.pdf)
-- Customized Segment Anything Model for Medical Image Segmentation | [arxiv 2304](https://arxiv.org/pdf/2304.13785) | [Code](https://github.com/hitachinsk/SAMed) 
+
+(2) Semantic Segmentation
+- Customized Segment Anything Model for Medical Image Segmentation | [arxiv 2304](https://arxiv.org/abs/2304.13785) | [Code](https://github.com/hitachinsk/SAMed) 
+- SAM Meets Robotic Surgery: An Empirical Study on Generalization, Robustness and Adaptation | [MICCAI 2023](https://link.springer.com/chapter/10.1007/978-3-031-47401-9_23)
+- Convolution Meets LoRA: Parameter Efficient Finetuning for Segment Anything Model | [arxiv 2401](https://arxiv.org/abs/2401.17868)
+
+
+(3) Others
+- FullLoRA-AT: Efficiently Boosting the Robustness of Pretrained Vision Transformers | [arxiv 2401](https://arxiv.org/pdf/2401.01752.pdf)
+- Low-Rank Rescaled Vision Transformer Fine-Tuning: A Residual Design Approach | [arxiv 2403](https://arxiv.org/abs/2403.19067)
+- LORTSAR: Low-Rank Transformer for Skeleton-based Action Recognition | [arxiv 2407](https://arxiv.org/abs/2407.14655)
+- Parameter-efficient Model Adaptation for Vision Transformers | [arxiv 2203](https://arxiv.org/pdf/2203.16329.pdf)| [Code](https://github.com/eric-ai-lab/PEViT) | AAAI 2023
+
+  
+**b. Visual Generation**
+- Cones: Concept Neurons in Diffusion Models for Customized Generation | [arxiv 2303](https://arxiv.org/abs/2303.05125)
+- Mix-of-Show: Decentralized Low-Rank Adaptation for Multi-Concept Customization of Diffusion Models | [arxiv 2305](https://arxiv.org/abs/2305.18292)
+- Generating coherent comic with rich story using ChatGPT and Stable Diffusion | [arxiv 2305](https://arxiv.org/abs/2305.11067)
+- Cones 2: Customizable Image Synthesis with Multiple Subjects | [arxiv 2305](https://arxiv.org/abs/2305.19327)
+- StyleAdapter: A Single-Pass LoRA-Free Model for Stylized Image Generation | [arxiv 2309](https://arxiv.org/abs/2309.01770)
+- ZipLoRA: Any Subject in Any Style by Effectively Merging LoRAs | [arxiv 2311](https://arxiv.org/abs/2311.13600)
+- Intrinsic LoRA: A Generalist Approach for Discovering Knowledge in Generative Models | [arxiv 2311](https://arxiv.org/abs/2311.17137)
+- Lcm-LoRA: A universal stable-diffusion acceleration module | [arxiv 2311](https://arxiv.org/pdf/2311.05556.pdf)| [Code](https://github.com/luosiallen/latent-consistency-model)
+- Continual Diffusion with STAMINA: STack-And-Mask INcremental Adapters | [arxiv 2311](https://arxiv.org/abs/2311.18763) 
+- Orthogonal Adaptation for Modular Customization of Diffusion Models | [arxiv 2312](https://arxiv.org/abs/2312.02432)
+- Style Transfer to Calvin and Hobbes comics using Stable Diffusion | [arxiv 2312](https://arxiv.org/abs/2312.03993)
+- Lora-enhanced distillation on guided diffusion models | [arxiv 2312](https://arxiv.org/pdf/2312.06899)
+- Multi-LoRA Composition for Image Generation | [arxiv 2402](https://arxiv.org/abs/2402.16843)
+- ConvLoRA and AdaBN based Domain Adaptation via Self-Training | [arxiv 2402](https://arxiv.org/pdf/2402.04964.pdf)| [Code](https://github.com/aleemsidra/ConvLoRA) | IEEE ISBI 2024
+- LoRA-Composer: Leveraging Low-Rank Adaptation for Multi-Concept Customization in Training-Free Diffusion Models | [arxiv 2403](https://arxiv.org/abs/2403.11627)
+- Resadapter: Domain consistent resolution adapter for diffusion models | [arxiv 2403](https://arxiv.org/abs/2403.02084)
+- Implicit Style-Content Separation using B-LoRA | [arxiv 2403](https://arxiv.org/abs/2403.14572)
+- Mixture of Low-rank Experts for Transferable AI-Generated Image Detection | [arxiv 2404](https://arxiv.org/abs/2404.04883)
+- MoE-FFD: Mixture of Experts for Generalized and Parameter-Efficient Face Forgery Detection | [arxiv 2404](https://arxiv.org/abs/2404.08452)
+- Low-Rank Few-Shot Adaptation of Vision-Language Models | [arxiv 2405](https://arxiv.org/abs/2405.18541)
+- FouRA: Fourier Low Rank Adaptation | [arxiv 2406](https://arxiv.org/abs/2406.08798)
+
+
+
+
+### LoRA in Multimodal Learning
+- Vl-adapter: Parameter-efficient transfer learning for vision-and-language tasks | [arxiv 2112](https://arxiv.org/pdf/2112.06825.pdf)| [Code](https://github.com/ylsung/VL_adapter) | CVPR 2022
+- DreamSync: Aligning Text-to-Image Generation with Image Understanding Feedback | [arxiv 2311](https://arxiv.org/abs/2311.17946)
 - Block-wise LoRA: Revisiting Fine-grained LoRA for Effective Personalization and Stylization in Text-to-Image Generation | [arxiv 2304](https://arxiv.org/pdf/2403.07500) | AAAI 2024
 - AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning | [arxiv 2307](https://arxiv.org/pdf/2307.04725) | [Code](https://github.com/guoyww/AnimateDiff) | ICLR 2024
-- Lcm-LoRA: A universal stable-diffusion acceleration module | [arxiv 2311](https://arxiv.org/pdf/2311.05556.pdf)| [Code](https://github.com/luosiallen/latent-consistency-model)
+- Multi-Concept Customization of Text-to-Image Diffusion
+- SELMA: Learning and Merging Skill-Specific Text-to-Image Experts with Auto-Generated Data
+- MACE: Mass Concept Erasure in Diffusion Models
+- AdvLoRA: Adversarial Low-Rank Adaptation of Vision-Language Models
+- MoVA: Adapting Mixture of Vision Experts to Multimodal Context
+- LaMDA: Large Model Fine-Tuning via Spectrally Decomposed Low-Dimensional Adaptation
+- Customizing 360-degree panoramas through text-to-image diffusion models. 
+- Space narrative: Generating images and 3d scenes of chinese garden from text using deep learning.
 
-### LoRA for Speech Processing
+
+### LoRA in Speech Processing
 
 - Low-rank Adaptation of Large Language Model Rescoring for Parameter-Efficient Speech Recognition | [arxiv 2309](https://arxiv.org/pdf/2309.15223.pdf)
 - Low-rank Adaptation Method for Wav2vec2-based Fake Audio Detection | [arxiv 2306](https://arxiv.org/pdf/2306.05617.pdf) | CEUR Workshop
