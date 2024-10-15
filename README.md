@@ -89,6 +89,8 @@
 ## 2. Frontiers of LoRA
 
 ### a. Advanced Structures
+
+**LoRA Composition**
 - Adaptersoup: Weight averaging to improve generalization of pretrained language models | [arxiv2302](https://arxiv.org/pdf/2302.07027) | [Code](https://github.com/UKPLab/sentence-transformers)
 - LoRAhub: Efficient cross-task generalization via dynamic LoRA composition | [arxiv 2307](https://arxiv.org/pdf/2307.13269.pdf) | [Code](https://github.com/sail-sg/LoRAhub) | COLM 2024
 - LoRARetriever: Input-Aware LoRA Retrieval and Composition for Mixed Tasks in the Wild | [arxiv 2402](https://arxiv.org/pdf/2402.09997.pdf) | [Code](https://github.com/tatsu-lab/stanford_alpaca) 
@@ -96,9 +98,9 @@
 - Hydra: Multi-head low-rank adaptation for parameter efficient fine-tuning | [arxiv 2309](https://arxiv.org/pdf/2309.06922.pdf)| [Code](https://github.com/extremebird/Hydra)
 - One-for-All: Generalized LoRA for Parameter-Efficient Fine-tuning | [arxiv 2306](https://arxiv.org/pdf/2306.07967.pdf)| [Code](https://github.com/Arnav0400/ViT-Slim/tree/master/GLoRA)
 - LoRA ensembles for large language model fine-tuning | [arxiv 2310](https://arxiv.org/pdf/2310.00035.pdf) | [Code](https://github.com/huggingface/peft?utm_source)  
+- MultiLoRA: Democratizing LoRA for Better Multi-Task Learning | [arxiv 2311](https://arxiv.org/pdf/2311.11501.pdf)
 
-### b. LoRA MoE
-
+**LoRA MoE**
 - MoeLoRA: Contrastive learning guided mixture of experts on parameter-efficient fine-tuning for large language models | [arxiv 2402](https://arxiv.org/pdf/2402.12851.pdf)
 - Higher Layers Need More LoRA Experts | [arxiv 2402](https://arxiv.org/pdf/2402.08562.pdf)| [Code](https://github.com/GCYZSL/MoLA)
 - Pushing mixture of experts to the limit: Extremely parameter efficient moe for instruction tuning.| [arxiv 2309](https://arxiv.org/abs/2309.05444) | [Code](https://github.com/for-ai/parameter-efficient-moe) 
@@ -113,7 +115,20 @@
 - AdaMoLE: Fine-Tuning Large Language Models with Adaptive Mixture of Low-Rank Adaptation Experts | [arxiv 2405](https://arxiv.org/abs/2405.00361) | [Code](https://github.com/zefang-liu/AdaMoLE) | COLM 2024
 - Mixture of LoRA Experts | [arxiv 2404](https://arxiv.org/abs/2404.13628) |  [Code](https://github.com/yushuiwx/MoLE) | ICLR 2024
 
-### c. LoRA for Federated Learning
+### b. LoRA for Long Sequence Modeling
+
+- LongLoRA: Efficient fine-tuning of long-context large language models | [arxiv 2309](https://arxiv.org/pdf/2309.12307.pdf)| [Code](https://github.com/dvlab-research/LongLoRA) | ICLR 2024 Oral
+- LongqLoRA: Efficient and effective method to extend context length of large language models | [arxiv 2311](https://arxiv.org/pdf/2311.04879.pdf)| [Code](https://github.com/yangjianxin1/LongQLoRA)
+- With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation | [arxiv 2401](https://arxiv.org/abs/2401.11504) | [Code](https://github.com/TemporaryLoRA/Temp-LoRA/tree/main) | COLM 2024
+- RST-LoRA: A Discourse-Aware Low-Rank Adaptation for Long Document Abstractive Summarization | [arxiv 2405](https://arxiv.org/abs/2405.00657)
+
+### c. LoRA for Continue Learning
+- Orthogonal Subspace Learning for Language Model Continual Learning
+- Continual Learning with Low Rank Adaptation
+- Task Arithmetic with LoRA for Continual Learning
+- A Unified Continual Learning Framework with General Parameter-Efficient Tuning
+  
+### d. LoRA for Federated Learning
 
 - SLoRA: Federated parameter efficient fine-tuning of language models | [arxiv 2308](https://arxiv.org/pdf/2308.06522.pdf) | 
 - pFedLoRA: Model-heterogeneous personalized federated learning with LoRA tuning | [arxiv 2310](https://arxiv.org/pdf/2310.13283.pdf)
@@ -127,21 +142,6 @@
 - DP-DyLoRA: Fine-Tuning Transformer-Based Models On-Device under Differentially Private Federated Learning using Dynamic Low-Rank Adaptation | [arxiv 2405](https://arxiv.org/abs/2405.06368)
 - FDLoRA: Personalized Federated Learning of Large Language Model via Dual LoRA Tuning | [arxiv 2406](https://arxiv.org/pdf/2406.07925)
 - FLoRA: Federated Fine-Tuning Large Language Models with Heterogeneous Low-Rank Adaptations | [arxiv 2409](https://arxiv.org/pdf/2409.05976) [Code](https://github.com/ATP-1010/FederatedLLM) 
-
-### d. LoRA for Multi-Task Learning
-
-- MultiLoRA: Democratizing LoRA for Better Multi-Task Learning | [arxiv 2311](https://arxiv.org/pdf/2311.11501.pdf)
-  
-
-### e. LoRA for Long Sequence Modeling
-
-- LongLoRA: Efficient fine-tuning of long-context large language models | [arxiv 2309](https://arxiv.org/pdf/2309.12307.pdf)| [Code](https://github.com/dvlab-research/LongLoRA) | ICLR 2024 Oral
-- LongqLoRA: Efficient and effective method to extend context length of large language models | [arxiv 2311](https://arxiv.org/pdf/2311.04879.pdf)| [Code](https://github.com/yangjianxin1/LongQLoRA)
-- With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation | [arxiv 2401](https://arxiv.org/abs/2401.11504) | [Code](https://github.com/TemporaryLoRA/Temp-LoRA/tree/main) | COLM 2024
-- RST-LoRA: A Discourse-Aware Low-Rank Adaptation for Long Document Abstractive Summarization | [arxiv 2405](https://arxiv.org/abs/2405.00657)
-
-### f. LoRA for Continue Learning
-
 
 ## 3. Applications
 
