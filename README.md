@@ -142,7 +142,8 @@
 - DP-DyLoRA: Fine-Tuning Transformer-Based Models On-Device under Differentially Private Federated Learning using Dynamic Low-Rank Adaptation | [arxiv 2405](https://arxiv.org/abs/2405.06368)
 - FDLoRA: Personalized Federated Learning of Large Language Model via Dual LoRA Tuning | [arxiv 2406](https://arxiv.org/pdf/2406.07925)
 - FLoRA: Federated Fine-Tuning Large Language Models with Heterogeneous Low-Rank Adaptations | [arxiv 2409](https://arxiv.org/pdf/2409.05976) [Code](https://github.com/ATP-1010/FederatedLLM) 
-
+- Automated Federated Pipeline for Parameter-Efficient Fine-Tuning of Large Language Models
+  
 ## 3. Applications
 
 ### LoRA in Natural Language Processing
@@ -274,12 +275,12 @@
 
 - Training Neural Networks from Scratch with Parallel Low-Rank Adapters | [arxiv 2402](https://arxiv.org/pdf/2402.16828.pdf)| [Code](https://github.com/minyoungg/LTE)
 
-### Deployment of LoRA Adapters
+### LoRA Serving System
 
+- Peft: State-of-the-art parameter-efficient fine-tuning methods | [Huggingface](https://github.com/huggingface/peft)
 - S-LoRA: Serving thousands of concurrent LoRA adapters | [arxiv 2311](https://arxiv.org/pdf/2311.03285.pdf)| [Code](https://github.com/S-LoRA/S-LoRA) | MLSys Conference 2024
 - CaraServe: CPU-Assisted and Rank-Aware LoRA Serving for Generative LLM Inference | [arxiv 2401](https://arxiv.org/pdf/2401.11240.pdf)
-- Local LoRA: Memory-Efficient Fine-Tuning of Large Language Models | [OpenReview](https://openreview.net/pdf?i d=LHKmzWP7RN#:~:text=Our%20approach%20aims%20to%20decouple,LoRA%20on%20math%20reasoning%20tasks.) | Neurips 2023 Workshop
-- Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning | [arxiv 2401](https://arxiv.org/pdf/2401.04151.pdf) | ICML 2024
+- Local LoRA: Memory-Efficient Fine-Tuning of Large Language Models | [OpenReview](https://openreview.net/pdf?id=LHKmzWP7RN) | WANT@NeurIPS 2023
   
 ## 4. Resource
 
