@@ -256,7 +256,7 @@
 - MLoRA: Multi-Domain Low-Rank Adaptive Network for CTR Prediction | [arxiv 2408](https://arxiv.org/pdf/2408.08913) | [Code](https://github.com/gaohaining/MLoRA) | [arxiv 2409](https://arxiv.org/pdf/2409.08543)
 - ATFLRec: A Multimodal Recommender System with Audio-Text Fusion and Low-Rank Adaptation via Instruction-Tuned Large Language Model | [mdpi](https://www.mdpi.com/2227-7390/11/16/3577) 
 - LoRA-NCL: Neighborhood-Enriched Contrastive Learning with Low-Rank Dimensionality Reduction for Graph Collaborative Filtering | [arxiv 2403](https://arxiv.org/pdf/2403.13325) | [Code](https://github.com/zhengzhi-1997/LLM-TRSR) | WWW2024
-- LoRA for Sequential Recommendation Harnessing large language models for text-rich sequential recommendation [arxiv 2403](https://arxiv.org/pdf/2403.13325)
+- LoRA for Sequential Recommendation Harnessing large language models for text-rich sequential recommendation [arxiv 2403](https://arxiv.org/pdf/2403.13325) | [Code](https://github.com/zhengzhi-1997/LLM-TRSR) | WWW2024
 
 ### LoRA in Anomaly Detection
 
