@@ -111,7 +111,7 @@
 - MIXLORA: Enhancing Large Language Models Fine-Tuning with LoRA-based Mixture of Experts | [arxiv2404](https://arxiv.org/pdf/2404.15159) | [Code](https://github.com/TUDB-Labs/MixLoRA)
 - LoRAMOE: Revolutionizing mixture of experts for maintaining world knowledge in language model alignment | [arxiv 2312](https://arxiv.org/abs/2312.09979) | [Code](https://github.com/Ablustrund/LoRAMoE) |
 - MoRAL: MoE Augmented LoRA for LLMs' Lifelong Learning | [arxiv 2402](https://arxiv.org/pdf/2402.11260)
-- Uni-MoE: Scaling Unified Multimodal LLMs with Mixture of Experts [arxiv 2405](https://arxiv.org/abs/2405.11273) | [Code](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs) | JOURNAL OF LATEX CLASS FILES, VOL. 14, NO. 8
+- Uni-MoE: Scaling Unified Multimodal LLMs with Mixture of Experts [arxiv 2405](https://arxiv.org/abs/2405.11273) | [Code](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs)
 - AdaMoLE: Fine-Tuning Large Language Models with Adaptive Mixture of Low-Rank Adaptation Experts | [arxiv 2405](https://arxiv.org/abs/2405.00361) | [Code](https://github.com/zefang-liu/AdaMoLE) | COLM 2024
 - Mixture of LoRA Experts | [arxiv 2404](https://arxiv.org/abs/2404.13628) |  [Code](https://github.com/yushuiwx/MoLE) | ICLR 2024
 
@@ -123,14 +123,14 @@
 - RST-LoRA: A Discourse-Aware Low-Rank Adaptation for Long Document Abstractive Summarization | [arxiv 2405](https://arxiv.org/abs/2405.00657)
 
 ### c. LoRA for Continue Learning
-- Orthogonal Subspace Learning for Language Model Continual Learning
-- Continual Learning with Low Rank Adaptation
-- Task Arithmetic with LoRA for Continual Learning
-- A Unified Continual Learning Framework with General Parameter-Efficient Tuning
+- Orthogonal Subspace Learning for Language Model Continual Learning | [EMNLP 2023 findings](https://arxiv.org/pdf/2310.14152) | [Code](https://github.com/cmnfriend/O-LoRA) 
+- Continual Learning with Low Rank Adaptation  | [NeurIPS 2023 Workshop](https://arxiv.org/pdf/2311.17601) 
+- Task Arithmetic with LoRA for Continual Learning | [NeurIPS 2023 Workshop](https://arxiv.org/pdf/2311.02428)
+- A Unified Continual Learning Framework with General Parameter-Efficient Tuning | [ICCV 2023](https://arxiv.org/pdf/2303.10070) | [Code](https://github.com/gqk/LAE)
   
 ### d. LoRA for Federated Learning
 
-- SLoRA: Federated parameter efficient fine-tuning of language models | [arxiv 2308](https://arxiv.org/pdf/2308.06522.pdf) | 
+- SLoRA: Federated parameter efficient fine-tuning of language models | [arxiv 2308](https://arxiv.org/pdf/2308.06522.pdf) 
 - pFedLoRA: Model-heterogeneous personalized federated learning with LoRA tuning | [arxiv 2310](https://arxiv.org/pdf/2310.13283.pdf)
 - Improving LoRA in Privacy-preserving Federated Learning [OpenReview](https://openreview.net/pdf?id=NLPzL6HWNl) | ICLR 2024
 - Heterogeneous Low-Rank Approximation for Federated Fine-tuning of On-Device Foundation Models | [arxiv 2401](https://arxiv.org/pdf/2401.06432.pdf) 
@@ -142,7 +142,7 @@
 - DP-DyLoRA: Fine-Tuning Transformer-Based Models On-Device under Differentially Private Federated Learning using Dynamic Low-Rank Adaptation | [arxiv 2405](https://arxiv.org/abs/2405.06368)
 - FDLoRA: Personalized Federated Learning of Large Language Model via Dual LoRA Tuning | [arxiv 2406](https://arxiv.org/pdf/2406.07925)
 - FLoRA: Federated Fine-Tuning Large Language Models with Heterogeneous Low-Rank Adaptations | [arxiv 2409](https://arxiv.org/pdf/2409.05976) [Code](https://github.com/ATP-1010/FederatedLLM) 
-- Automated Federated Pipeline for Parameter-Efficient Fine-Tuning of Large Language Models
+- Automated Federated Pipeline for Parameter-Efficient Fine-Tuning of Large Language Models | [arxiv 2404](https://arxiv.org/pdf/2404.06448)
   
 ## 3. Applications
 
@@ -168,37 +168,37 @@
 (2) Semantic Segmentation
 - Customized Segment Anything Model for Medical Image Segmentation | [arxiv 2304](https://arxiv.org/abs/2304.13785) | [Code](https://github.com/hitachinsk/SAMed) 
 - SAM Meets Robotic Surgery: An Empirical Study on Generalization, Robustness and Adaptation | [MICCAI 2023](https://link.springer.com/chapter/10.1007/978-3-031-47401-9_23)
-- Convolution Meets LoRA: Parameter Efficient Finetuning for Segment Anything Model | [arxiv 2401](https://arxiv.org/abs/2401.17868)
+- Convolution Meets LoRA: Parameter Efficient Finetuning for Segment Anything Model | [arxiv 2401](https://arxiv.org/abs/2401.17868) | [Code](https://github.com/autogluon/autogluon/tree/master/examples/automm/Conv-LoRA?utm_source=catalyzex.com)
 
 
 (3) Others
 - FullLoRA-AT: Efficiently Boosting the Robustness of Pretrained Vision Transformers | [arxiv 2401](https://arxiv.org/pdf/2401.01752.pdf)
-- Low-Rank Rescaled Vision Transformer Fine-Tuning: A Residual Design Approach | [arxiv 2403](https://arxiv.org/abs/2403.19067)
+- Low-Rank Rescaled Vision Transformer Fine-Tuning: A Residual Design Approach | [arxiv 2403](https://arxiv.org/abs/2403.19067) | [Code](https://github.com/zstarN70/RLRR?utm_source=catalyzex.com)
 - LORTSAR: Low-Rank Transformer for Skeleton-based Action Recognition | [arxiv 2407](https://arxiv.org/abs/2407.14655)
 - Parameter-efficient Model Adaptation for Vision Transformers | [arxiv 2203](https://arxiv.org/pdf/2203.16329.pdf)| [Code](https://github.com/eric-ai-lab/PEViT) | AAAI 2023
 
   
 **b. Visual Generation**
-- Cones: Concept Neurons in Diffusion Models for Customized Generation | [arxiv 2303](https://arxiv.org/abs/2303.05125)
-- Mix-of-Show: Decentralized Low-Rank Adaptation for Multi-Concept Customization of Diffusion Models | [arxiv 2305](https://arxiv.org/abs/2305.18292)
+- Cones: Concept Neurons in Diffusion Models for Customized Generation | [arxiv 2303](https://arxiv.org/abs/2303.05125) | [Code](https://github.com/Johanan528/Cones)
+- Mix-of-Show: Decentralized Low-Rank Adaptation for Multi-Concept Customization of Diffusion Models | [arxiv 2305](https://arxiv.org/abs/2305.18292) | [Code](https://github.com/TencentARC/Mix-of-Show)
 - Generating coherent comic with rich story using ChatGPT and Stable Diffusion | [arxiv 2305](https://arxiv.org/abs/2305.11067)
-- Cones 2: Customizable Image Synthesis with Multiple Subjects | [arxiv 2305](https://arxiv.org/abs/2305.19327)
+- Cones 2: Customizable Image Synthesis with Multiple Subjects | [arxiv 2305](https://arxiv.org/abs/2305.19327) | [Code](https://github.com/ali-vilab/Cones-V2)
 - StyleAdapter: A Single-Pass LoRA-Free Model for Stylized Image Generation | [arxiv 2309](https://arxiv.org/abs/2309.01770)
 - ZipLoRA: Any Subject in Any Style by Effectively Merging LoRAs | [arxiv 2311](https://arxiv.org/abs/2311.13600)
-- Intrinsic LoRA: A Generalist Approach for Discovering Knowledge in Generative Models | [arxiv 2311](https://arxiv.org/abs/2311.17137)
+- Intrinsic LoRA: A Generalist Approach for Discovering Knowledge in Generative Models | [arxiv 2311](https://arxiv.org/abs/2311.17137) | [Code](https://github.com/duxiaodan/intrinsic-lora)
 - Lcm-LoRA: A universal stable-diffusion acceleration module | [arxiv 2311](https://arxiv.org/pdf/2311.05556.pdf)| [Code](https://github.com/luosiallen/latent-consistency-model)
 - Continual Diffusion with STAMINA: STack-And-Mask INcremental Adapters | [arxiv 2311](https://arxiv.org/abs/2311.18763) 
 - Orthogonal Adaptation for Modular Customization of Diffusion Models | [arxiv 2312](https://arxiv.org/abs/2312.02432)
 - Style Transfer to Calvin and Hobbes comics using Stable Diffusion | [arxiv 2312](https://arxiv.org/abs/2312.03993)
 - Lora-enhanced distillation on guided diffusion models | [arxiv 2312](https://arxiv.org/pdf/2312.06899)
-- Multi-LoRA Composition for Image Generation | [arxiv 2402](https://arxiv.org/abs/2402.16843)
+- Multi-LoRA Composition for Image Generation | [arxiv 2402](https://arxiv.org/abs/2402.16843) | [Code](https://github.com/maszhongming/Multi-LoRA-Composition)
 - ConvLoRA and AdaBN based Domain Adaptation via Self-Training | [arxiv 2402](https://arxiv.org/pdf/2402.04964.pdf)| [Code](https://github.com/aleemsidra/ConvLoRA) | IEEE ISBI 2024
-- LoRA-Composer: Leveraging Low-Rank Adaptation for Multi-Concept Customization in Training-Free Diffusion Models | [arxiv 2403](https://arxiv.org/abs/2403.11627)
-- Resadapter: Domain consistent resolution adapter for diffusion models | [arxiv 2403](https://arxiv.org/abs/2403.02084)
-- Implicit Style-Content Separation using B-LoRA | [arxiv 2403](https://arxiv.org/abs/2403.14572)
-- Mixture of Low-rank Experts for Transferable AI-Generated Image Detection | [arxiv 2404](https://arxiv.org/abs/2404.04883)
+- LoRA-Composer: Leveraging Low-Rank Adaptation for Multi-Concept Customization in Training-Free Diffusion Models | [arxiv 2403](https://arxiv.org/abs/2403.11627) | [Code](https://github.com/Young98CN/LoRA_Composer?utm_source=catalyzex.com)
+- Resadapter: Domain consistent resolution adapter for diffusion models | [arxiv 2403](https://arxiv.org/abs/2403.02084) | [Code](https://github.com/bytedance/res-adapter)
+- Implicit Style-Content Separation using B-LoRA | [arxiv 2403](https://arxiv.org/abs/2403.14572) | [Code](https://github.com/yardenfren1996/B-LoRA) | 
+- Mixture of Low-rank Experts for Transferable AI-Generated Image Detection | [arxiv 2404](https://arxiv.org/abs/2404.04883) | [Code](https://github.com/zhliuworks/CLIPMoLE) 
 - MoE-FFD: Mixture of Experts for Generalized and Parameter-Efficient Face Forgery Detection | [arxiv 2404](https://arxiv.org/abs/2404.08452)
-- Low-Rank Few-Shot Adaptation of Vision-Language Models | [arxiv 2405](https://arxiv.org/abs/2405.18541)
+- Low-Rank Few-Shot Adaptation of Vision-Language Models | [arxiv 2405](https://arxiv.org/abs/2405.18541) | [Code](https://github.com/MaxZanella/CLIP-LoRA)
 - FouRA: Fourier Low Rank Adaptation | [arxiv 2406](https://arxiv.org/abs/2406.08798)
 
 
@@ -209,14 +209,14 @@
 - DreamSync: Aligning Text-to-Image Generation with Image Understanding Feedback | [arxiv 2311](https://arxiv.org/abs/2311.17946)
 - Block-wise LoRA: Revisiting Fine-grained LoRA for Effective Personalization and Stylization in Text-to-Image Generation | [arxiv 2304](https://arxiv.org/pdf/2403.07500) | AAAI 2024
 - AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning | [arxiv 2307](https://arxiv.org/pdf/2307.04725) | [Code](https://github.com/guoyww/AnimateDiff) | ICLR 2024
-- Multi-Concept Customization of Text-to-Image Diffusion
-- SELMA: Learning and Merging Skill-Specific Text-to-Image Experts with Auto-Generated Data
-- MACE: Mass Concept Erasure in Diffusion Models
-- AdvLoRA: Adversarial Low-Rank Adaptation of Vision-Language Models
-- MoVA: Adapting Mixture of Vision Experts to Multimodal Context
-- LaMDA: Large Model Fine-Tuning via Spectrally Decomposed Low-Dimensional Adaptation
-- Customizing 360-degree panoramas through text-to-image diffusion models. 
-- Space narrative: Generating images and 3d scenes of chinese garden from text using deep learning.
+- Multi-Concept Customization of Text-to-Image Diffusion | [arxiv 2212](https://arxiv.org/pdf/2212.04488) | [Code](https://github.com/adobe-research/custom-diffusion)
+- SELMA: Learning and Merging Skill-Specific Text-to-Image Experts with Auto-Generated Data | [arxiv 2403](https://arxiv.org/pdf/2403.06952) | [Code](https://github.com/jialuli-luka/SELMA)
+- MACE: Mass Concept Erasure in Diffusion Models [arxiv 2403](https://arxiv.org/pdf/2403.06135)| [Code](https://github.com/Shilin-LU/MACE)
+- AdvLoRA: Adversarial Low-Rank Adaptation of Vision-Language Models [arxiv 2404](https://arxiv.org/pdf/2404.13425)
+- MoVA: Adapting Mixture of Vision Experts to Multimodal Context | [arxiv 2404](https://arxiv.org/pdf/2404.13046) | [Code](https://github.com/TempleX98/MoVA)
+- LaMDA: Large Model Fine-Tuning via Spectrally Decomposed Low-Dimensional Adaptation [EMNLP2024 findings](https://arxiv.org/pdf/2406.12832) | [Code](https://github.com/ArminAzizi98/LaMDA?utm_source=catalyzex.com)
+- Customizing 360-degree panoramas through text-to-image diffusion models. | [WACV 2024](https://arxiv.org/pdf/2310.18840) | [Code](https://github.com/littlewhitesea/StitchDiffusion?utm_source=catalyzex.com)
+- Space narrative: Generating images and 3d scenes of chinese garden from text using deep learning | [arxiv 2311](https://arxiv.org/pdf/2311.00339)
 
 
 ### LoRA in Speech Processing
@@ -241,7 +241,7 @@
 - Prollama: A protein large language model for multi-task protein language processing | [arxiv 2402](https://arxiv.org/pdf/2402.16445)
 
 ### LoRA in Time Series
-- Low-rank Adaptation for Spatio-Temporal Forecasting | [arxiv](https://arxiv.org/abs/2404.07919) [Code](https://github.com/RWLinno/ST-LoRA) | 
+- Low-rank Adaptation for Spatio-Temporal Forecasting | [arxiv](https://arxiv.org/abs/2404.07919) | [Code](https://github.com/RWLinno/ST-LoRA) 
 - Channel-Aware Low-Rank Adaptation in Time Series Forecasting | [arxiv](https://arxiv.org/pdf/2407.17246) | [Code](https://github.com/tongnie/C-LoRA)
 - Low-Rank Adaptation of Time Series Foundational Models for Out-of-Domain Modality Forecasting | [arxiv](https://arxiv.org/abs/2405.10216)
 
@@ -256,7 +256,7 @@
 - MLoRA: Multi-Domain Low-Rank Adaptive Network for CTR Prediction | [arxiv 2408](https://arxiv.org/pdf/2408.08913) | [Code](https://github.com/gaohaining/MLoRA) | [arxiv 2409](https://arxiv.org/pdf/2409.08543)
 - ATFLRec: A Multimodal Recommender System with Audio-Text Fusion and Low-Rank Adaptation via Instruction-Tuned Large Language Model | [mdpi](https://www.mdpi.com/2227-7390/11/16/3577) 
 - LoRA-NCL: Neighborhood-Enriched Contrastive Learning with Low-Rank Dimensionality Reduction for Graph Collaborative Filtering | [arxiv 2403](https://arxiv.org/pdf/2403.13325) | [Code](https://github.com/zhengzhi-1997/LLM-TRSR) | WWW2024
-- LoRA for Sequential Recommendation Harnessing large language models for text-rich sequential recommendation
+- LoRA for Sequential Recommendation Harnessing large language models for text-rich sequential recommendation [arxiv 2403](https://arxiv.org/pdf/2403.13325)
 
 ### LoRA in Anomaly Detection
 
