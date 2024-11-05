@@ -214,7 +214,6 @@
 - MACE: Mass Concept Erasure in Diffusion Models [arxiv 2403](https://arxiv.org/pdf/2403.06135)| [Code](https://github.com/Shilin-LU/MACE)
 - AdvLoRA: Adversarial Low-Rank Adaptation of Vision-Language Models [arxiv 2404](https://arxiv.org/pdf/2404.13425)
 - MoVA: Adapting Mixture of Vision Experts to Multimodal Context | [arxiv 2404](https://arxiv.org/pdf/2404.13046) | [Code](https://github.com/TempleX98/MoVA)
-- LaMDA: Large Model Fine-Tuning via Spectrally Decomposed Low-Dimensional Adaptation [EMNLP2024 findings](https://arxiv.org/pdf/2406.12832) | [Code](https://github.com/ArminAzizi98/LaMDA?utm_source=catalyzex.com)
 - Customizing 360-degree panoramas through text-to-image diffusion models. | [WACV 2024](https://arxiv.org/pdf/2310.18840) | [Code](https://github.com/littlewhitesea/StitchDiffusion?utm_source=catalyzex.com)
 - Space narrative: Generating images and 3d scenes of chinese garden from text using deep learning | [arxiv 2311](https://arxiv.org/pdf/2311.00339)
 
