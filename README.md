@@ -7,7 +7,7 @@
 
 **(i) Parameter Decomposition**
 
-- Adaptive Budget Allocation for Parameter Efficient Fine-Tuning|  [ICLR 2023](https://openreview.net/pdf?id=lq62uWRJjiY) \\ Qingru Zhang, Minshuo Chen, Alexander Bukharin, Pengcheng He, Yu Cheng, Weizhu Chen Tuo Zhao 
+- Adaptive Budget Allocation for Parameter Efficient Fine-Tuning|  [ICLR 2023](https://openreview.net/pdf?id=lq62uWRJjiY) \ Qingru Zhang, Minshuo Chen, Alexander Bukharin, Pengcheng He, Yu Cheng, Weizhu Chen Tuo Zhao 
 - BiLoRA: A Bi-level Optimization Framework for Low-rank Adapters | Rushi Qiang, Ruiyi Zhang, Pengtao Xie | [arxiv 2403](https://arxiv.org/abs/2403.13037)
 - LoRETTA: Low-Rank Economic Tensor-Train Adaptation for Ultra-Low-Parameter Fine-Tuning of Large Language Models | Yifan Yang, Jiajun Zhou, Ngai Wong, Zheng Zhang |[arxiv 2402](https://arxiv.org/pdf/2402.11417.pdf)| [Code](https://github.com/yifanycc/loretta) | NAACL 2024 Oral
 - LoTR: Low Tensor Rank Weight Adaptation | Daniel Bershatsky, Daria Cherniuk, Talgat Daulbaev, Aleksandr Mikhalev, Ivan Oseledets |[arxiv 2402](https://arxiv.org/pdf/2402.01376.pdf)| [Code](https://github.com/daskol/lotr)
