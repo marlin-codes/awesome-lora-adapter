@@ -78,6 +78,8 @@ Adithya Renduchintala, Tugrul Konuk, Oleksii Kuchaiev
 Soroush Abbasi Koohpayegani, KL Navaneet, Parsa Nooralinejad, Soheil Kolouri, Hamed Pirsiavash
 - Delta-LoRA: Fine-tuning high-rank parameters with the delta of low-rank matrices | [arXiv 2309](https://arxiv.org/pdf/2309.02411.pdf) \
 Bojia Zi, Xianbiao Qi, Lingzhi Wang, Jianan Wang, Kam-Fai Wong, Lei Zhang
+- Relaxed Recursive Transformers: Effective Parameter Sharing with Layer-wise LoRA ｜ [ICLR 2025](https://openreview.net/forum?id=WwpYSOkkCt) \ Sangmin Bae, Adam Fisch, Hrayr Harutyunyan, Ziwei Ji, Seungyeon Kim, Tal Schuster
+- RaSA: Rank-Sharing Low-Rank Adaptation ｜[ICLR 2025](https://openreview.net/forum?id=GdXI5zCoAt) | [Code](https://github.com/zwhe99/RaSA) \ Zhiwei He, Zhaopeng Tu, Xing Wang, Xingyu Chen, Zhijie Wang, Jiahao Xu, Tian Liang, Wenxiang Jiao, Zhuosheng Zhang, Rui Wang
 
 **(iv) Parameter Quantization**
 
@@ -92,6 +94,9 @@ Hossein Rajabzadeh, Mojtaba Valipour, Tianshu Zhu, Marzieh Tahaei, Hyock Ju Kwon
 Han Guo, Philip Greengard, Eric P. Xing, Yoon Kim
 - LQER: Low-Rank Quantization Error Reconstruction for LLMs | [arXiv 2402](https://arxiv.org/pdf/2402.02446.pdf) | [Code](https://github.com/OpenGVLab/OmniQuant) | ICLR 2024 \
 Cheng Zhang, Jianyi Cheng, George A. Constantinides, Yiren Zhao
+- L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on Large Language Models ｜[arXiv 2402](https://arxiv.org/abs/2402.04902) | ACL2025 \ Hyesung Jeon, Yulhwa Kim, Jae-joon Kim
+- LoQT: Low-Rank Adapters for Quantized Pretraining| [arXiv 2405](https://arxiv.org/abs/2405.16528)| NeurIPS2024 \ Sebastian Loeschcke, Mads Toftrup, Michael J. Kastoryano, Serge Belongie, Vésteinn Snæbjarnarson
+- LowRA: Accurate and Efficient LoRA Fine-Tuning of LLMs under 2 Bits | [ICML 2025](https://openreview.net/forum?id=Fm0nDMKBwC&noteId=X2TeKe8AkH) \ Zikai Zhou, Qizheng Zhang, Hermann Kumbong, Kunle Olukotun
 
 ### b. Ranking Adaptation
 
@@ -121,7 +126,12 @@ Sheng Wang, Boyang Xue, Jiacheng Ye, Jiyue Jiang, Liheng Chen, Lingpeng Kong, Ch
 - Mini-Ensemble Low-Rank Adapters for Parameter-Efficient Fine-Tuning | [arXiv 2402](https://arxiv.org/abs/2402.17263) | ACL 2024 \
 Pengjie Ren, Chengshun Shi, Shiguang Wu, Mengqi Zhang, Zhaochun Ren, Maarten de Rijke, Zhumin Chen, Jiahuan Pei
 - GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection | [arXiv 2403](https://arxiv.org/abs/2403.03507) | [Code](https://github.com/jiaweizzhao/GaLore) | ICML 2024 \
+- Mora: High-rank updating for parameter-efficient fine-tuning | [arXiv 2405](https://arxiv.org/abs/2405.12130) | [Code](https://github.com/kongds/MoRA) \ Ting Jiang, Shaohan Huang, Shengyue Luo, Zihan Zhang, Haizhen Huang, Furu Wei, Weiwei Deng, Feng Sun, Qi Zhang, Deqing Wang, Fuzhen Zhuang
 Jiawei Zhao, Zhenyu Zhang, Beidi Chen, Zhangyang Wang, Anima Anandkumar, Yuandong Tian
+- On the Optimization Landscape of Low Rank Adaptation Methods for Large Language Models | [ICLR 2025](http://openreview.net/forum?id=pxclAomHat) \ Xu-Hui Liu, Yali Du, Jun Wang, Yang Yu
+- Merging LoRAs like Playing LEGO: Pushing the Modularity of LoRA to Extremes Through Rank-Wise Clustering ｜[ICLR 2025](https://openreview.net/forum?id=j6fsbpAllN) \ Ziyu Zhao, Tao Shen, Didi Zhu, Zexi Li, Jing Su, Xuwu Wang, Fei Wu
+- HiRA: Parameter-Efficient Hadamard High-Rank Adaptation for Large Language Models Lora rank augmentation ｜[ICLR 2025](https://openreview.net/forum?id=TwJrTz9cRS) | [Code](https://github.com/hqsiswiliam/hira.) \ Qiushi Huang, Tom Ko, Zhan Zhuang, Lilian Tang, Yu Zhang
+- RandLoRA: Full rank parameter-efficient fine-tuning of large models | [ICLR 2025](https://openreview.net/forum?id=Hn5eoTunHN) | [Code](https://github.com/PaulAlbert31/RandLoRA) \ Paul Albert, Frederic Z. Zhang, Hemanth Saratchandran, Cristian Rodriguez-Opazo, Anton van den Hengel, Ehsan Abbasnejad
   
 ### c. Learning Process
 
@@ -145,7 +155,11 @@ Damjan Kalajdzievski
 - AMAL: Meta Knowledge-Driven Few-Shot Adapter Learning | [ACL 2022](https://aclanthology.org/2022.emnlp-main.709.pdf) \
 S. K. Hong, Tae Young Jang
 
-#### **(v) Post-hoc Processing**
+#### **(v) Pre-processing**
+
+- PLoP: Precise LoRA Placement for Efficient Finetuning of Large Models | [arXiv 2506](https://arxiv.org/abs/2506.20629) | [Code](https://github.com/soufiane001/plop) \ Soufiane Hayou, Nikhil Ghosh, Bin Yu
+
+#### **(vi) Post-hoc Processing**
 
 - Bayesian Low-rank Adaptation for Large Language Models | [arXiv 2308](https://arxiv.org/abs/2308.13111) | [Code](https://github.com/adamxyang/laplace-lora) | ICLR 2024 \
 Adam X. Yang, Maxime Robeyns, Xi Wang, Laurence Aitchison
@@ -168,6 +182,7 @@ Jiacheng Zhu, Kristjan Greenewald, Kimia Nadjahi, Haitz Sáez de Ocáriz Borde, 
 **LoRA Composition**
 - Adaptersoup: Weight averaging to improve generalization of pretrained language models | [arXiv 2302](https://arxiv.org/pdf/2302.07027) | [Code](https://github.com/UKPLab/sentence-transformers) \
 Alexandra Chronopoulou, Matthew E. Peters, Alexander Fraser, Jesse Dodge
+- LoRA Soups: Merging LoRAs for Practical Skill Composition Tasks ｜ [COLING 2025](https://arxiv.org/abs/2410.13025) | [Code](https://github.com/aksh555/LoRA-Soups) \ Akshara Prabhakar, Yuanzhi Li, Karthik Narasimhan, Sham Kakade, Eran Malach, Samy Jelassi
 - LoRAhub: Efficient cross-task generalization via dynamic LoRA composition | [arXiv 2307](https://arxiv.org/pdf/2307.13269.pdf) | [Code](https://github.com/sail-sg/LoRAhub) | COLM 2024 \
 Alexandra Chronopoulou, Matthew E. Peters, Alexander Fraser, Jesse Dodge
 - LoRARetriever: Input-Aware LoRA Retrieval and Composition for Mixed Tasks in the Wild | [arXiv 2402](https://arxiv.org/pdf/2402.09997.pdf) | [Code](https://github.com/tatsu-lab/stanford_alpaca) \
@@ -182,6 +197,7 @@ Arnav Chavan, Zhuang Liu, Deepak Gupta, Eric Xing, Zhiqiang Shen
 Xi Wang, Laurence Aitchison, Maja Rudolph
 - MultiLoRA: Democratizing LoRA for Better Multi-Task Learning | [arXiv 2311](https://arxiv.org/pdf/2311.11501.pdf) \
 Yiming Wang, Yu Lin, Xiaodong Zeng, Guannan Zhang
+- ComLoRA: A Competitive Learning Approach for Enhancing LoRA ｜ [ICLR 2025](https://openreview.net/forum?id=jFcNXJGPGh) | [Code](https://github.com/hqsiswiliam/comlora) \ Qiushi Huang, Tom Ko, Lilian Tang, Yu Zhang
 
 **LoRA MoE**
 
@@ -211,6 +227,14 @@ Yunxin Li, Shenyuan Jiang, Baotian Hu, Longyue Wang, Wanqi Zhong, Wenhan Luo, Li
 Zefang Liu, Jiahua Luo
 - Mixture of LoRA Experts | [arXiv 2404](https://arxiv.org/abs/2404.13628) | [Code](https://github.com/yushuiwx/MoLE) | ICLR 2024 \
 Xun Wu, Shaohan Huang, Furu Wei
+- HydraLoRA: An Asymmetric LoRA Architecture for Efficient Fine-Tuning | [NeurIPS 2024](https://openreview.net/forum?id=qEpi8uWX3N&referrer=%5Bthe%20profile%20of%20Zhijiang%20Guo%5D(%2Fprofile%3Fid%3D~Zhijiang_Guo2)) | [Code](https://github.com/Clin0212/HydraLoRA) \ Chunlin Tian, Zhan Shi, Zhijiang Guo, Li Li, Chengzhong Xu
+- AlphaLoRA: Assigning LoRA Experts Based on Layer Training Quality | [EMNLP 2024](https://aclanthology.org/2024.emnlp-main.1141/) | [Code](https://github.com/morelife2017/alphalora) \ Peijun Qing, Chongyang Gao, Yefan Zhou, Xingjian Diao, Yaoqing Yang, Soroush Vosoughi
+- TeamLoRA: Boosting Low-Rank Adaptation with Expert Collaboration and Competition | [ACL 2025](https://aclanthology.org/2025.acl-long.669/) | [Code](https://github.com/DCDmllm/TeamLoRA) \ Tianwei Lin, Jiang Liu, Wenqiao Zhang, Yang Dai, Haoyuan Li, Zhelun Yu, Wanggui He, Juncheng Li, Jiannan Guo, Hao Jiang, Siliang Tang, Yueting Zhuang
+- RepLoRA: Reparameterizing Low-rank Adaptation via the Perspective of Mixture of Experts | [ICML 2025](https://openreview.net/forum?id=Sg8ZqQ9J6W) \ Tuan Truong, Chau Nguyen, Huy Nguyen, Minh Le, Trung Le, Nhat Ho
+- Make LoRA Great Again: Boosting LoRA with Adaptive Singular Values and Mixture-of-Experts Optimization Alignment | [ICML 2025](https://openreview.net/forum?id=SUxq4HeIAd&noteId=cDt4PKFUE0) | [Code](https://github.com/Facico/GOAT-PEFT) \ Chenghao Fan, Zhenyi Lu, Sichen Liu, Chengfeng Gu, Xiaoye Qu, Wei Wei, Yu Cheng
+- MoKA:Parameter Efficiency Fine-Tuning via Mixture of Kronecker Product Adaption| [COLING 2025](https://aclanthology.org/2025.coling-main.679/) \ Beiming Yu, Zhenfei Yang, Xiushuang Yi
+- Adapters Selector: Cross-domains and Multi-tasks LoRA Modules  Multi-Task Learning with PEFT MoE | [COLING 2025](https://aclanthology.org/2025.coling-main.40/) \ Yimin Tian, Bolin Zhang, Zhiying Tu, Dianhui Chu
+- MoSLD: An Extremely Parameter-Efficient Mixture-of-Shared LoRAs for Multi-Task LearningMoE LoRA，Multi-Task Learning with PEFT | [COLING 2025](https://aclanthology.org/2025.coling-main.111/) \ Lulu Zhao, Weihao Zeng, Shi Xiaofeng, Hua Zhou
 
 ### b. LoRA for Long Sequence Modeling
 
@@ -231,7 +255,8 @@ Martin Wistuba, Prabhu Teja Sivaprasad, Lukas Balles, Giovanni Zappella
 - Task Arithmetic with LoRA for Continual Learning | [NeurIPS 2023 Workshop](https://arxiv.org/pdf/2311.02428) \
 Rajas Chitale, Ankit Vaidya, Aditya Kane, Archana Ghotkar
 - A Unified Continual Learning Framework with General Parameter-Efficient Tuning | [ICCV 2023](https://arxiv.org/pdf/2303.10070) | [Code](https://github.com/gqk/LAE) \
-Qiankun Gao, Chen Zhao, Yifan Sun, Teng Xi, Gang Zhang, Bernard Ghanem, Jian Zhang 
+Qiankun Gao, Chen Zhao, Yifan Sun, Teng Xi, Gang Zhang, Bernard Ghanem, Jian Zhang
+- TreeLoRA: Efficient Continual Learning via Layer-Wise LoRAs Guided by a Hierarchical Gradient-Similarity Tree | [ICML 2025](https://openreview.net/forum?id=f6ibJCQfH4) | [Code](https://github.com/ZinYY/TreeLoRA) \ Yu-Yang Qian, Yuan-Ze Xu, Zhen-Yu Zhang, Peng Zhao, Zhi-Hua Zhou
   
 ### d. LoRA for Federated Learning
 
@@ -260,7 +285,11 @@ Jiaxing QI, Zhongzhi Luan, Shaohan Huang, Carol Fung, Hailong Yang, Depei Qian
 - FLoRA: Federated Fine-Tuning Large Language Models with Heterogeneous Low-Rank Adaptations | [arxiv 2409](https://arxiv.org/pdf/2409.05976) [Code](https://github.com/ATP-1010/FederatedLLM) \
 Ziyao Wang, Zheyu Shen, Yexiao He, Guoheng Sun, Hongyi Wang, Lingjuan Lyu, Ang Li 
 - Automated Federated Pipeline for Parameter-Efficient Fine-Tuning of Large Language Models | [arxiv 2404](https://arxiv.org/pdf/2404.06448) \
-Zihan Fang, Zheng Lin, Zhe Chen, Xianhao Chen, Yue Gao, Yuguang Fang 
+Zihan Fang, Zheng Lin, Zhe Chen, Xianhao Chen, Yue Gao, Yuguang Fang
+- Towards Federated Low-Rank Adaptation of Language Models with Rank Heterogeneity | [NAACL 2025](https://aclanthology.org/2025.naacl-short.30/) \ Yuji Byun, Jaeho Lee
+- Towards Robust and Efficient Federated Low-Rank Adaptation with Heterogeneous Clients | [ACL 2025](https://aclanthology.org/2025.acl-long.19/) \ Jabin Koo, Minwoo Jang, Jungseul Ok
+- FedEx-LoRA: Exact Aggregation for Federated and Efficient Fine-Tuning of Large Language Models | [ACL 2025](https://aclanthology.org/2025.acl-long.67/) \ Raghav Singhal, Kaustubh Ponkshe, Praneeth Vepakomma
+- DoFIT: Domain-aware Federated Instruction Tuning with Alleviated Catastrophic Forgetting | [NeurIPS 2024](https://openreview.net/forum?id=FDfrPugkGU) \ Binqian Xu, Xiangbo Shu, Haiyang Mei, Zechen Bai, Basura Fernando, Mike Zheng Shou, Jinhui Tang
   
 ## 3. Applications
 
@@ -274,6 +303,7 @@ Zedian Xiao, William Held, Yanchen Liu, Diyi Yang
 Khoi M.Le, Trinh Pham, Tho Quan, Anh Tuan Luu
 - Task Arithmetic with LoRA for Continual Learning | [arXiv 2311](https://arxiv.org/pdf/2311.02428.pdf) | NeurIPS 2023 Workshop \
 Rajas Chitale, Ankit Vaidya, Aditya Kane, Archana Ghotkar
+- MLAS-LoRA: Language-Aware Parameters Detection and LoRA-Based Knowledge Transfer for Multilingual Machine Translation | [ACL 2025](https://aclanthology.org/2025.acl-long.762/) \ Tianyu Dong, Bo Li, Jinsong Liu, Shaolin Zhu, Deyi Xiong
 
 ### LoRA in Computer Vision
 
@@ -313,6 +343,7 @@ Wei Dong, Xing Zhang, Bihui Chen, Dawei Yan, Zhijun Lin, Qingsen Yan, Peng Wang,
 Soroush Oraki, Harry Zhuang, Jie Liang
 - Parameter-efficient Model Adaptation for Vision Transformers | [arXiv 2203](https://arxiv.org/pdf/2203.16329.pdf) | [Code](https://github.com/eric-ai-lab/PEViT) | AAAI 2023 \
 Xuehai He, Chunyuan Li, Pengchuan Zhang, Jianwei Yang, Xin Eric Wang
+
 
 **Visual Generation**
 
@@ -356,6 +387,8 @@ Chenqi Kong, Anwei Luo, Peijun Bao, Yi Yu, Haoliang Li, Zengwei Zheng, Shiqi Wan
 Maxime Zanella, Ismail Ben Ayed
 - FouRA: Fourier Low Rank Adaptation | [arXiv 2406](https://arxiv.org/abs/2406.08798) \
 Shubhankar Borse, Shreya Kadambi, Nilesh Prasad Pandey, Kartikeya Bhardwaj, Viswanath Ganapathy, Sweta Priyadarshi, Risheek Garrepalli, Rafael Esteves, Munawar Hayat, Fatih Porikli
+- LoRA-X: Bridging Foundation Models with Training-Free Cross-Model Adaptation | [ICLR 2025](https://openreview.net/forum?id=6cQ6cBqzV3) \ Farzad Farhadzadeh, Debasmit Das, Shubhankar Borse, Fatih Porikli
+- TimeStep Master: Asymmetrical Mixture of Timestep LoRA Experts for Versatile and Efficient Diffusion Models in Vision ｜[ICML 2025](https://arxiv.org/abs/2503.07416) \ Shaobin Zhuang, Yiwei Guo, Yanbo Ding, Kunchang Li, Xinyuan Chen, Yaohui Wang, Fangyikang Wang, Ying Zhang, Chen Li, Yali Wang
 
 ### LoRA in Multimodal Learning
 
@@ -381,6 +414,7 @@ Zhuofan Zong, Bingqi Ma, Dazhong Shen, Guanglu Song, Hao Shao, Dongzhi Jiang, Ho
 Hai Wang, Xiaoyu Xiang, Yuchen Fan, Jing-Hao Xue
 - Space narrative: Generating images and 3d scenes of chinese garden from text using deep learning | [arXiv 2311](https://arxiv.org/pdf/2311.00339) \
 Jiaxi Shi, Hao Hua
+- Dynamic Mixture of Curriculum LoRA Experts for Continual Multimodal Instruction Tuning | [ICML 2025](https://openreview.net/forum?id=zpGK1bOlHt) \ Chendi Ge, Xin Wang, Zeyang Zhang, Hong Chen, Jiapei Fan, Longtao Huang, Hui Xue, Wenwu Zhu 
 
 ### LoRA in Speech Processing
 
@@ -412,6 +446,7 @@ Robert Schmirler, Michael Heinzinger, Burkhard Rost
 Shuai Zeng, Duolin Wang, Dong Xu
 - Prollama: A protein large language model for multi-task protein language processing | [arXiv 2402](https://arxiv.org/pdf/2402.16445) \
 Liuzhenghao Lv, Zongying Lin, Hao Li, Yuyang Liu, Jiaxi Cui, Calvin Yu-Chian Chen, Li Yuan, Yonghong Tian
+- Structured information extraction from scientific text with large language models | [Nature Communications](https://www.nature.com/articles/s41467-024-45563-x) \ John Dagdelen, Alexander Dunn, Sanghoon Lee, Nicholas Walker, Andrew S. Rosen, Gerbrand Ceder, Kristin A. Persson, Anubhav Jain
 
 ### LoRA in Time Series
 
@@ -421,6 +456,8 @@ Weilin Ruan, Wei Chen, Xilin Dang, Jianxiang Zhou, Weichuang Li, Xu Liu, Yuxuan 
 Tong Nie, Yuewen Mei, Guoyang Qin, Jian Sun, Wei Ma
 - Low-Rank Adaptation of Time Series Foundational Models for Out-of-Domain Modality Forecasting | [arXiv 2405](https://arxiv.org/abs/2405.10216) \
 Divij Gupta, Anubhav Bhatti, Suraj Parmar, Chen Dan, Yuwei Liu, Bingjie Shen, San Lee
+- Mixture of Low Rank Adaptation with Partial Parameter Sharing for Time Series Forecasting | [arXiv 2505](https://arxiv.org/abs/2505.17872) \ Licheng Pan, Zhichao Chen, Haoxuan Li, Guangyi Liu, Zhijian Xu, Zhaoran Liu, Hao Wang, Ying Wei
+
 
 ### LoRA in Graph Learning
 
@@ -428,6 +465,7 @@ Divij Gupta, Anubhav Bhatti, Suraj Parmar, Chen Dan, Yuwei Liu, Bingjie Shen, Sa
 Zhe-Rui Yang, Jindong Han, Chang-Dong Wang, Hao Liu
 - Fast and Continual Knowledge Graph Embedding via Incremental LoRA | [arXiv 2407](https://arxiv.org/pdf/2407.05705) | [Code](https://github.com/seukgcode/FastKGE) | IJCAI 2024 \
 Jiajun Liu, Wenjun Ke, Peng Wang, Jiahao Wang, Jinhua Gao, Ziyu Shang, Guozheng Li, Zijie Xu, Ke Ji, Yining Li
+- ELoRA: Low-Rank Adaptation for Equivariant GNNs |[ICML 2025](https://openreview.net/forum?id=hcoxm3Vwgy) | [Code](https://github.com/hyjwpk/ELoRA)\ Chen Wang, Siyu Hu, Guangming Tan, Weile Jia
 
 ### LoRA in Recommender System
 
