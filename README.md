@@ -525,7 +525,7 @@ Chendi Ge, Xin Wang, Zeyang Zhang, Hong Chen, Jiapei Fan, Longtao Huang, Hui Xue
   Eric L. Buehler, Markus J. Buehler
 - ESMBind and QBind: LoRA, QLoRA, and ESM-2 for Predicting Binding Sites and Post Translational Modification | [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.11.13.566930v1.abstract) \
   Amelie Schreiber
-- Fine-tuning protein language models boosts predictions across diverse tasks | [Nature Communication](https://www.nature.com/articles/s41467-024-51844-2) \
+- Fine-tuning protein language models boosts predictions across diverse tasks | [Nature Communications](https://www.nature.com/articles/s41467-024-51844-2) \
   Robert Schmirler, Michael Heinzinger, Burkhard Rost
 - Parameter-efficient fine-tuning on large protein language models improves signal peptide prediction | [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.11.04.565642v1) \
   Shuai Zeng, Duolin Wang, Dong Xu
