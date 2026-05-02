@@ -182,6 +182,8 @@ If a paper spans multiple themes, we place it under its primary contribution so 
   Shengkun Zhu, Jinshan Zeng, Yiming Wang, Sheng Wang, Yuan Sun, Shangfeng Chen, Yuan Yao, Qiang Yang
 - Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT | [arXiv 2511](https://arxiv.org/abs/2511.00051) | AAAI 2026 \
   Chang Da, Peng Xue, Yu Li, Yongxiang Liu, Pengxiang Xu, Shixun Zhang
+- RoZO: Geometry-Aware Zeroth-Order Fine-Tuning on Low-Rank Adapters for Black-Box Large Language Models | [EACL 2026](https://aclanthology.org/2026.eacl-long.80/) \
+  Zichen Song, Weijia Li
 
 #### **(v) Pre-processing**
 
@@ -224,8 +226,8 @@ If a paper spans multiple themes, we place it under its primary contribution so 
   Alexandra Chronopoulou, Matthew E. Peters, Alexander Fraser, Jesse Dodge
 - LoRA Soups: Merging LoRAs for Practical Skill Composition Tasks ｜ [COLING 2025](https://arxiv.org/abs/2410.13025) | [Code](https://github.com/aksh555/LoRA-Soups) \
    Akshara Prabhakar, Yuanzhi Li, Karthik Narasimhan, Sham Kakade, Eran Malach, Samy Jelassi
-- LoRAhub: Efficient cross-task generalization via dynamic LoRA composition | [arXiv 2307](https://arxiv.org/pdf/2307.13269.pdf) | [Code](https://github.com/sail-sg/LoRAhub) | COLM 2024 \
-  Alexandra Chronopoulou, Matthew E. Peters, Alexander Fraser, Jesse Dodge
+- LoRAHub: Efficient Cross-Task Generalization via Dynamic LoRA Composition | [arXiv 2307](https://arxiv.org/pdf/2307.13269.pdf) | [Code](https://github.com/sail-sg/LoRAhub) | COLM 2024 \
+  Chengsong Huang, Qian Liu, Bill Yuchen Lin, Tianyu Pang, Chao Du, Min Lin
 - LoRARetriever: Input-Aware LoRA Retrieval and Composition for Mixed Tasks in the Wild | [arXiv 2402](https://arxiv.org/pdf/2402.09997.pdf) | [Code](https://github.com/tatsu-lab/stanford_alpaca) \
   Ziyu Zhao, Leilei Gan, Guoyin Wang, Wangchunshu Zhou, Hongxia Yang, Kun Kuang, Fei Wu
 - Batched Low-Rank Adaptation of Foundation Models | [arXiv 2312](https://arxiv.org/pdf/2312.05677.pdf) | [Code](https://github.com/huggingface/peft/tree/main) \
@@ -242,10 +244,14 @@ Sanghyeon Kim, Hyunmo Yang, Younghyun Kim, Youngjoon Hong, Eunbyung Park
    Qiushi Huang, Tom Ko, Lilian Tang, Yu Zhang
 - SeedLoRA: A Fusion Approach to Efficient LLM Fine-Tuning | [ICML 2025](https://openreview.net/forum?id=vexHifrbJg) \
    Yong Liu, Di Fu, Shenggan Cheng, Zirui Zhu, Yang Luo, Minhao Cheng, Cho-Jui Hsieh, Yang You
+- Completely Modular Fine-tuning for Dynamic Language Adaptation | [Findings of EACL 2026](https://aclanthology.org/2026.findings-eacl.252/) \
+  Zhe Cao, Yusuke Oda, Qianying Liu, Akiko Aizawa, Taro Watanabe
+- TIPA: Typologically Informed Parameter Aggregation | [Findings of EACL 2026](https://aclanthology.org/2026.findings-eacl.119/) \
+  Stef Accou, Wessel Poelman
 
 **MoE and Expert Routing**
 
-- MoeLoRA: Contrastive learning guided mixture of experts on parameter-efficient fine-tuning for large language models | [arXiv 2402](https://arxiv.org/pdf/2402.12851.pdf) \
+- MoELoRA: Contrastive learning guided mixture of experts on parameter-efficient fine-tuning for large language models | [arXiv 2402](https://arxiv.org/pdf/2402.12851.pdf) \
   Tongxu Luo, Jiahe Lei, Fangyu Lei, Weihao Liu, Shizhu He, Jun Zhao, Kang Liu
 - Higher Layers Need More LoRA Experts | [arXiv 2402](https://arxiv.org/pdf/2402.08562.pdf) | [Code](https://github.com/GCYZSL/MoLA) \
   Chongyang Gao, Kezhen Chen, Jinmeng Rao, Baochen Sun, Ruibo Liu, Daiyi Peng, Yawen Zhang, Xiaoyuan Guo, Jie Yang, VS Subrahmanian
@@ -281,11 +287,13 @@ Sanghyeon Kim, Hyunmo Yang, Younghyun Kim, Youngjoon Hong, Eunbyung Park
    Tuan Truong, Chau Nguyen, Huy Nguyen, Minh Le, Trung Le, Nhat Ho
 - Make LoRA Great Again: Boosting LoRA with Adaptive Singular Values and Mixture-of-Experts Optimization Alignment | [ICML 2025](https://openreview.net/forum?id=SUxq4HeIAd&noteId=cDt4PKFUE0) | [Code](https://github.com/Facico/GOAT-PEFT) \
    Chenghao Fan, Zhenyi Lu, Sichen Liu, Chengfeng Gu, Xiaoye Qu, Wei Wei, Yu Cheng
-- MoKA:Parameter Efficiency Fine-Tuning via Mixture of Kronecker Product Adaption| [COLING 2025](https://aclanthology.org/2025.coling-main.679/) \
+- MoKA: Parameter Efficiency Fine-Tuning via Mixture of Kronecker Product Adaption | [COLING 2025](https://aclanthology.org/2025.coling-main.679/) \
    Beiming Yu, Zhenfei Yang, Xiushuang Yi
-- Adapters Selector: Cross-domains and Multi-tasks LoRA Modules  Multi-Task Learning with PEFT MoE | [COLING 2025](https://aclanthology.org/2025.coling-main.40/) \
+- Adapters Selector: Cross-domains and Multi-tasks LoRA Modules Integration Usage Method | [COLING 2025](https://aclanthology.org/2025.coling-main.40/) \
    Yimin Tian, Bolin Zhang, Zhiying Tu, Dianhui Chu
-- MoSLD: An Extremely Parameter-Efficient Mixture-of-Shared LoRAs for Multi-Task LearningMoE LoRA，Multi-Task Learning with PEFT | [COLING 2025](https://aclanthology.org/2025.coling-main.111/) \
+- Parameter-Efficient Routed Fine-Tuning: Mixture-of-Experts Demands Mixture of Adaptation Modules | [Findings of EACL 2026](https://aclanthology.org/2026.findings-eacl.232/) \
+  Yilun Liu, Yunpu Ma, Yuetian Lu, Shuo Chen, Zifeng Ding, Volker Tresp
+- MoSLD: An Extremely Parameter-Efficient Mixture-of-Shared LoRAs for Multi-Task Learning | [COLING 2025](https://aclanthology.org/2025.coling-main.111/) \
    Lulu Zhao, Weihao Zeng, Shi Xiaofeng, Hua Zhou
 - HMoRA: Making LLMs More Effective with Hierarchical Mixture of LoRA Experts | [ICLR 2025](https://openreview.net/forum?id=lTkHiXeuDl) | [Code](https://github.com/LiaoMengqi/HMoRA.) \
    Mengqi Liao, Wei Chen, Junfeng Shen, Shengnan Guo, Huaiyu Wan
@@ -332,6 +340,8 @@ Sanghyeon Kim, Hyunmo Yang, Younghyun Kim, Youngjoon Hong, Eunbyung Park
    Yu-Yang Qian, Yuan-Ze Xu, Zhen-Yu Zhang, Peng Zhao, Zhi-Hua Zhou
 - SD-LoRA: Scalable Decoupled Low-Rank Adaptation for Class Incremental Learning | [ICLR 2025](https://openreview.net/forum?id=5U1rlpX68A) | [Code](https://github.com/WuYichen-97/SD-Lora-CL) \
    Yichen Wu, Hongming Piao, Long-Kai Huang, Renzhen Wang, Wanhua Li, Hanspeter Pfister, Deyu Meng, Kede Ma, Ying Wei
+- Sparse Adapter Fusion for Continual Learning in NLP | [EACL 2026](https://aclanthology.org/2026.eacl-long.37/) \
+   Min Zeng, Xi Chen, Haiqin Yang, Yike Guo
 - Continual Low-Rank Adapters for LLM-based Generative Recommender Systems | [arXiv 2510](https://arxiv.org/abs/2510.25093) | ICLR 2026 \
    Hyunsik Yoo, Ting-Wei Li, SeongKu Kang, Zhining Liu, Charlie Xu, Qilin Qi, Hanghang Tong
 
@@ -371,6 +381,8 @@ Jabin Koo, Minwoo Jang, Jungseul Ok
 Raghav Singhal, Kaustubh Ponkshe, Praneeth Vepakomma
 - DoFIT: Domain-aware Federated Instruction Tuning with Alleviated Catastrophic Forgetting | [NeurIPS 2024](https://openreview.net/forum?id=FDfrPugkGU) \
 Binqian Xu, Xiangbo Shu, Haiyang Mei, Zechen Bai, Basura Fernando, Mike Zheng Shou, Jinhui Tang
+- RB-LoRA: Rank-Balanced Aggregation for Low-Rank Adaptation with Federated Fine-Tuning | [Findings of EACL 2026](https://aclanthology.org/2026.findings-eacl.88/) \
+Sihyeon Ha, Yongjeong Oh, Yo-Seb Jeon
 - FedALT: Federated Fine-Tuning through Adaptive Local Training with Rest-of-World LoRA | [arXiv 2503](https://arxiv.org/abs/2503.11880) | AAAI 2026 \
 Jieming Bian, Lei Wang, Letian Zhang, Jie Xu
 - WinFLoRA: Incentivizing Client-Adaptive Aggregation in Federated LoRA under Privacy Heterogeneity | [arXiv 2602](https://arxiv.org/abs/2602.01126) | WWW 2026 \

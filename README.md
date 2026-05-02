@@ -61,6 +61,7 @@ We will keep updating this repository with recent conference papers and notewort
 
 ## Latest Update
 
+- Add six recent papers from EACL 2026 and Findings of EACL 2026 on federated aggregation, zeroth-order optimization, modular composition, routing, and continual adaptation.
 - Add recent papers from WWW 2026, AAAI 2026, ICLR 2026, and conservatively verified CVPR 2026 sources, and re-taxonomize `papers.md` around mechanisms, settings, and domains.
 
 ## Overview of LoRA for Foundation Models
@@ -119,6 +120,26 @@ We will keep updating this repository with recent conference papers and notewort
 
 1. [Co-LoRA: Collaborative Model Personalization on Heterogeneous Multi-Modal Clients](https://openreview.net/forum?id=0g5Dk4Qfh0), ICLR 2026 \
    *Minhyuk Seo, Taeheon Kim, Hankook Lee, Jonghyun Choi, Tinne Tuytelaars*
+
+**EACL 2026 / Findings of EACL 2026**
+
+1. [RB-LoRA: Rank-Balanced Aggregation for Low-Rank Adaptation with Federated Fine-Tuning](https://aclanthology.org/2026.findings-eacl.88/), Findings of EACL 2026 \
+   *Sihyeon Ha, Yongjeong Oh, Yo-Seb Jeon*
+
+1. [RoZO: Geometry-Aware Zeroth-Order Fine-Tuning on Low-Rank Adapters for Black-Box Large Language Models](https://aclanthology.org/2026.eacl-long.80/), EACL 2026 \
+   *Zichen Song, Weijia Li*
+
+1. [Parameter-Efficient Routed Fine-Tuning: Mixture-of-Experts Demands Mixture of Adaptation Modules](https://aclanthology.org/2026.findings-eacl.232/), Findings of EACL 2026 \
+   *Yilun Liu, Yunpu Ma, Yuetian Lu, Shuo Chen, Zifeng Ding, Volker Tresp*
+
+1. [Sparse Adapter Fusion for Continual Learning in NLP](https://aclanthology.org/2026.eacl-long.37/), EACL 2026 \
+   *Min Zeng, Xi Chen, Haiqin Yang, Yike Guo*
+
+1. [Completely Modular Fine-tuning for Dynamic Language Adaptation](https://aclanthology.org/2026.findings-eacl.252/), Findings of EACL 2026 \
+   *Zhe Cao, Yusuke Oda, Qianying Liu, Akiko Aizawa, Taro Watanabe*
+
+1. [TIPA: Typologically Informed Parameter Aggregation](https://aclanthology.org/2026.findings-eacl.119/), Findings of EACL 2026 \
+   *Stef Accou, Wessel Poelman*
 
 **CVPR 2026**
 
