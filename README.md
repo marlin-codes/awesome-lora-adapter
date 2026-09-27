@@ -64,6 +64,7 @@ We will keep updating this repository with recent conference papers and notewort
 
 ## Latest Update
 
+- **2026-09-27:** Add 38 verified papers from official IJCAI, ECCV, UAI, EMNLP, INLG, and SC 2026 records, covering structural adaptation, optimization, merging, continual and federated learning, serving, security, vision, and multimodal applications.
 - **2026-08-04:** Add verified papers from WWW, AAAI, ICLR, EACL, ACL, ICML, CVPR, KDD, AISTATS, SIGIR, and COLM 2026; re-taxonomize `papers.md`; remove duplicate entries and repair incorrect links.
 
 ## Overview of LoRA for Foundation Models
@@ -128,6 +129,29 @@ We will keep updating this repository with recent conference papers and notewort
 1. [Co-LoRA: Collaborative Model Personalization on Heterogeneous Multi-Modal Clients](https://openreview.net/forum?id=0g5Dk4Qfh0), ICLR 2026 \
    *Minhyuk Seo, Taeheon Kim, Hankook Lee, Jonghyun Choi, Tinne Tuytelaars*
 
+**IJCAI 2026**
+
+1. [SeMi-LoRA: Enhancing Low-Rank Adaptation via Separation and Mixing](https://www.ijcai.org/proceedings/2026/671), IJCAI 2026 \
+   *Zhenfei Yang, Beiming Yu, Peiqin Lin, Yongkang Liu, Deyi Xiong*
+
+1. [LoCo: Low-Rank Compositional Rotation Fine-Tuning](https://www.ijcai.org/proceedings/2026/521), IJCAI 2026 \
+   *An Nguyen, Jaesik Choi, Anh Tong*
+
+1. [M-LoRA: Efficient Serving for Concurrent LoRA Adapters with Memory-Aware Speculative Scheduler on Single GPU](https://www.ijcai.org/proceedings/2026/502), IJCAI 2026 \
+   *Shaolong Li, Xiang Yang, Qi Qi, Haifeng Sun, Zirui Zhuang, Bo He, Wanyi Ning, Jingyu Wang*
+
+1. [SDFLoRA: Selective Decoupled Federated LoRA for Privacy-preserving Fine-tuning with Heterogeneous Clients](https://www.ijcai.org/proceedings/2026/533), IJCAI 2026 \
+   *Zhikang Shen, Jianrong Lu, Haiyuan Wan, Jianhai Chen*
+
+1. [Toward LoRA Copyright Protection with an Authorized Dual-Watermarking Framework](https://www.ijcai.org/proceedings/2026/96), IJCAI 2026 \
+   *Zhipeng Yin, Zichong Wang, Ruijun Chen, Xin Ning, Xingyu Zhang, Wenbin Zhang*
+
+1. [GeoSFLoRA: Geometry-Conditioned Spectral Flow Low-Rank Adaptation for 2D-to-3D Transfer in Medical Image Segmentation](https://www.ijcai.org/proceedings/2026/748), IJCAI 2026 \
+   *Qin Hao, Bonian Chen, Shengwei Tian, Long Yu*
+
+1. [Unlocking More Granular Control of Memory-Efficient LLM Finetuning](https://www.ijcai.org/proceedings/2026/555), IJCAI 2026 \
+   *Yezhen Wang, Zhouhao Yang, Fanyi Pu, Kenji Kawaguchi*
+
 **EACL 2026 / Findings of EACL 2026**
 
 1. [RB-LoRA: Rank-Balanced Aggregation for Low-Rank Adaptation with Federated Fine-Tuning](https://aclanthology.org/2026.findings-eacl.88/), Findings of EACL 2026 \
@@ -168,6 +192,17 @@ We will keep updating this repository with recent conference papers and notewort
 1. [GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation](https://aclanthology.org/2026.findings-acl.645/), Findings of ACL 2026 \
    *Lin Mu, Guoji Wang, Li Ni, Lei Sang, Zhize Wu, Peiquan Jin, Yiwen Zhang*
 
+**EMNLP 2026 / INLG 2026**
+
+1. [TaRA: Training-Aware Low-Rank Adaptation Initialization](https://openreview.net/forum?id=T3GF7rAVhx), EMNLP 2026 \
+   *Taehyeon Kim, Eunhyeok Park*
+
+1. [What Did My Adapter Break? A Generation-Level Evaluation of Adaptation and Retention in PEFT-Adapted LLMs](https://2026.inlgmeeting.org/accepted-papers.html), INLG 2026 \
+   *Guy Bilitski, Kfir Bar, Shai Fine*
+
+1. [Towards Plug-and-Play Attribute Control Modules in Text Generation: An Exploratory Study of LoRA Portability Across Model Families](https://2026.inlgmeeting.org/accepted-papers.html), INLG 2026 \
+   *Michela Lorandi, Anya Belz*
+
 **ICML 2026**
 
 1. [ScaLoRA: Optimally Scaled Low-Rank Adaptation for Efficient High-Rank Fine-Tuning](https://icml.cc/virtual/2026/poster/63892), ICML 2026 \
@@ -191,6 +226,14 @@ We will keep updating this repository with recent conference papers and notewort
 1. [CLIMB: Taming the LoRA Residency Cliff in Multi-LoRA Serving](https://icml.cc/virtual/2026/poster/66332), ICML 2026 \
    *Haoran Zhang, Zhiyu Liang, Decheng Zuo, Hongzhi Wang*
 
+**UAI 2026**
+
+1. [UnGuide: Learning to Forget with LoRA-Guided Diffusion Models](https://proceedings.mlr.press/v337/polowczyk26a.html), UAI 2026 \
+   *Alicja Polowczyk, Agnieszka Polowczyk, Dawid Malarz, Artur Kasymov, Jacek Tabor, Marcin Mazur, Przemysław Spurek*
+
+1. [Bayesian Adaptation Gym: A Benchmark for the Bayesian Low-Rank Adaptation of Multi-Modal Language Models](https://proceedings.mlr.press/v337/samplawski26a.html), UAI 2026 \
+   *Colin Samplawski, Ramneet Kaur, Manoj Acharya, Anirban Roy, Adam D. Cobb*
+
 **CVPR 2026**
 
 1. [CRAFT-LoRA: Content-Style Personalization via Rank-Constrained Adaptation and Training-Free Fusion](https://arxiv.org/abs/2602.18936), CVPR 2026 \
@@ -208,6 +251,29 @@ We will keep updating this repository with recent conference papers and notewort
 1. [TAS-LoRA: Transformer Architecture Search with Mixture-of-LoRA Experts](https://openaccess.thecvf.com/content/CVPR2026/html/Jeon_TAS-LoRA_Transformer_Architecture_Search_with_Mixture-of-LoRA_Experts_CVPR_2026_paper.html), CVPR 2026 \
    *Jeimin Jeon, Hyunju Lee, Bumsub Ham*
 
+**ECCV 2026**
+
+1. [DA-MergeLoRA: Hypernetwork-Based LoRA Merging for Few-Shot Test-Time Domain Adaptation](https://eccv.ecva.net/virtual/2026/poster/4515), ECCV 2026 \
+   *Siobhan Reid, Zhixiang Chi, Li Gu, Omid Heidari, Ziqiang Wang, Yang Wang*
+
+1. [Shared LoRA Subspaces for almost Strict Continual Learning](https://eccv.ecva.net/virtual/2026/poster/3502), ECCV 2026 \
+   *Prakhar Kaushik, Ankit Vaidya, Shravan Sunil Chaudhari, Rama Chellappa, Alan Yuille*
+
+1. [CollectionLoRA: Collecting 50 Effects in 1 LoRA for Deployment](https://eccv.ecva.net/virtual/2026/poster/4163), ECCV 2026 \
+   *Fangtai Wu, Hailong Guo, Shijie Huang, Jiayi Song, Yubo Huang, Mushui Liu, Zhao Wang, Yunlong Yu, Jiaming Liu, Ruihua Huang*
+
+1. [LoCA: Spatially-Aware Low-Rank Convolutional Adaptation of Vision Foundation Models](https://eccv.ecva.net/virtual/2026/poster/5809), ECCV 2026 \
+   *Sojung An, Junha Lee, Sujeong You, Nam Ik Cho, Donghyun Kim*
+
+1. [Low-Rank Ternary Adaptation for Fine-Tuning Transformers](https://eccv.ecva.net/virtual/2026/poster/5924), ECCV 2026 \
+   *Alexandru-Dragos Manolache, Yunqiang Li, Jan van Gemert*
+
+1. [ID-LoRA: Identity-Driven Audio-Video Personalization with In-Context LoRA](https://eccv.ecva.net/virtual/2026/poster/3277), ECCV 2026 \
+   *Aviad Dahan, Moran Yanuka, Noa Kraicer, Lior Wolf, Raja Giryes*
+
+1. [EraseLoRA: MLLM-Driven Foreground Exclusion and Background Subtype Aggregation for Dataset-Free Object Removal](https://eccv.ecva.net/virtual/2026/poster/5267), ECCV 2026 \
+   *Sanghyun Jo, Donghwan Lee, Eunji Jung, Seong Je Oh, Kyungsu Kim*
+
 **KDD 2026**
 
 1. [LoRAShield: Data-Free Editing Alignment for Secure Personalized LoRA Sharing](https://doi.org/10.1145/3770855.3817625), KDD 2026 \
@@ -224,6 +290,11 @@ We will keep updating this repository with recent conference papers and notewort
 
 1. [DyMerge-LoRA: On-GPU Post-Merge Fusion for High-Throughput Multi-Tenant Composite LoRA Serving](https://doi.org/10.1145/3770854.3780270), KDD 2026 \
    *Rui Xu, Long Chen, Huazheng Lao, Jinquan Zhang, Xia Zhu*
+
+**SC26**
+
+1. [SwarmLoRA: Serverless Shared-Computation Disaggregation for Isolated, High-Throughput Multi-LoRA Serving](https://sc26.conference-program.com/presentation/?id=pap979&sess=sess359), SC26 \
+   *Mausam Basnet, Tong Shu*
 
 **AISTATS 2026**
 
