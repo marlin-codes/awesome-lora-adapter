@@ -64,6 +64,7 @@ We will keep updating this repository with recent conference papers and notewort
 
 ## Latest Update
 
+- **2026-10-11:** Add 28 verified papers from official NeurIPS, ACM Multimedia, RecSys, COLM, ECML PKDD, ACL, and ICLR 2026 records, covering LoRA optimization, rank design, composition, continual and federated adaptation, serving, security, and domain applications; remove an unverified EMNLP venue attribution.
 - **2026-09-27:** Add 38 verified papers from official IJCAI, ECCV, UAI, EMNLP, INLG, and SC 2026 records, covering structural adaptation, optimization, merging, continual and federated learning, serving, security, vision, and multimodal applications.
 - **2026-08-04:** Add verified papers from WWW, AAAI, ICLR, EACL, ACL, ICML, CVPR, KDD, AISTATS, SIGIR, and COLM 2026; re-taxonomize `papers.md`; remove duplicate entries and repair incorrect links.
 
@@ -129,6 +130,9 @@ We will keep updating this repository with recent conference papers and notewort
 1. [Co-LoRA: Collaborative Model Personalization on Heterogeneous Multi-Modal Clients](https://openreview.net/forum?id=0g5Dk4Qfh0), ICLR 2026 \
    *Minhyuk Seo, Taeheon Kim, Hankook Lee, Jonghyun Choi, Tinne Tuytelaars*
 
+1. [LoRA-S: An Efficient Low Rank Adaptation scheme via Sylvester equation](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a6a90bcc2aa470c3871b2d39a67d26e8-Abstract-Conference.html), ICLR 2026 \
+   *Jinyang Zheng, Tong Wu*
+
 **IJCAI 2026**
 
 1. [SeMi-LoRA: Enhancing Low-Rank Adaptation via Separation and Mixing](https://www.ijcai.org/proceedings/2026/671), IJCAI 2026 \
@@ -192,10 +196,10 @@ We will keep updating this repository with recent conference papers and notewort
 1. [GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation](https://aclanthology.org/2026.findings-acl.645/), Findings of ACL 2026 \
    *Lin Mu, Guoji Wang, Li Ni, Lei Sang, Zhize Wu, Peiquan Jin, Yiwen Zhang*
 
-**EMNLP 2026 / INLG 2026**
+1. [LeLoRA: Learnable Low-Rank Adaptation of Large Language Models](https://aclanthology.org/2026.acl-long.1628/), ACL 2026 \
+   *Xiaoling Zhou, Mingjie Zhang, Zhemg Lee, Wei Ye, Shikun Zhang*
 
-1. [TaRA: Training-Aware Low-Rank Adaptation Initialization](https://openreview.net/forum?id=T3GF7rAVhx), EMNLP 2026 \
-   *Taehyeon Kim, Eunhyeok Park*
+**INLG 2026**
 
 1. [What Did My Adapter Break? A Generation-Level Evaluation of Adaptation and Retention in PEFT-Adapted LLMs](https://2026.inlgmeeting.org/accepted-papers.html), INLG 2026 \
    *Guy Bilitski, Kfir Bar, Shai Fine*
@@ -319,6 +323,38 @@ We will keep updating this repository with recent conference papers and notewort
 
 1. [Reinforcement Routing for Mixtures of LoRAs in Parameter-Efficient LLM Finetuning](https://colmweb.org/AcceptedPapers.html), COLM 2026 \
    *Ruizhong Qiu, Hanqing Zeng, Yinglong Xia, Yiwen Meng, Ren Chen, Jiarui Feng, Dongqi Fu, Qifan Wang, Jiayi Liu, Jun Xiao, Xiangjun Fan, Benyu Zhang, Hong Li, Zhining Liu, Hyunsik Yoo, Zhichen Zeng, Tianxin Wei, Hanghang Tong*
+
+1. [MoANT: Mixture-of-Rank-One-Experts with Semantic-aware Intuition for Multi-task Large Language Model Finetuning](https://colm.eventhosts.cc/Conferences/2026/AcceptedPapers), COLM 2026 \
+   *Rongyu Zhang, Yijiang Liu, Huanrui Yang, Shenli Zheng, Li Du, Dan Wang, Yuan Du, Shanghang Zhang*
+
+**NeurIPS 2026**
+
+1. [AdaPreLoRA: Adafactor Preconditioned Low-Rank Adaptation](https://neurips.cc/virtual/2026/poster/155053), NeurIPS 2026 \
+   *Ziyun Liu, Fengmiao Bian, Jian-Feng Cai*
+
+1. [Crowded in B-Space: Calibrating Shared Directions for LoRA Merging](https://neurips.cc/virtual/2026/poster/152853), NeurIPS 2026 \
+   *Yixuan Tang, Yi Yang*
+
+1. [FELPS: Fair and Efficient Scheduling for Multi-LoRA Serving System](https://neurips.cc/virtual/2026/poster/149434), NeurIPS 2026 \
+   *Yukai Ding, Chuang Hu, Fangcheng Fu, Xinyan Li, Susie X Rao, Shanshan Feng, Hao Wang, Xiao Yan, Jiawei Jiang*
+
+**ACM Multimedia 2026**
+
+1. [SDO: Subspace Deconflicting Operator for Multi-Adapter Composition](https://2026.acmmm.org/site/technical-programme.html), ACM Multimedia 2026 \
+   *Zhongsheng Wang, Zhedong Lin, Qian Liu, Xinyu Zhang, Jiamou Liu*
+
+1. [MuRA: Multi-Rank Adaptation for Efficient and Effective Test-Time Vision-Language Generalization](https://2026.acmmm.org/site/technical-programme.html), ACM Multimedia 2026 \
+   *Gengyuan Liu, Nanzhou Wang, Chang Liu, Qinwen Wu, Zhenhao Wang, Jiacong Wang, Bokui Chen, Xiangyang Ji*
+
+**RecSys 2026**
+
+1. [GradSup: Gradient Superposition for Personalised and Scalable LLM Recommendation](https://doi.org/10.1145/3773078.3831758), RecSys 2026 \
+   *Kanishka Dandeniya, Chirath Dasanayaka, Daswin De Silva, Sam Saltis, Shalinka Jayatilleke, Nishan Mills, Harsha Moraliyage*
+
+**ECML PKDD 2026**
+
+1. [HiPro-LoRA: Mitigating Feature Degeneration in Low-Resource Adaptation via Hierarchical Pooling and Prototype Regularization](https://link.springer.com/chapter/10.1007/978-3-032-37676-3_7), ECML PKDD 2026 \
+   *Wanting Ji, Mengyang Zhang, Yuhang Ma, Baoyan Song*
 
 ## Citation
 
