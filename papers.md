@@ -140,6 +140,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Yuxuan Gu, Wuyang Zhou, Giorgos Iacovides, Danilo Mandic
 - BQ-LoRA: Binary-Quantized Low-Rank Adapters as Implicit Regularizers for Parameter-Efficient Fine-Tuning | [NeurIPS 2026](https://neurips.cc/virtual/2026/poster/149729) \
   Juyoung Park, Heejun Lee
+- PriLoRA: Prior-Conditioned Low-Rank Adapters for Medical Vision Models | [MICCAI 2026](https://papers.miccai.org/miccai-2026/0808-Paper5999.html) \
+  Amirhossein Kazerouni, Sanaz Karimijafarbigloo, Ali Aghayari, Ali Ghasemzadeh Khorzoughi, Reza Azad, Wojciech Samek, Dorit Merhof, Michael Brudno, Babak Taati
 
 ### b. Rank Design and Capacity Scaling
 
@@ -203,6 +205,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Yuanyang Cao, Xichun Liu, Fuwei Zhang, Meiqin Liu, Jianji Wang
 - MuRA: Multi-Rank Adaptation for Efficient and Effective Test-Time Vision-Language Generalization | [ACM Multimedia 2026](https://2026.acmmm.org/site/technical-programme.html) | [Paper](https://arxiv.org/abs/2608.03885) \
   Gengyuan Liu, Nanzhou Wang, Chang Liu, Qinwen Wu, Zhenhao Wang, Jiacong Wang, Bokui Chen, Xiangyang Ji
+- MetaVFM: Meta-Learned Efficient Adaptation of Vision Foundation Models for Medical Imaging | [MICCAI 2026](https://papers.miccai.org/miccai-2026/0653-Paper4389.html) \
+  Lotfi Abdelkrim Mecharbat, Ibrahim Almakky, Elsayed Abdelrahman, Hazem Lashen, Alya Almsouti, Martin Takac, Mohammad Yaqub
 
 ### c. Optimization, Initialization, and Training Dynamics
 
@@ -517,6 +521,10 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Yuxuan Li, Fanhu Zeng, Hao Tang
 - LAMDA: Low-Rank Magnitude–Direction Adaptation for Class-Incremental Object Detection | [ACM Multimedia 2026](https://2026.acmmm.org/site/technical-programme.html) \
   Yuankang Pan, Zhaoquan Yuan, Fangying Xiong, Ao Luo, Wei Li, Xiao Wu
+- SCAU-REC: Subspace-Constrained Adapter Updates for LLM-Based Recommendations | [CIKM 2026](https://cikm2026.diag.uniroma1.it/program/) \
+  Tong Zhang, Nitin Bisht, Chongjun Xia, Xianzhi Wang, Jing Long, Guandong Xu
+- Bridge-Adaptive Continual Knowledge Graph Embedding with Topology-Aware Negative Sampling | [CIKM 2026](https://cikm2026.diag.uniroma1.it/program/) \
+  Xudong Wang, Xiaotian Yu, Dan Li, See-Kiong Ng, Bo Zhang
 
 ### d. Federated and Distributed Adaptation
 
@@ -574,6 +582,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Lishan Yang, Wei Emma Zhang, Nam Kha Nguyen, Po Hu, Yanjun Shu, Weitong Chen, Sim Mong Yuan
 - Frank-LoRA: Federated Rank-Aware LoRA for Fine-Tuning Large Models | [NeurIPS 2026](https://neurips.cc/virtual/2026/poster/148894) \
   Saber Malekmohammadi, Kevin Kuo, Virginia Smith, Golnoosh Farnadi
+- Cross-Cancer Expert-Routing Knowledge Transfer in Federated Prognosis Prediction | [MICCAI 2026](https://papers.miccai.org/miccai-2026/0216-Paper3342.html) \
+  Shu Wang, Junjian Li, Jianxin Wang
 
 ### e. Pretraining and Full Training
 
@@ -612,6 +622,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Mausam Basnet, Tong Shu
 - FELPS: Fair and Efficient Scheduling for Multi-LoRA Serving System | [NeurIPS 2026](https://neurips.cc/virtual/2026/poster/149434) \
   Yukai Ding, Chuang Hu, Fangcheng Fu, Xinyan Li, Susie X Rao, Shanshan Feng, Hao Wang, Xiao Yan, Jiawei Jiang
+- Scalable Organization-Specific Language Model Adaptation for Multi-Tenant Enterprise Search | [CIKM 2026](https://cikm2026.diag.uniroma1.it/program/) \
+  Apoorva Uday Nayak, Chun-Chen Tu, Hareen Venigalla, Jianshu Ji, Longfei Zhang
 
 ### g. Privacy, Security, and Attacks
 
@@ -637,6 +649,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Hoang-Chau Luong, Lingwei Chen
 - Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection | [NeurIPS 2026](https://neurips.cc/virtual/2026/poster/153189) \
   Jianwei Li, Jung-Eun Kim
+- Backdoor Poisoning Mitigation for Federated LoRA via Structural Adaptive Control | [CIKM 2026](https://cikm2026.diag.uniroma1.it/program/) \
+  Wenhan Hu, Zhe Wang, Gang Yan
 
 ## 3. Domains and Modalities
 
@@ -694,6 +708,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
 
 **(3) General Vision Adaptation**
 
+- HARA: A Hierarchical Artifact-Aware Residual Adapter Framework for AI-Generated Image Detection | [CIKM 2026](https://cikm2026.diag.uniroma1.it/program/) \
+  Haowei Zhou, Long Ma, Yu Gao, Yong Liao
 - FullLoRA-AT: Efficiently Boosting the Robustness of Pretrained Vision Transformers | [arXiv 2401](https://arxiv.org/pdf/2401.01752.pdf) \
   Zheng Yuan, Jie Zhang, Shiguang Shan
 - Low-Rank Rescaled Vision Transformer Fine-Tuning: A Residual Design Approach | [arXiv 2403](https://arxiv.org/abs/2403.19067) | [Code](https://github.com/zstarN70/RLRR) \
@@ -856,6 +872,10 @@ If a paper spans multiple themes, it appears once under its primary contribution
   John Dagdelen, Alexander Dunn, Sanghoon Lee, Nicholas Walker, Andrew S. Rosen, Gerbrand Ceder, Kristin A. Persson, Anubhav Jain
 - GeoSFLoRA: Geometry-Conditioned Spectral Flow Low-Rank Adaptation for 2D-to-3D Transfer in Medical Image Segmentation | [IJCAI 2026](https://www.ijcai.org/proceedings/2026/748) \
   Qin Hao, Bonian Chen, Shengwei Tian, Long Yu
+- EndoDA3: Unified Depth and Pose Estimation for Endoscopic Video | [MICCAI 2026](https://papers.miccai.org/miccai-2026/0346-Paper1638.html) \
+  Jie Tan, Zijun Li, Hongmei Tuo, Yunhan Fu, Chengyang Li, Li Lu
+- IC-DVLoRA: Input-Conditioned Dynamic Adaptation for Endoscopic Depth Foundation Models | [CIKM 2026](https://cikm2026.diag.uniroma1.it/program/) \
+  Zeyun Liu, Ke Niu, Xue Feng, Jiadong Guo, Heng Li
 
 **Scientific Computing and PDEs**
 

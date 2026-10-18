@@ -64,6 +64,7 @@ We will keep updating this repository with recent conference papers and notewort
 
 ## Latest Update
 
+- **2026-10-18:** Add six LoRA/adapter papers from the newly published official CIKM 2026 program; backfill four previously omitted MICCAI 2026 papers from the official proceedings.
 - **2026-10-11:** Add 28 verified papers from official NeurIPS, ACM Multimedia, RecSys, COLM, ECML PKDD, ACL, and ICLR 2026 records, covering LoRA optimization, rank design, composition, continual and federated adaptation, serving, security, and domain applications; remove an unverified EMNLP venue attribution.
 - **2026-09-27:** Add 38 verified papers from official IJCAI, ECCV, UAI, EMNLP, INLG, and SC 2026 records, covering structural adaptation, optimization, merging, continual and federated learning, serving, security, vision, and multimodal applications.
 - **2026-08-04:** Add verified papers from WWW, AAAI, ICLR, EACL, ACL, ICML, CVPR, KDD, AISTATS, SIGIR, and COLM 2026; re-taxonomize `papers.md`; remove duplicate entries and repair incorrect links.
@@ -355,6 +356,22 @@ We will keep updating this repository with recent conference papers and notewort
 
 1. [HiPro-LoRA: Mitigating Feature Degeneration in Low-Resource Adaptation via Hierarchical Pooling and Prototype Regularization](https://link.springer.com/chapter/10.1007/978-3-032-37676-3_7), ECML PKDD 2026 \
    *Wanting Ji, Mengyang Zhang, Yuhang Ma, Baoyan Song*
+
+**MICCAI 2026**
+
+1. [PriLoRA: Prior-Conditioned Low-Rank Adapters for Medical Vision Models](https://papers.miccai.org/miccai-2026/0808-Paper5999.html), MICCAI 2026 \
+   *Amirhossein Kazerouni, Sanaz Karimijafarbigloo, Ali Aghayari, Ali Ghasemzadeh Khorzoughi, Reza Azad, Wojciech Samek, Dorit Merhof, Michael Brudno, Babak Taati*
+
+1. [MetaVFM: Meta-Learned Efficient Adaptation of Vision Foundation Models for Medical Imaging](https://papers.miccai.org/miccai-2026/0653-Paper4389.html), MICCAI 2026 \
+   *Lotfi Abdelkrim Mecharbat, Ibrahim Almakky, Elsayed Abdelrahman, Hazem Lashen, Alya Almsouti, Martin Takac, Mohammad Yaqub*
+
+**CIKM 2026**
+
+1. [IC-DVLoRA: Input-Conditioned Dynamic Adaptation for Endoscopic Depth Foundation Models](https://cikm2026.diag.uniroma1.it/program/), CIKM 2026 \
+   *Zeyun Liu, Ke Niu, Xue Feng, Jiadong Guo, Heng Li*
+
+1. [Backdoor Poisoning Mitigation for Federated LoRA via Structural Adaptive Control](https://cikm2026.diag.uniroma1.it/program/), CIKM 2026 \
+   *Wenhan Hu, Zhe Wang, Gang Yan*
 
 ## Citation
 
