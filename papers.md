@@ -207,6 +207,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Gengyuan Liu, Nanzhou Wang, Chang Liu, Qinwen Wu, Zhenhao Wang, Jiacong Wang, Bokui Chen, Xiangyang Ji
 - MetaVFM: Meta-Learned Efficient Adaptation of Vision Foundation Models for Medical Imaging | [MICCAI 2026](https://papers.miccai.org/miccai-2026/0653-Paper4389.html) \
   Lotfi Abdelkrim Mecharbat, Ibrahim Almakky, Elsayed Abdelrahman, Hazem Lashen, Alya Almsouti, Martin Takac, Mohammad Yaqub
+- LoRA-RG: Residual Gradient-Guided Rank Initialization and Expansion | [EMNLP 2026](https://aclanthology.org/2026.emnlp-main.2000/) \
+  Dayoung Kwon, Jaeseong Lee, Seung-won Hwang
 
 ### c. Optimization, Initialization, and Training Dynamics
 
@@ -275,6 +277,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Tiancan Feng, Daorui Ding, Fanhua Shang, Xiaoyuan Zhang
 - S$^3$-LoRA: Sharpness-Score Sampling for Efficient and Generalizable Low-Rank Adaptation | [ACM Multimedia 2026](https://2026.acmmm.org/site/technical-programme.html) \
   Zhangyi Wang, Qixuan Wu, Linlin Yang, Yangyang Ren, Haoyu Huang, Sheng Xu, Zhongqian Fu, Haixia Pan, Baochang Zhang
+- PR-LoRA: Direction-Regularized Low-Rank Adaptation for Behavioral Alignment in Large Language Models | [EMNLP 2026](https://aclanthology.org/2026.emnlp-main.2317/) \
+  Yikai Zhang, Rui Xu, Aili Chen, Haoyu Zhang, Libo Wu, Xu Yinghui, Yanghua Xiao
 
 #### **(v) Pre-processing**
 
@@ -282,6 +286,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Soufiane Hayou, Nikhil Ghosh, Bin Yu
 - Beyond Zero Initialization: Investigating the Impact of Non-Zero Initialization on LoRA Fine-Tuning Dynamics | [ICML 2025](https://openreview.net/forum?id=8V6MEtSnlR) | [Code](https://github.com/Leopold1423/non_zero_lora-icml25) \
   Shiwei Li, Xiandi Luo, Xing Tang, Haozhao Wang, Hao Chen, weihongluo, Yuhua Li, xiuqiang He, Ruixuan Li
+- GRAIL: Gradient-Reward Aligned Initialization for LoRA-based GRPO | [Findings of EMNLP 2026](https://aclanthology.org/2026.findings-emnlp.926/) \
+  Liwen Shi, Zijie Zeng, Bowen Wang, Yunji, Zeyu Chen, Xinyu Shao, Xinzheng Sun, Xuyang Xiong, Haoyang Wu, Sheng Zhang
 
 #### **(vi) Post-hoc Processing**
 
@@ -446,6 +452,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Zhongsheng Wang, Zhedong Lin, Qian Liu, Xinyu Zhang, Jiamou Liu
 - MoANT: Mixture-of-Rank-One-Experts with Semantic-aware Intuition for Multi-task Large Language Model Finetuning | [COLM 2026](https://colm.eventhosts.cc/Conferences/2026/AcceptedPapers) \
   Rongyu Zhang, Yijiang Liu, Huanrui Yang, Shenli Zheng, Li Du, Dan Wang, Yuan Du, Shanghang Zhang
+- GSR-LoRA:Group-Sparse Routing-aware Low-Rank Adapter Compression for Multi-Task Mixture-of-Experts Fine-Tuning | [EMNLP 2026](https://aclanthology.org/2026.emnlp-main.1540/) \
+  Weimin Cheng, Chengyu Zhao, Xuan-Jing Huang (黄萱菁), Yatian Shen
 
 
 **Other Structural Extensions**
@@ -455,6 +463,10 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Yuanhe Zhang, Fanghui Liu, Yudong Chen
 - Text-to-LoRA: Instant Transformer Adaption | [ICML 2025](https://openreview.net/forum?id=zWskCdu3QA) | [Code](https://github.com/SakanaAI/text-to-lora) \
   Rujikorn Charakorn, Edoardo Cetin, Yujin Tang, Robert Tjarko Lange
+- PRISM: Prompt Representation Internalization via Selective Compression into LoRA Weights | [EMNLP 2026](https://aclanthology.org/2026.emnlp-main.2431/) \
+  Eshita Jha, Mingxian Wang, Andrei Barbu, Chetan Aggarwal
+- Cross-Version 𝛥-Transfer of QLoRA-Trained Adapters | [EMNLP 2026](https://aclanthology.org/2026.emnlp-main.1332/) \
+  Yoshiki Kubota, Hirotada Honda, Takashi Sano, Shugo Nakamura
 - BSLoRA: Enhancing the Parameter Efficiency of LoRA with Intra-Layer and Inter-Layer Sharing | [ICML 2025](https://openreview.net/forum?id=IXYBuwCOMl&noteId=CDQZjHPfax) | [Code](https://github.com/yuhua-zhou/BSLoRA.git) \
   Yuhua Zhou, Ruifeng Li, Changhai Zhou, Fei Yang, Aimin PAN
 - SparseLoRA: Accelerating LLM Fine-Tuning with Contextual Sparsity | [ICML 2025](https://openreview.net/forum?id=z83rodY0Pw) \
@@ -525,6 +537,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Tong Zhang, Nitin Bisht, Chongjun Xia, Xianzhi Wang, Jing Long, Guandong Xu
 - Bridge-Adaptive Continual Knowledge Graph Embedding with Topology-Aware Negative Sampling | [CIKM 2026](https://cikm2026.diag.uniroma1.it/program/) \
   Xudong Wang, Xiaotian Yu, Dan Li, See-Kiong Ng, Bo Zhang
+- HarmoLoRA: Commit-Stage Update Admission in Low-Rank Adaptation for Continual Speech Recognition | [EMNLP 2026](https://aclanthology.org/2026.emnlp-main.2631/) \
+  Ye-Eun Ko, Ji-Eun Choi, Dong-Hyun Kim, Joon-Hyuk Chang
 
 ### d. Federated and Distributed Adaptation
 
@@ -672,6 +686,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Shuaidi Wang, Zhan Zhuang, Ruping Huang, Yu Zhang
 - Topic-Specific Classifiers are Better Relevance Judges than Prompted LLMs | [SIGIR 2026](https://doi.org/10.1145/3805712.3809713) \
   Lukas Gienapp, Martin Potthast, Andrew Yates, Harrisen Scells, Eugene Yang
+- Axis-LoRA: Probing and Adapting Embedding Models for Personal-Memory Retrieval | [EMNLP 2026](https://aclanthology.org/2026.emnlp-main.542/) \
+  Dohoon Kim, Junho Park, Hyunwoong Bae, Seyoon Kim, Taesup Moon
 
 ### b. Vision and Generative Vision
 

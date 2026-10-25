@@ -64,6 +64,7 @@ We will keep updating this repository with recent conference papers and notewort
 
 ## Latest Update
 
+- **2026-10-25:** Add eight LoRA/adapter papers from the newly released ACL Anthology records for EMNLP 2026 main and Findings.
 - **2026-10-18:** Add six LoRA/adapter papers from the newly published official CIKM 2026 program; backfill four previously omitted MICCAI 2026 papers from the official proceedings.
 - **2026-10-11:** Add 28 verified papers from official NeurIPS, ACM Multimedia, RecSys, COLM, ECML PKDD, ACL, and ICLR 2026 records, covering LoRA optimization, rank design, composition, continual and federated adaptation, serving, security, and domain applications; remove an unverified EMNLP venue attribution.
 - **2026-09-27:** Add 38 verified papers from official IJCAI, ECCV, UAI, EMNLP, INLG, and SC 2026 records, covering structural adaptation, optimization, merging, continual and federated learning, serving, security, vision, and multimodal applications.
@@ -372,6 +373,17 @@ We will keep updating this repository with recent conference papers and notewort
 
 1. [Backdoor Poisoning Mitigation for Federated LoRA via Structural Adaptive Control](https://cikm2026.diag.uniroma1.it/program/), CIKM 2026 \
    *Wenhan Hu, Zhe Wang, Gang Yan*
+
+**EMNLP 2026**
+
+1. [LoRA-RG: Residual Gradient-Guided Rank Initialization and Expansion](https://aclanthology.org/2026.emnlp-main.2000/), EMNLP 2026 \
+   *Dayoung Kwon, Jaeseong Lee, Seung-won Hwang*
+
+1. [HarmoLoRA: Commit-Stage Update Admission in Low-Rank Adaptation for Continual Speech Recognition](https://aclanthology.org/2026.emnlp-main.2631/), EMNLP 2026 \
+   *Ye-Eun Ko, Ji-Eun Choi, Dong-Hyun Kim, Joon-Hyuk Chang*
+
+1. [GRAIL: Gradient-Reward Aligned Initialization for LoRA-based GRPO](https://aclanthology.org/2026.findings-emnlp.926/), Findings of EMNLP 2026 \
+   *Liwen Shi, Zijie Zeng, Bowen Wang, Yunji, Zeyu Chen, Xinyu Shao, Xinzheng Sun, Xuyang Xiong, Haoyang Wu, Sheng Zhang*
 
 ## Citation
 
