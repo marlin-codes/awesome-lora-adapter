@@ -64,6 +64,7 @@ We will keep updating this repository with recent conference papers and notewort
 
 ## Latest Update
 
+- **2026-11-01:** Add four verified EMNLP and DCASE 2026 papers, including the newly published EMNLP Industry Track and DCASE workshop proceedings; update TaRA to its official EMNLP record.
 - **2026-10-25:** Add eight LoRA/adapter papers from the newly released ACL Anthology records for EMNLP 2026 main and Findings.
 - **2026-10-18:** Add six LoRA/adapter papers from the newly published official CIKM 2026 program; backfill four previously omitted MICCAI 2026 papers from the official proceedings.
 - **2026-10-11:** Add 28 verified papers from official NeurIPS, ACM Multimedia, RecSys, COLM, ECML PKDD, ACL, and ICLR 2026 records, covering LoRA optimization, rank design, composition, continual and federated adaptation, serving, security, and domain applications; remove an unverified EMNLP venue attribution.
@@ -376,6 +377,12 @@ We will keep updating this repository with recent conference papers and notewort
 
 **EMNLP 2026**
 
+1. [Efficient Multi-Tenant LoRA Serving for Encoder Models via Late-Fusion Batched Matrix Multiplication](https://aclanthology.org/2026.emnlp-industry.224/), EMNLP 2026 Industry Track \
+   *Ashutosh Rupoliya Dwivedi, Keshav Shrikant, Jyotsna Rupaliya*
+
+1. [HLoRA: Hierarchical Regularization on Combined Parameter Space for LoRA Fine-Tuning](https://aclanthology.org/2026.emnlp-main.1104/), EMNLP 2026 \
+   *Shezheng Song, Hao Xu, Long Peng, Xiaopeng Li, Shasha Li, Jie Yu*
+
 1. [LoRA-RG: Residual Gradient-Guided Rank Initialization and Expansion](https://aclanthology.org/2026.emnlp-main.2000/), EMNLP 2026 \
    *Dayoung Kwon, Jaeseong Lee, Seung-won Hwang*
 
@@ -384,6 +391,14 @@ We will keep updating this repository with recent conference papers and notewort
 
 1. [GRAIL: Gradient-Reward Aligned Initialization for LoRA-based GRPO](https://aclanthology.org/2026.findings-emnlp.926/), Findings of EMNLP 2026 \
    *Liwen Shi, Zijie Zeng, Bowen Wang, Yunji, Zeyu Chen, Xinyu Shao, Xinzheng Sun, Xuyang Xiong, Haoyang Wu, Sheng Zhang*
+
+**DCASE 2026 Workshop**
+
+1. [Asymmetric Residual Adapters for Domain-Incremental Audio Classification](https://dcase.community/documents/workshop2026/proceedings/DCASE2026Workshop_Divakar_77.pdf), DCASE 2026 Workshop \
+   *Aakash Divakar, Angad Ripudaman Singh Bajwa, Atharva Joshi*
+
+1. [Reasoning-Oriented Post-Training and Inference-Time LoRA Rescaling for Audio-Dependent Question Answering](https://dcase.community/documents/workshop2026/proceedings/DCASE2026Workshop_Hu_92.pdf), DCASE 2026 Workshop \
+   *Weiteng Hu, Yin Cao, Jun Yang*
 
 ## Citation
 

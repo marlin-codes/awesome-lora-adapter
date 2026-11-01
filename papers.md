@@ -265,7 +265,7 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Zixuan Li, Shenglan Guo, Zhigen Li, Yanmeng Wang, Ning Cheng, Shaojun Wang, Deyi Xiong
 - Unlocking More Granular Control of Memory-Efficient LLM Finetuning | [IJCAI 2026](https://www.ijcai.org/proceedings/2026/555) \
   Yezhen Wang, Zhouhao Yang, Fanyi Pu, Kenji Kawaguchi
-- TaRA: Training-Aware Low-Rank Adaptation Initialization | [OpenReview](https://openreview.net/forum?id=T3GF7rAVhx) \
+- TaRA: Training-Aware Low-Rank Adaptation Initialization | [EMNLP 2026](https://aclanthology.org/2026.emnlp-main.2014/) \
   Taehyeon Kim, Eunhyeok Park
 - LoRA-S: An Efficient Low Rank Adaptation scheme via Sylvester equation | [ICLR 2026](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a6a90bcc2aa470c3871b2d39a67d26e8-Abstract-Conference.html) \
   Jinyang Zheng, Tong Wu
@@ -539,6 +539,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Xudong Wang, Xiaotian Yu, Dan Li, See-Kiong Ng, Bo Zhang
 - HarmoLoRA: Commit-Stage Update Admission in Low-Rank Adaptation for Continual Speech Recognition | [EMNLP 2026](https://aclanthology.org/2026.emnlp-main.2631/) \
   Ye-Eun Ko, Ji-Eun Choi, Dong-Hyun Kim, Joon-Hyuk Chang
+- HLoRA: Hierarchical Regularization on Combined Parameter Space for LoRA Fine-Tuning | [EMNLP 2026](https://aclanthology.org/2026.emnlp-main.1104/) \
+  Shezheng Song, Hao Xu, Long Peng, Xiaopeng Li, Shasha Li, Jie Yu
 
 ### d. Federated and Distributed Adaptation
 
@@ -606,6 +608,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
 
 ### f. Serving and Systems
 
+- Efficient Multi-Tenant LoRA Serving for Encoder Models via Late-Fusion Batched Matrix Multiplication | [EMNLP 2026 Industry Track](https://aclanthology.org/2026.emnlp-industry.224/) \
+  Ashutosh Rupoliya Dwivedi, Keshav Shrikant, Jyotsna Rupaliya
 - Peft: State-of-the-art parameter-efficient fine-tuning methods | [Huggingface](https://github.com/huggingface/peft) \
   Lingling Xu, Haoran Xie, Si-Zhao Joe Qin, Xiaohui Tao, Fu Lee Wang
 - S-LoRA: Serving thousands of concurrent LoRA adapters | [arXiv 2311](https://arxiv.org/pdf/2311.03285.pdf) | [Code](https://github.com/S-LoRA/S-LoRA) | MLSys Conference 2024 \
@@ -854,6 +858,10 @@ If a paper spans multiple themes, it appears once under its primary contribution
 
 ### d. Speech and Audio
 
+- Asymmetric Residual Adapters for Domain-Incremental Audio Classification | [DCASE 2026 Workshop](https://dcase.community/documents/workshop2026/proceedings/DCASE2026Workshop_Divakar_77.pdf) \
+  Aakash Divakar, Angad Ripudaman Singh Bajwa, Atharva Joshi
+- Reasoning-Oriented Post-Training and Inference-Time LoRA Rescaling for Audio-Dependent Question Answering | [DCASE 2026 Workshop](https://dcase.community/documents/workshop2026/proceedings/DCASE2026Workshop_Hu_92.pdf) \
+  Weiteng Hu, Yin Cao, Jun Yang
 - Low-rank Adaptation of Large Language Model Rescoring for Parameter-Efficient Speech Recognition | [arXiv 2309](https://arxiv.org/pdf/2309.15223.pdf) \
   Yu Yu, Chao-Han Huck Yang, Jari Kolehmainen, Prashanth G. Shivakumar, Yile Gu, Sungho Ryu, Roger Ren, Qi Luo, Aditya Gourav, I-Fan Chen, Yi-Chieh Liu, Tuan Dinh, Ankur Gandhe, Denis Filimonov, Shalini Ghosh, Andreas Stolcke, Ariya Rastow, Ivan Bulyko
 - Low-rank Adaptation Method for Wav2vec2-based Fake Audio Detection | [arXiv 2306](https://arxiv.org/pdf/2306.05617.pdf) | CEUR Workshop \
