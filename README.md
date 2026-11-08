@@ -64,6 +64,7 @@ We will keep updating this repository with recent conference papers and notewort
 
 ## Latest Update
 
+- **2026-11-08:** Add three LoRA and low-rank adaptation papers from the newly released IJCNLP-AACL 2026 proceedings and Findings.
 - **2026-11-01:** Add four verified EMNLP and DCASE 2026 papers, including the newly published EMNLP Industry Track and DCASE workshop proceedings; update TaRA to its official EMNLP record.
 - **2026-10-25:** Add eight LoRA/adapter papers from the newly released ACL Anthology records for EMNLP 2026 main and Findings.
 - **2026-10-18:** Add six LoRA/adapter papers from the newly published official CIKM 2026 program; backfill four previously omitted MICCAI 2026 papers from the official proceedings.
@@ -399,6 +400,17 @@ We will keep updating this repository with recent conference papers and notewort
 
 1. [Reasoning-Oriented Post-Training and Inference-Time LoRA Rescaling for Audio-Dependent Question Answering](https://dcase.community/documents/workshop2026/proceedings/DCASE2026Workshop_Hu_92.pdf), DCASE 2026 Workshop \
    *Weiteng Hu, Yin Cao, Jun Yang*
+
+**IJCNLP-AACL 2026**
+
+1. [Activation-Efficient Fine-Tuning via Sequence-Compressed Low-Rank Subspaces](https://aclanthology.org/2026.aacl-long.255/), IJCNLP-AACL 2026 \
+   *Irene Tenison, Stella Ahn, Miriam Kim, Ebtisam Alshehri, Lalana Kagal*
+
+1. [PhaseLoRA: Role-Specialised Low-Rank Adaptation through Prompt-Completion Phase Splitting](https://aclanthology.org/2026.findings-aacl.95/), Findings of IJCNLP-AACL 2026 \
+   *Rishi Ravikumar, Riza Batista-Navarro*
+
+1. [Adaptation, Not Algorithm: LoRA and Full Fine-Tuning Show Comparable Black-Box Jailbreak Degradation in Five Open-Weight LLMs](https://aclanthology.org/2026.findings-aacl.226/), Findings of IJCNLP-AACL 2026 \
+   *Taleef Tamsal, Jonathan Rusert*
 
 ## Citation
 

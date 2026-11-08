@@ -142,6 +142,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Juyoung Park, Heejun Lee
 - PriLoRA: Prior-Conditioned Low-Rank Adapters for Medical Vision Models | [MICCAI 2026](https://papers.miccai.org/miccai-2026/0808-Paper5999.html) \
   Amirhossein Kazerouni, Sanaz Karimijafarbigloo, Ali Aghayari, Ali Ghasemzadeh Khorzoughi, Reza Azad, Wojciech Samek, Dorit Merhof, Michael Brudno, Babak Taati
+- Activation-Efficient Fine-Tuning via Sequence-Compressed Low-Rank Subspaces | [IJCNLP-AACL 2026](https://aclanthology.org/2026.aacl-long.255/) \
+  Irene Tenison, Stella Ahn, Miriam Kim, Ebtisam Alshehri, Lalana Kagal
 
 ### b. Rank Design and Capacity Scaling
 
@@ -373,6 +375,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Siobhan Reid, Zhixiang Chi, Li Gu, Omid Heidari, Ziqiang Wang, Yang Wang
 - Towards Plug-and-Play Attribute Control Modules in Text Generation: An Exploratory Study of LoRA Portability Across Model Families | [INLG 2026](https://2026.inlgmeeting.org/accepted-papers.html) \
   Michela Lorandi, Anya Belz
+- PhaseLoRA: Role-Specialised Low-Rank Adaptation through Prompt-Completion Phase Splitting | [Findings of IJCNLP-AACL 2026](https://aclanthology.org/2026.findings-aacl.95/) \
+  Rishi Ravikumar, Riza Batista-Navarro
 
 **MoE and Expert Routing**
 
@@ -669,6 +673,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Jianwei Li, Jung-Eun Kim
 - Backdoor Poisoning Mitigation for Federated LoRA via Structural Adaptive Control | [CIKM 2026](https://cikm2026.diag.uniroma1.it/program/) \
   Wenhan Hu, Zhe Wang, Gang Yan
+- Adaptation, Not Algorithm: LoRA and Full Fine-Tuning Show Comparable Black-Box Jailbreak Degradation in Five Open-Weight LLMs | [Findings of IJCNLP-AACL 2026](https://aclanthology.org/2026.findings-aacl.226/) \
+  Taleef Tamsal, Jonathan Rusert
 
 ## 3. Domains and Modalities
 
