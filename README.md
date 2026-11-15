@@ -64,6 +64,7 @@ We will keep updating this repository with recent conference papers and notewort
 
 ## Latest Update
 
+- **2026-11-15:** Add two IJCNLP-AACL 2026 papers on low-rank adaptation and LoRA evaluation, and backfill one Findings of EMNLP 2026 paper on continual learning.
 - **2026-11-08:** Add three LoRA and low-rank adaptation papers from the newly released IJCNLP-AACL 2026 proceedings and Findings.
 - **2026-11-01:** Add four verified EMNLP and DCASE 2026 papers, including the newly published EMNLP Industry Track and DCASE workshop proceedings; update TaRA to its official EMNLP record.
 - **2026-10-25:** Add eight LoRA/adapter papers from the newly released ACL Anthology records for EMNLP 2026 main and Findings.
@@ -402,6 +403,12 @@ We will keep updating this repository with recent conference papers and notewort
    *Weiteng Hu, Yin Cao, Jun Yang*
 
 **IJCNLP-AACL 2026**
+
+1. [Extended-SVD Low-Rank Adaptation: PLORA for Parameter-Efficient Fine-Tuning](https://aclanthology.org/2026.findings-aacl.5/), Findings of IJCNLP-AACL 2026 \
+   *Ratan Kumar Gulipilli*
+
+1. [Auditing PEFT Claims: A Stability Probe Unifying Three LoRA-Variant Fragility Patterns](https://aclanthology.org/2026.aacl-short.32/), IJCNLP-AACL 2026 \
+   *Suan Lee, JaeSeong Kim*
 
 1. [Activation-Efficient Fine-Tuning via Sequence-Compressed Low-Rank Subspaces](https://aclanthology.org/2026.aacl-long.255/), IJCNLP-AACL 2026 \
    *Irene Tenison, Stella Ahn, Miriam Kim, Ebtisam Alshehri, Lalana Kagal*

@@ -144,6 +144,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Amirhossein Kazerouni, Sanaz Karimijafarbigloo, Ali Aghayari, Ali Ghasemzadeh Khorzoughi, Reza Azad, Wojciech Samek, Dorit Merhof, Michael Brudno, Babak Taati
 - Activation-Efficient Fine-Tuning via Sequence-Compressed Low-Rank Subspaces | [IJCNLP-AACL 2026](https://aclanthology.org/2026.aacl-long.255/) \
   Irene Tenison, Stella Ahn, Miriam Kim, Ebtisam Alshehri, Lalana Kagal
+- Extended-SVD Low-Rank Adaptation: PLORA for Parameter-Efficient Fine-Tuning | [Findings of IJCNLP-AACL 2026](https://aclanthology.org/2026.findings-aacl.5/) \
+  Ratan Kumar Gulipilli
 
 ### b. Rank Design and Capacity Scaling
 
@@ -328,6 +330,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Guy Bilitski, Kfir Bar, Shai Fine
 - A Margin Perspective on LoRA: Robustness to Catastrophic Forgetting and Adapter Merging (MaLoRA) | [NeurIPS 2026](https://neurips.cc/virtual/2026/poster/155103) \
   Ziqing Xu, Hancheng Min, Lachlan MacDonald, Salma Tarmoun, Enrique Mallada, Weijie Su, Rene Vidal
+- Auditing PEFT Claims: A Stability Probe Unifying Three LoRA-Variant Fragility Patterns | [IJCNLP-AACL 2026](https://aclanthology.org/2026.aacl-short.32/) \
+  Suan Lee, JaeSeong Kim
 
 ## 2. Adaptation Settings and Systems
 
@@ -545,6 +549,8 @@ If a paper spans multiple themes, it appears once under its primary contribution
   Ye-Eun Ko, Ji-Eun Choi, Dong-Hyun Kim, Joon-Hyuk Chang
 - HLoRA: Hierarchical Regularization on Combined Parameter Space for LoRA Fine-Tuning | [EMNLP 2026](https://aclanthology.org/2026.emnlp-main.1104/) \
   Shezheng Song, Hao Xu, Long Peng, Xiaopeng Li, Shasha Li, Jie Yu
+- Latent-LoRA: Compact Latent-Space Adapters with Gradient-Free Routing for Continual Learning | [Findings of EMNLP 2026](https://aclanthology.org/2026.findings-emnlp.1390/) \
+  Reza Rahimi Azghan, Gautham Krishna Gudur, Pavan K. Turaga, Giulia Pedrielli, Hassan Ghasemzadeh
 
 ### d. Federated and Distributed Adaptation
 
